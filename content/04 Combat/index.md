@@ -7,3 +7,5 @@ Combat begins when time, positioning, and immediate danger need to be resolved p
 Combat uses the normal rules for [[Resolving Actions|Tests]], [[Success Targets and Hits#Hits|Hits]], [[Bonus Dice]], [[Modifiers|modifiers]], and [[Complications]]. Attacks are resolved against a target's [[Active and Passive Defense|defenses]], and successful attacks may inflict [[Hit Locations and Damage#Damage|damage]] and [[Wounds]].
 
 Combat continues until the conflict is resolved or the situation no longer requires moment-by-moment resolution. This may happen because one side is defeated or escapes, an objective is secured, or circumstances otherwise bring the immediate conflict to an end.
+
+The combat procedure begins with [[Combat Basics]]. Special situations such as hidden attacks, surprise, barriers, and object damage are covered in [[Objects, Sneak Attacks, and Surprise]].

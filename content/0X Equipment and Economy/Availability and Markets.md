@@ -13,7 +13,7 @@ Availability measures how difficult an item is to find on the market. Lower rati
 
 Listed Availability assumes a wealthy, developed economy under normal conditions. The GM may adjust an item's Availability when local scarcity, isolation, disrupted supply, or other circumstances make it easier or harder to obtain.
 
-| Availability | Rarity | Default Sourcing Timeframe |
+| Availability | Rarity | Default Sourcing Time |
 |---:|---|---|
 | 0 | Ubiquitous | No test required |
 | 1–2 | Common | 1d6 × 10 minutes |
@@ -25,7 +25,7 @@ Listed Availability assumes a wealthy, developed economy under normal conditions
 
 Equipment with Availability 0 can normally be purchased without a Sourcing Test wherever an appropriate market exists. Equipment with a higher Availability must normally be sourced.
 
-The listed timeframe represents how long it typically takes to locate a seller, confirm stock, arrange a transaction, or secure delivery. It does not require continuous searching.
+The listed sourcing time represents how long it typically takes to locate a seller, confirm stock, arrange a transaction, or secure delivery. It does not require continuous searching.
 
 Availability is separate from an item's Access Tag. An item may be easy to locate while still being Restricted or Illegal to purchase or possess.
 
@@ -40,13 +40,13 @@ Common approaches include:
 - **Manipulation** to use false credentials, conceal the buyer's intentions, or approach illicit sellers.
 - Other [[Skills|Skills]] may apply when appropriate.
 
-The number of [[Success Targets and Hits#Hits|Hits]] determines the highest Availability the character can source. If the test generates at least as many Hits as the item's Availability, a suitable source is found within its listed sourcing timeframe.
+The number of [[Success Targets and Hits#Hits|Hits]] determines the highest Availability the character can source. If the test generates at least as many Hits as the item's Availability, a suitable source is found within its listed sourcing time.
 
-For every 2 Hits above the required Availability, reduce the sourcing timeframe by one step.
+For every 2 Hits above the required Availability, reduce the sourcing time by one step.
 
-Restricted (R) equipment uses its normal sourcing timeframe when the buyer has the required licence, permit, professional status, corporate authorization, or other legal access.
+Restricted (R) equipment uses its normal sourcing time when the buyer has the required licence, permit, professional status, corporate authorization, or other legal access.
 
-When Restricted equipment is acquired without the required authorization, or when sourcing Illegal (X) equipment, increase the sourcing timeframe by one step. If the item would normally require no sourcing time, use the first listed sourcing timeframe instead.
+When Restricted equipment is acquired without the required authorization, or when sourcing Illegal (X) equipment, increase the sourcing time by one step. If the item would normally require no sourcing time, use the first listed sourcing time instead.
 
 If the test fails, no suitable source is found during that attempt. A [[Complications|Complication]] may introduce an unreliable seller, unwanted attention, additional requirements, lost deposits, or another problem appropriate to the search.
 

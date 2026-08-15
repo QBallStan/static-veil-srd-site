@@ -23,7 +23,7 @@ Second Wind may be used multiple times on the same test. Each reroll costs 1 Gri
 
 Spend 1 Grit to remove one stack of an ongoing negative [[Conditions|Condition]].
 
-Shake It Off cannot remove [[Conditions#Unconscious|Unconscious]], Incapacitated, or a Condition that specifically states it cannot be removed this way.
+Shake It Off cannot remove [[Conditions#Unconscious|Unconscious]], [[Death and Incapacitation|Incapacitated]], or a Condition that specifically states it cannot be removed this way.
 
 ### Seize the Moment
 
@@ -45,7 +45,7 @@ You do not regain the Grit normally granted by that Complication.
 
 ### One Last Shot
 
-When you are about to become Incapacitated or die, spend 1 Grit to immediately take one final action.
+When you are about to become [[Death and Incapacitation|Incapacitated]] or die, spend 1 Grit to immediately take one final action.
 
 You must still have enough [[Initiative and Action Points#Action Points and Actions|Action Points]] to perform the action.
 

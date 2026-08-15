@@ -12,7 +12,6 @@ configuration:
     - private
     - templates
     - .obsidian
-    - img
     - "**/sortspec.md"
   theme:
     fontOrigin: googleFonts
