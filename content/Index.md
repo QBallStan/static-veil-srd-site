@@ -1,10 +1,8 @@
-# Static Veil
 
+![[Logo & text.png]]
 **System Reference Document**
 
 By Anthony Marques
-
-
 
 Static Veil is a cyberpunk fantasy tabletop roleplaying game set in a world where magic returned without replacing technology. Megacorporations dominate economies and governments, sprawling networks connect almost everything, cybernetic and biological augmentation reshape the body, and the supernatural has become another dangerous fact of modern life.
 
