@@ -1,3 +1,6 @@
+---
+title: Characters
+---
 
 A character in Static Veil is more than a collection of trained abilities. Flesh can be replaced. Reflexes can be accelerated. Memories can be altered, instincts sharpened, senses expanded, and the body pushed beyond anything it was born capable of doing.
 

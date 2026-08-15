@@ -1,7 +1,6 @@
 ---
-sorting-spec: |
-  Index
-  01 Introduction
+sorting-spec: |-
+  index
   02 Core Rules
   03 Characters
   04 Combat

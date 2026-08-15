@@ -1,6 +1,6 @@
 ---
 sorting-spec: |
-  Harm and Recovery
+  index
   Wounds
   Critical Injuries
   Healing and Medical Care

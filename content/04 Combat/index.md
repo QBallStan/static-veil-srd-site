@@ -1,3 +1,6 @@
+---
+title: Combat
+---
 
 Combat begins when time, positioning, and immediate danger need to be resolved precisely. Participants act in a structured order, spending [[Initiative and Action Points|Action Points]] to move, attack, use equipment, activate abilities, and perform other actions. AP may also be kept in reserve for [[Interrupt Actions]] outside a character's turn.
 

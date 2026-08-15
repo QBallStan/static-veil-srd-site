@@ -52,7 +52,7 @@ Fragile improvised weapons may bend, break, shatter, or otherwise become unusabl
 
 Firearms are defined not only by their Damage and Range, but by how effectively they can sustain rapid fire.
 
-A firearm's [[Firearms#Shot Rate|Shot Rate]] determines how many rounds it can expend during an attack and how much benefit the shooter can gain from firing faster. The rules for Shot Rate are described in the [[Combat|Combat chapter]].
+A firearm's [[Firearms#Shot Rate|Shot Rate]] determines how many rounds it can expend during an attack and how much benefit the shooter can gain from firing faster. The rules for Shot Rate are described in the [[04 Combat/index|Combat chapter]].
 
 Firearms also list a **Recoil Modifier** value. It modifies the wielder's [[Sub-Attributes#Recoil Control|Recoil Control]] when using that weapon:
 

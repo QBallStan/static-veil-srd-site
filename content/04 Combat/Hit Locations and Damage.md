@@ -22,4 +22,4 @@ Once an attack gets through the target's defenses, add the attack's [[Opposed Te
 
 If the attack is a melee attack, also add the attacker's [[Sub-Attributes#Damage Modifier|Damage Modifier]].
 
-Then apply Armor, Armor Penetration, and any other effects that modify damage before determining the [[Wounds|Wound]] inflicted. Wounds and their effects are described in [[Harm and Recovery]].
+Then apply Armor, Armor Penetration, and any other effects that modify damage before determining the [[Wounds|Wound]] inflicted. Wounds and their effects are described in [[05 Harm and Recovery/index|Harm and Recovery]].

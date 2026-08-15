@@ -1,6 +1,0 @@
----
-sorting-spec: |
-  Introduction
-  %
-  sortspec
----

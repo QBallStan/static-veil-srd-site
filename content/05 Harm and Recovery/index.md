@@ -1,3 +1,6 @@
+---
+title: Harm and Recovery
+---
 
 Characters can suffer injuries, incapacitation, ongoing [[Conditions|conditions]], and other forms of harm. These effects are represented primarily through [[Wounds]], which measure the severity of injury and other serious harm rather than tracking a pool of Hit Points.
 

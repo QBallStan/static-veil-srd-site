@@ -1,3 +1,6 @@
+---
+title: Core Rules
+---
 
 Static Veil uses a single resolution system for uncertain actions. When the outcome matters, determine a [[Success Targets and Hits|Success Target]], roll d100, and try to roll equal to or below that number. The same basic procedure applies whether a character is acting carefully, working under pressure, competing against an opponent, or pushing beyond their normal limits.
 

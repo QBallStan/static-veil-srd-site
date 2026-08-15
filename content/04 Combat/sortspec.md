@@ -1,6 +1,6 @@
 ---
 sorting-spec: |
-  Combat
+  index
   Combat Basics
   Initiative and Action Points
   Movement and Positioning

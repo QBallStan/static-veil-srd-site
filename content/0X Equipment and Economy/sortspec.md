@@ -1,6 +1,6 @@
 ---
 sorting-spec: |
-  Equipment and Economy
+  index
   Currency and Wealth
   Availability and Markets
   Carrying Equipment

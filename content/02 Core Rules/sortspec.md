@@ -1,6 +1,6 @@
 ---
 sorting-spec: |-
-  Core Rules
+  index
   Resolving Actions
   Success Targets and Hits
   Bonus Dice

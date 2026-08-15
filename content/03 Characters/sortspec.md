@@ -1,6 +1,6 @@
 ---
 sorting-spec: |
-  Characters
+  index
   Attributes
   Skills
   Sub-Attributes
