@@ -1,5 +1,7 @@
 ---
 title: Equipment and Economy
+cssclasses:
+  - chapter-index
 ---
 
 Money, equipment, and access are central to life in Static Veil. Characters buy [[Weapons|weapons]], [[Armor and Shields|armor]], [[Tools and General Equipment|tools]], [[Ammunition and Explosives#Ammunition|ammunition]], services, information, and other resources, but having enough money does not always mean something is available or legal to obtain.

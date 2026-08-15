@@ -1,5 +1,5 @@
 
-![[img/Logo & text.png]]
+![[Logo & text.png]]
 **System Reference Document**
 
 By Anthony Marques

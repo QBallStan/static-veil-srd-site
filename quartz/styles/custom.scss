@@ -5,3 +5,9 @@
 body[data-slug="index"] .page-header {
   display: none;
 }
+
+// Chapter index pages use their Markdown as the folder landing page.
+// Hide Quartz's automatic folder item listing on those pages only.
+article.chapter-index + .page-listing {
+  display: none;
+}
