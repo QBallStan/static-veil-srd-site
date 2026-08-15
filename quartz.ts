@@ -6,103 +6,99 @@ type ExplorerNode = {
   isFolder: boolean
 }
 
-// Keep this list in sync with the SRD vault's sortspec.md files.
-// Explorer display names are matched case-insensitively.
-const explorerOrder: Record<string, number> = {
-  // Root
-  index: 0,
-
-  // Chapters
-  "02 core rules": 200,
-  "03 characters": 300,
-  "04 combat": 400,
-  "05 harm and recovery": 500,
-  "06 magic": 600,
-  "0x equipment and economy": 700,
-
-  // 02 Core Rules
-  "core rules": 210,
-  "resolving actions": 220,
-  "success targets and hits": 230,
-  "bonus dice": 240,
-  modifiers: 250,
-  complications: 260,
-  teamwork: 270,
-  "opposed tests": 280,
-  "time and extended actions": 290,
-  grit: 300,
-
-  // 03 Characters
-  characters: 310,
-  attributes: 320,
-  skills: 330,
-  "sub-attributes": 340,
-  lineages: 350,
-  traits: 360,
-  "creating a character": 370,
-  advancement: 380,
-
-  // 04 Combat
-  combat: 410,
-  "combat basics": 420,
-  "initiative and action points": 430,
-  "movement and positioning": 440,
-  "interrupt actions": 450,
-  "the combat exchange": 460,
-  "active and passive defense": 470,
-  "cover and shields": 480,
-  "defenseless targets": 490,
-  "hit locations and damage": 500,
-  "melee combat": 510,
-  "ranged combat": 520,
-  firearms: 530,
-  "combat maneuvers": 540,
-  "objects, sneak attacks, and surprise": 550,
-  "area effects and explosives": 560,
-  "damage types and effects": 570,
-
-  // 05 Harm and Recovery
-  "harm and recovery": 610,
-  wounds: 620,
-  "critical injuries": 630,
-  "healing and medical care": 640,
-  conditions: 650,
-  "disease, poison, and toxins": 660,
-  "death and incapacitation": 670,
-
-  // 06 Magic
-  magic: 710,
-  spellcasting: 720,
-  "schools of magic": 730,
-  traditions: 740,
-  "ritual magic": 750,
-
-  // 0X Equipment and Economy
-  "equipment and economy": 810,
-  "currency and wealth": 820,
-  "availability and markets": 830,
-  "carrying equipment": 840,
-  concealment: 850,
-  weapons: 860,
-  "firearm modding": 870,
-  "armor and shields": 880,
-  "armor modding": 890,
-  "ammunition and explosives": 900,
-  "tools and general equipment": 910,
-}
-
-const fallbackCollator = new Intl.Collator(undefined, {
-  numeric: true,
-  sensitivity: "base",
-})
-
 componentRegistry.setOptionOverrides("@quartz-community/explorer", {
   sortFn: (a: ExplorerNode, b: ExplorerNode) => {
-    const aName = a.displayName?.trim() ?? ""
-    const bName = b.displayName?.trim() ?? ""
+    // IMPORTANT: Quartz serializes this function and recreates it in the browser.
+    // Everything the function uses must therefore be declared inside the function.
+    // prettier-ignore
+    const order: Record<string, number> = {
+      // Root
+      "Index": 0,
 
-    const aOrder = explorerOrder[aName.toLowerCase()]
-    const bOrder = explorerOrder[bName.toLowerCase()]
+      // Chapters
+      "02 Core Rules": 200,
+      "03 Characters": 300,
+      "04 Combat": 400,
+      "05 Harm and Recovery": 500,
+      "06 Magic": 600,
+      "0X Equipment and Economy": 700,
+
+      // 02 Core Rules
+      "Core Rules": 210,
+      "Resolving Actions": 220,
+      "Success Targets and Hits": 230,
+      "Bonus Dice": 240,
+      "Modifiers": 250,
+      "Complications": 260,
+      "Teamwork": 270,
+      "Opposed Tests": 280,
+      "Time and Extended Actions": 290,
+      "Grit": 300,
+
+      // 03 Characters
+      "Characters": 310,
+      "Attributes": 320,
+      "Skills": 330,
+      "Sub-Attributes": 340,
+      "Lineages": 350,
+      "Traits": 360,
+      "Creating a Character": 370,
+      "Advancement": 380,
+
+      // 04 Combat
+      "Combat": 410,
+      "Combat Basics": 420,
+      "Initiative and Action Points": 430,
+      "Movement and Positioning": 440,
+      "Interrupt Actions": 450,
+      "The Combat Exchange": 460,
+      "Active and Passive Defense": 470,
+      "Cover and Shields": 480,
+      "Defenseless Targets": 490,
+      "Hit Locations and Damage": 500,
+      "Melee Combat": 510,
+      "Ranged Combat": 520,
+      "Firearms": 530,
+      "Combat Maneuvers": 540,
+      "Objects, Sneak Attacks, and Surprise": 550,
+      "Area Effects and Explosives": 560,
+      "Damage Types and Effects": 570,
+
+      // 05 Harm and Recovery
+      "Harm and Recovery": 610,
+      "Wounds": 620,
+      "Critical Injuries": 630,
+      "Healing and Medical Care": 640,
+      "Conditions": 650,
+      "Disease, Poison, and Toxins": 660,
+      "Death and Incapacitation": 670,
+
+      // 06 Magic
+      "Magic": 710,
+      "Spellcasting": 720,
+      "Schools of Magic": 730,
+      "Traditions": 740,
+      "Ritual Magic": 750,
+
+      // 0X Equipment and Economy
+      "Equipment and Economy": 810,
+      "Currency and Wealth": 820,
+      "Availability and Markets": 830,
+      "Carrying Equipment": 840,
+      "Concealment": 850,
+      "Weapons": 860,
+      "Firearm Modding": 870,
+      "Armor and Shields": 880,
+      "Armor Modding": 890,
+      "Ammunition and Explosives": 900,
+      "Tools and General Equipment": 910,
+    }
+
+    const aName = a.displayName ?? ""
+    const bName = b.displayName ?? ""
+
+    const aOrder = order[aName]
+    const bOrder = order[bName]
 
     // Both entries have an explicit SRD position.
     if (aOrder !== undefined && bOrder !== undefined) {
@@ -113,13 +109,16 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
     if (aOrder !== undefined) return -1
     if (bOrder !== undefined) return 1
 
-    // For anything not explicitly ordered, keep folders before files.
+    // For anything we haven't explicitly ordered, keep folders before files.
     if (a.isFolder !== b.isFolder) {
       return a.isFolder ? -1 : 1
     }
 
-    // New or unlisted material falls back to natural alphabetical order.
-    return fallbackCollator.compare(aName, bName)
+    // New/unlisted material falls back to alphabetical ordering.
+    return aName.localeCompare(bName, undefined, {
+      numeric: true,
+      sensitivity: "base",
+    })
   },
 })
 
