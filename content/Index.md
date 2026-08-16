@@ -14,7 +14,7 @@ Characters are capable specialists rather than interchangeable adventurers. One 
 
 The system uses a d100 roll-under engine. When an uncertain action matters, the character makes a Test against a [[Success Targets and Hits|Success Target]]. Successful and failed rolls generate [[Success Targets and Hits#Hits|Hits]], measuring how well the action went rather than reducing every result to a simple pass or fail. [[Bonus Dice]] represent advantages provided by equipment, abilities, circumstances, and other sources, while [[Complications]] allow success to carry consequences and failure to become worse in unexpected ways.
 
-The same foundation is used throughout the game. [[04 Combat/index|Combat]], hacking, magic, infiltration, investigation, social interaction, vehicles, and other areas may introduce their own rules, but they build on the same core procedures rather than becoming separate games.
+The same foundation is used throughout the game. [[04 Combat/index|Combat]], [[07 Networks and Hacking/index|hacking]], [[06 Magic/index|magic]], infiltration, investigation, social interaction, vehicles, and other areas may introduce their own rules, but they build on the same core procedures rather than becoming separate games.
 
 Static Veil has official support for FoundryVTT. The game does not require a virtual tabletop to play, but its rules, character sheets, equipment, and other game elements are supported through an official FoundryVTT system for groups that prefer digital play and automation.
 

@@ -20,8 +20,9 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "03 Characters": 300,
       "04 Combat": 400,
       "05 Harm and Recovery": 500,
-      "06 Magic": 600,
-      "0X Equipment and Economy": 700,
+      "0X Equipment and Economy": 600,
+      "06 Magic": 700,
+      "07 Networks and Hacking": 800,
 
       // 02 Core Rules
       "Core Rules": 210,
@@ -73,25 +74,36 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "Disease, Poison, and Toxins": 660,
       "Death and Incapacitation": 670,
 
+      // 0X Equipment and Economy
+      "Equipment and Economy": 610,
+      "Currency and Wealth": 620,
+      "Availability and Markets": 630,
+      "Carrying Equipment": 640,
+      "Concealment": 650,
+      "Weapons": 660,
+      "Firearm Modding": 670,
+      "Armor and Shields": 680,
+      "Armor Modding": 690,
+      "Ammunition and Explosives": 700,
+      "Tools and General Equipment": 710,
+
       // 06 Magic
       "Magic": 710,
-      "Spellcasting": 720,
-      "Schools of Magic": 730,
-      "Traditions": 740,
-      "Ritual Magic": 750,
+      "Anima": 720,
+      "Traditions": 730,
+      "Spellcasting": 740,
+      "Schools of Magic": 750,
+      "Ritual Magic": 760,
+      "Summoning": 770,
+      "Mystics": 780,
 
-      // 0X Equipment and Economy
-      "Equipment and Economy": 810,
-      "Currency and Wealth": 820,
-      "Availability and Markets": 830,
-      "Carrying Equipment": 840,
-      "Concealment": 850,
-      "Weapons": 860,
-      "Firearm Modding": 870,
-      "Armor and Shields": 880,
-      "Armor Modding": 890,
-      "Ammunition and Explosives": 900,
-      "Tools and General Equipment": 910,
+      // 07 Networks and Hacking
+      "Networks and Hacking": 810,
+      "The Net": 820,
+      "Access and Authority": 830,
+      "Interfaces": 840,
+      "Hacking": 850,
+      "Script Catalogue": 860,
     }
 
     const aName = a.displayName ?? ""

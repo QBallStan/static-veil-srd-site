@@ -1,10 +1,13 @@
 ---
-sorting-spec: |-
+sorting-spec: |
   index
+  Anima
+  Traditions
   Spellcasting
   Schools of Magic
-  Traditions
   Ritual Magic
+  Summoning
+  Mystics
   %
   sortspec
 ---
