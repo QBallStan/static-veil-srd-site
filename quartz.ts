@@ -84,6 +84,8 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
 
       // 06 Vehicles and Chases
       "Vehicles and Chases": 610,
+      "Operating Vehicles": 620,
+      "Chases and Vehicle Combat": 630,
 
       // 07 Drone Control and Ghosting
       "Drone Control and Ghosting": 710,
