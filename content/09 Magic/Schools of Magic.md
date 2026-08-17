@@ -42,12 +42,12 @@ The caster's [[Traditions|Tradition]] determines which Aspects they can use. A c
 | **Aspect**      | **Effect**                                                                |
 | --------------- | ------------------------------------------------------------------------- |
 | **Telekinetic** | +2 Damage.                                                                |
-| **Fire**        | Deals [[Damage Types and Effects#Fire|Fire]] damage and uses the normal Fire effects.                   |
-| **Electric**    | Deals [[Damage Types and Effects#Electric|Electric]] damage and uses the normal Electric effects.           |
-| **Cold**        | Deals [[Damage Types and Effects#Cold|Cold]] damage and uses the normal Cold effects.                   |
-| **Acid**        | Deals [[Damage Types and Effects#Acid|Acid]] damage and uses the normal Acid and [[Damage Types and Effects#Acid|Corroding]] effects. |
-| **Necrotic**    | −2 Damage. Wounds inflicted are [[Damage Types and Effects#Necrotic|Necrotic]].                             |
-| **Psychic**     | −2 Damage. The spell deals [[Damage Types and Effects#Direct Damage|Direct Damage]]                              |
+| **Fire**        | Deals [[Damage Types and Effects#Fire\|Fire]] damage and uses the normal Fire effects.                   |
+| **Electric**    | Deals [[Damage Types and Effects#Electric\|Electric]] damage and uses the normal Electric effects.           |
+| **Cold**        | Deals [[Damage Types and Effects#Cold\|Cold]] damage and uses the normal Cold effects.                   |
+| **Acid**        | Deals [[Damage Types and Effects#Acid\|Acid]] damage and uses the normal Acid and [[Damage Types and Effects#Acid\|Corroding]] effects. |
+| **Necrotic**    | −2 Damage. Wounds inflicted are [[Damage Types and Effects#Necrotic\|Necrotic]].                             |
+| **Psychic**     | −2 Damage. The spell deals [[Damage Types and Effects#Direct Damage\|Direct Damage]]                              |
 
 **Telekinetic** represents a Destruction spell without an elemental or supernatural damage Aspect. It harms through magical force, impact, pressure, or similar physical effects.
 

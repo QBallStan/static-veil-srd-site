@@ -15,7 +15,7 @@ Use the following values as benchmarks for common materials and objects.
 | Sturdy Material | 3 | 3 | Solid wood, thick plastic, reinforced crates, wooden tables |
 | Light Metal | 4 | 4 | Sheet metal, metal signs, cheap weapons, simple lockers |
 | Tough Object | 5 | 5 | Lock mechanisms, quality weapons, heavy doors, shields |
-| Reinforced Object | 7 | 6 | [[Weapons#Firearms|Firearms]], reinforced doors, industrial cabinets, metal shutters |
+| Reinforced Object | 7 | 6 | [[Weapons#Firearms\|Firearms]], reinforced doors, industrial cabinets, metal shutters |
 | Masonry | 9 | 8 | Brick walls, stonework, concrete blocks, stone pillars |
 | Heavy Barrier | 12 | 10 | Thick steel panels, safes, security doors, reinforced concrete |
 | Armored Barrier | 16 | 12 | Vault doors, hardened shelters, vehicle armor, blast shutters |

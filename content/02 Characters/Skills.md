@@ -39,7 +39,7 @@ Static Veil uses the following Core Skills:
 
 **Dodge (Agility + Instinct):** Evading attacks, hazards, and other sudden physical dangers.
 
-**Driving (Agility + Instinct):** Operating common ground vehicles such as cars, motorcycles, vans, and trucks. Vehicles requiring specialized training use an appropriate Expertise Skill instead.
+**Driving (Agility + Instinct):** Operating common ground [[Operating Vehicles|vehicles]] such as cars, motorcycles, vans, and trucks. Vehicles requiring specialized training use an appropriate Expertise Skill instead.
 
 **First Aid (Logic + Instinct):** Stabilizing injuries, stopping bleeding, treating immediate trauma, and providing basic emergency care. Advanced diagnosis and treatment require appropriate Expertise.
 
@@ -103,7 +103,7 @@ Each Expertise Skill lists the Attributes most commonly used with it. As with Co
 
 **Medicine (Logic + Instinct):** Diagnosing illness and injury, providing advanced treatment, prescribing drugs, and managing ongoing medical care.
 
-**Piloting (Agility + Instinct):** Operating aircraft, VTOLs, and other vehicles requiring specialized flight training.
+**Piloting (Agility + Instinct):** Operating aircraft, VTOLs, and other [[Operating Vehicles|vehicles]] requiring specialized flight training.
 
 **Coding (Logic ×2):** Creating, modifying, debugging, and analyzing software.
 

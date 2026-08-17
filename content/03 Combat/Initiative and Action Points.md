@@ -25,7 +25,7 @@ The GM may use Group Initiative when several combatants are acting as a unit.
 
 Make one Initiative roll for the entire group. All members act on that Initiative and may take their turns in any order when it is reached.
 
-Group Initiative is useful for squads, groups of minor NPCs, vehicle crews, drones acting under the same controller, and similar coordinated groups.
+Group Initiative is useful for squads, groups of minor NPCs, [[Chases and Vehicle Combat#Chase Rounds|vehicle crews]], drones acting under the same controller, and similar coordinated groups.
 
 Each member still tracks their own AP.
 

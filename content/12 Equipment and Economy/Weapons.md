@@ -38,11 +38,11 @@ Objects not designed as weapons may still be used as **Improvised Weapons**. Att
 
 The GM determines its profile from the object's construction and intended use:
 
-| Improvised Weapon | Examples | Damage |
-|---|---|---|
-| Light | Bottle, wrench, tool handle | 0 + 1bd6 |
-| Medium | Crowbar, chair leg, heavy tool | 1 + 1bd6 |
-| Heavy | Fire extinguisher, toolbox, heavy machinery component | 2 + 1bd6 |
+| Improvised Weapon | Examples                                              | Damage  |
+| ----------------- | ----------------------------------------------------- | ------- |
+| Light             | Bottle, wrench, tool handle                           | 0 + 1d6 |
+| Medium            | Crowbar, chair leg, heavy tool                        | 1 + 1d6 |
+| Heavy             | Fire extinguisher, toolbox, heavy machinery component | 2 + 1d6 |
 
 Improvised weapons normally have AP 0. An object particularly suited to piercing or cutting armor may receive AP at the GM's discretion.
 

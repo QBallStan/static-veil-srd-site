@@ -38,13 +38,13 @@ A spell must be cast at **Intensity 1 or higher**. A caster cannot cast a spell 
 
 Intensity determines the size of the [[Bonus Dice|Bonus Die]] rolled with the casting test.
 
-|**Intensity**|**Bonus Die**|
-|--:|--:|
-|1|1d4|
-|2|1d6|
-|3|1d8|
-|4|1d10|
-|5|1d12|
+| **Intensity** | **Bonus Die** |
+| ------------: | ------------: |
+|             1 |           1d4 |
+|             2 |           1d6 |
+|             3 |           1d8 |
+|             4 |          1d10 |
+|             5 |          1d12 |
 
 Higher Intensity can produce more Bonus Hits, making the spell more effective, but also risks generating more [[Spellcasting#Strain|Strain]].
 

@@ -37,18 +37,18 @@ Network distance can impose penalties on a Hacking test when the hacker must rea
 
 A hacker connected directly to the target through a **[[Interfaces#Hardlines|Hardline]]** gains **+10** to Hacking tests against that target.
 
-Having access to a system does not replace the Skill normally required to use it. Hacking may grant control over a vehicle, medical system, industrial machine, or other specialized equipment, but operating that system still uses the appropriate Skill when a test is required.
+Having access to a system does not replace the Skill normally required to use it. Hacking may grant control over a [[Operating Vehicles|vehicle]], medical system, industrial machine, or other specialized equipment, but operating that system still uses the appropriate [[Skills|Skill]] when a test is required.
 ### Aggression
 
 Whenever a character makes a **Hacking test**, they choose how aggressively to push the intrusion. This determines the **Bonus Die granted by Aggression**.
 
-|Aggression|Bonus Die|
-|---|---|
-|**1**|1bd4|
-|**2**|1bd6|
-|**3**|1bd8|
-|**4**|1bd10|
-|**5**|1bd12|
+| Aggression | Bonus Die |
+| ---------- | --------- |
+| **1**      | 1d4       |
+| **2**      | 1d6       |
+| **3**      | 1d8       |
+| **4**      | 1d10      |
+| **5**      | 1d12      |
 
 The [[Bonus Dice|Bonus Die]] granted by Aggression is rolled alongside the Hacking test. On a successful test, its Bonus Hits improve the result normally.
 
@@ -168,7 +168,7 @@ A Script profile may include the following:
 |---|---|
 |**Type**|Whether the Script is **Passive** or **Active**.|
 |**RAM**|The amount of RAM consumed while the Script is running.|
-|**[[Access and Authority#Keys|Keys]]**|The minimum number of Keys required on the target to use the Script against it. A value of 0 means no established access is required.|
+|**[[Access and Authority#Keys\|Keys]]**|The minimum number of Keys required on the target to use the Script against it. A value of 0 means no established access is required.|
 |**Effect**|What the Script does while running or when successfully used.|
 
 **Passive Scripts** provide their effects automatically while running and do not normally require a test.

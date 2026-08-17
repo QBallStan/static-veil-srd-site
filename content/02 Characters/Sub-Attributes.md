@@ -58,17 +58,17 @@ Toughness grants [[Active and Passive Defense#Passive Defense|Bonus Dice to Pass
 Use the character's current Toughness to determine the [[Bonus Dice|Bonus Dice]] granted:
 
 | Toughness | Bonus Dice |
-|---:|---|
-| 0 | — |
-| 1 | 1bd4 |
-| 2 | 1bd6 |
-| 3 | 1bd8 |
-| 4 | 1bd10 |
-| 5 | 1bd12 |
-| 6 | 2bd8 |
-| 7 | 2bd10 |
-| 8 | 2bd12 |
-| 9 | 2bd12 + 1bd4 |
-| 10 | 2bd12 + 1bd8 |
+| --------: | ---------- |
+|         0 | —          |
+|         1 | 1d4        |
+|         2 | 1d6        |
+|         3 | 1d8        |
+|         4 | 1d10       |
+|         5 | 1d12       |
+|         6 | 2d8        |
+|         7 | 2d10       |
+|         8 | 2d12       |
+|         9 | 2d12 + 1d4 |
+|        10 | 2d12 + 1d8 |
 
 Lineage, Traits, augmentation, magic, equipment, and other effects may modify Toughness. Use the character's final Toughness value when determining their Passive Defense Bonus Dice.

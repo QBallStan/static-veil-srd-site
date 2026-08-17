@@ -5,12 +5,12 @@ Cover is a form of [[Active and Passive Defense#Passive Defense|Passive Defense]
 
 Cover provides [[Bonus Dice|Bonus Dice]]:
 
-| Cover | Bonus Dice |
-|---|---:|
-| Light | 1bd6 |
-| Medium | 2bd6 |
-| Heavy | 3bd6 |
-| Full | Special |
+| Cover  | Bonus Dice |
+| ------ | ---------: |
+| Light  |        1d6 |
+| Medium |        2d6 |
+| Heavy  |        3d6 |
+| Full   |    Special |
 
 **Light Cover** leaves much of the target exposed, such as a low wall, narrow tree, or vehicle door.
 
