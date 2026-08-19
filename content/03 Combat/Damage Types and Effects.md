@@ -80,7 +80,7 @@ Necrotic effects cause supernatural decay, withering, and damage that resists no
 
 Damage inflicted by Necrotic damage require twice the normal number of [[Success Targets and Hits#Hits|Hits]] to heal.
 
-Mark how much Necrotic damage you have taken next to your health tracker.
+You can mark necrotic health boxes with a "N".
 
 ### Psychic
 

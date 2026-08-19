@@ -18,17 +18,17 @@ These penalties apply to all tests. They do not stack. Always use the penalty co
 
 ## Critical Wounds
 
-When a protagonist is reduced to **0 Health** by lethal damage, they suffer a **Critical Wound**.
+When an Operator is reduced to **0 Health** by lethal damage, they suffer a **Critical Wound**.
 
 Mark one available Critical Wound Slot. The character gains [[Death and Incapacitation|Incapacitated]] and cannot continue participating in combat.
 
 The character also suffers a [[Critical Injuries|Critical Injury]], normally determined by the location struck. Psychic damage uses its own Critical Injury table instead of a [[Hit Locations and Damage#Hit Locations|Hit Location]].
 
-A typical protagonist has **3 Critical Wound Slots**.
+A typical Operator has **3 Critical Wound Slots**.
 
-If a protagonist suffers a Critical Wound while all of their Critical Wound Slots are already filled, they die unless a rule or the circumstances state otherwise.
+If an Operator suffers a Critical Wound while all of their Critical Wound Slots are already filled, they die unless a rule or the circumstances state otherwise.
 
-If a protagonist recovers above 0 Health and is later reduced to 0 Health again, they suffer another Critical Wound as normal.
+If an Operator recovers above 0 Health and is later reduced to 0 Health again, they suffer another Critical Wound as normal.
 
 ## NPC Survival
 

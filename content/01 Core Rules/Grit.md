@@ -1,7 +1,7 @@
 
-**Grit** represents a protagonist’s ability to push beyond their normal limits, keep moving under pressure, and seize opportunities when things go wrong.
+**Grit** represents an Operator’s ability to push beyond their normal limits, keep moving under pressure, and seize opportunities when things go wrong.
 
-Each protagonist begins with 3 Grit, which is also their normal maximum.
+Each Operator begins with 3 Grit, which is also their normal maximum.
 
 A character regains 1 Grit after a full night’s rest. The GM may also restore all Grit at the start of a session or award Grit when appropriate. Characters also regain 1 Grit whenever they suffer a [[Complications|Complication]].
 
@@ -11,7 +11,7 @@ Grit cannot exceed a character’s maximum.
 
 Unless a rule states otherwise, Grit may be spent whenever its effect applies.
 
-### Second Wind
+### Run It Back
 
 After making a test, spend 1 Grit to reroll either the d100 or all [[Bonus Dice]] rolled as part of that test.
 
@@ -25,7 +25,7 @@ Spend 1 Grit to remove one stack of an ongoing negative [[Conditions|Condition]]
 
 Shake It Off cannot remove [[Conditions#Unconscious|Unconscious]], Incapacitated, or a Condition that specifically states it cannot be removed this way.
 
-### Seize the Moment
+### Jump the Line
 
 At the start of a round, before anyone has acted, spend 1 Grit to act at the top of the [[Initiative and Action Points#Initiative|Initiative]] order for that round.
 
@@ -49,7 +49,7 @@ When you are about to become Incapacitated or die, spend 1 Grit to immediately t
 
 You must still have enough [[Initiative and Action Points#Action Points and Actions|Action Points]] to perform the action.
 
-### Narrative Twist
+### Lucky Break
 
 Spend 1 Grit to introduce a small plausible detail or coincidence into the scene.
 

@@ -1,6 +1,6 @@
-A **Critical Wound** represents catastrophic trauma that incapacitates a protagonist and fills a Critical Wound Slot. A **Critical Injury** describes the specific lasting consequence of that trauma.
+A **Critical Wound** represents catastrophic trauma that incapacitates an Operator and fills a Critical Wound Slot. A **Critical Injury** describes the specific lasting consequence of that trauma.
 
-When lethal damage reduces a protagonist to **0 Health**, use the attack's [[Hit Locations and Damage#Hit Locations|Hit Location]] to determine which Critical Injury table applies. Psychic Critical Wounds ignore Hit Location and use the [[Critical Injuries#Psychic Critical Injuries|Psychic Critical Injuries]] table instead.
+When lethal damage reduces an Operator to **0 Health**, use the attack's [[Hit Locations and Damage#Hit Locations|Hit Location]] to determine which Critical Injury table applies. Psychic Critical Wounds ignore Hit Location and use the [[Critical Injuries#Psychic Critical Injuries|Psychic Critical Injuries]] table instead.
 
 Roll 1d100 and apply the following modifiers:
 
@@ -9,7 +9,7 @@ Roll 1d100 and apply the following modifiers:
 
 These modifiers stack. A modified result above 100 counts as 100.
 
-For example, a protagonist at 3 Health suffers 7 Final Damage. The first 3 damage reduces them to 0 Health, while the remaining 4 damage exceeds 0. The Critical Injury roll therefore gains +20.
+For example, an Operator at 3 Health suffers 7 Final Damage. The first 3 damage reduces them to 0 Health, while the remaining 4 damage exceeds 0. The Critical Injury roll therefore gains +20.
 
 Consult the appropriate Critical Injury table and apply the result for the affected Hit Location. If an arm or leg was struck, the injury affects that specific limb.
 
@@ -91,7 +91,7 @@ If an injury states that Advanced Treatment or Extraordinary Treatment can preve
 
 ### Attributes Reduced to 0
 
-If a character's natural Strength, Agility, Fortitude, Logic, Resolve, Charisma, Instinct, or [[Attributes#Anima|Anima]] is permanently reduced to 0, they are no longer viable as a protagonist.
+If a character's natural Strength, Agility, Fortitude, Logic, Resolve, Charisma, Instinct, or [[Attributes#Anima|Anima]] is permanently reduced to 0, they are no longer viable as an Operator.
 
 Depending on the Attribute, injury, and circumstances, the character may die, fall into a coma, suffer total physical incapacity, lose meaningful awareness, or otherwise become unable to participate in play.
 
