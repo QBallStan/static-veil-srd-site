@@ -37,7 +37,7 @@ Grenades, rockets, mines, demolition charges, and similar devices deal damage th
 
 For an explosive device, the attack or placement test determines where the explosive lands or whether it reaches its intended position. Hits from this test do not increase the explosion's Damage.
 
-When the device detonates, roll its Damage Bonus Dice once and add the resulting Bonus Hits to its flat Damage. Use the same Damage result for every target within the Area of Effect.
+When the device detonates, roll its [[Bonus Dice#Cold Bonus Dice|Cold Damage Bonus Dice]] once and add the resulting Bonus Hits to its flat Damage. Use the same Damage result for every target within the Area of Effect.
 
 Each target resolves Passive Defense, Armor Penetration, Armor, Damage Falloff, and any resulting Wound separately. Explosive damage is assumed to strike the target's Torso unless a rule states otherwise.
 

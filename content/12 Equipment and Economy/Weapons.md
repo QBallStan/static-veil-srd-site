@@ -12,8 +12,6 @@ Some weapons have Traits that modify how they are used. A weapon only has the Tr
 
 **[[Melee Combat#Parry|Parry]] X:** When the weapon is used for a Melee [[Active and Passive Defense#Active Defense|Active Defense]], add the listed Bonus Die to the defense roll.
 
-**Versatile:** The weapon may be wielded in one or two hands. When wielded in two hands, it deals +2 flat Damage.
-
 **Two-Handed:** The weapon requires two hands to use normally.
 
 **Thrown:** The weapon is designed and balanced to be thrown and uses the normal rules for [[Ranged Combat#Thrown Weapons|thrown weapons]].

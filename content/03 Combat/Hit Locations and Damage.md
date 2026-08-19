@@ -18,7 +18,9 @@ Groups that prefer not to use random Hit Locations may treat attacks as striking
 
 ## Damage
 
-Once an attack gets through the target's defenses, add the attack's [[Opposed Tests#Net Hits|Net Hits]] to the weapon's flat Damage.
+Weapons list two damage values: a **flat Damage** value and one or more **[[Bonus Dice#Hot Bonus Dice|Hot Bonus Dice]]**. Roll the Hot Bonus Dice with the attack. If the attack succeeds, their Bonus Hits are included in the attack's total Hits before defenses are resolved.
+
+Once an attack gets through the target's defenses, add the weapon's flat Damage to the attack's [[Opposed Tests#Net Hits|Net Hits]].
 
 If the attack is a melee attack, also add the attacker's [[Sub-Attributes#Damage Modifier|Damage Modifier]].
 

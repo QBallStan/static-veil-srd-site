@@ -6,8 +6,8 @@ To resolve a test:
 1. Determine the appropriate [[Attributes|Attributes]] and Skill.
 2. Calculate the [[Success Targets and Hits|Success Target]] and apply any [[Modifiers|modifiers]].
 3. Roll d100 and any applicable [[Bonus Dice]].
-4. A result equal to or below the Success Target succeeds. A higher result fails.
-5. If the degree of success matters, calculate [[Success Targets and Hits#Hits|Hits]].
+4. A result equal to or below the Success Target succeeds. A higher result fails. Determine this before applying any [[Bonus Dice#Hot Bonus Dice|Hot Bonus Dice]].
+5. If the degree of success matters, calculate [[Success Targets and Hits#Hits|Hits]] and apply Bonus Hits as directed by their [[Bonus Dice|type]].
 6. Resolve any [[Complications|Complication]] triggered by the roll.
 
 A roll of 01–05 always succeeds, regardless of the Success Target. A roll of 96–00 always fails.

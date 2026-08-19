@@ -54,7 +54,7 @@ Ignition occurs on a successful hit and does not require the attack to inflict a
 
 Cold attacks freeze, numb, and impair movement.
 
-When a successful attack with the Cold effect is not stopped by [[Active and Passive Defense#Active Defense|Active Defense]], the target gains 1 stack of [[Conditions#Chilled|Chilled]].
+When a successful attack with the Cold effect hits, the target gains 1 stack of [[Conditions#Chilled|Chilled]].
 
 [[Active and Passive Defense#Passive Defense|Passive Defense]] and Armor may still prevent the attack from causing a Wound, but they do not prevent the Chilled stack.
 
@@ -62,13 +62,15 @@ When a successful attack with the Cold effect is not stopped by [[Active and Pas
 
 Electric attacks disrupt the nervous system through electrical shock.
 
-When a successful attack with the Electric effect is not stopped by Active Defense, the target gains 1 stack of [[Conditions#Distracted|Distracted]].
+When a successful attack with the Electric effect hits, the target gains 1 stack of [[Conditions#Distracted|Distracted]].
 
 Passive Defense and Armor may still prevent the attack from causing a Wound, but they do not prevent the Distracted stack.
 
 ### Acid
 
 Acid burns and corrodes whatever it remains in contact with.
+
+When a successful attack with the Electric effect hits, the target gains 1 stack of [[Conditions#Corroding|Corroding]].
 
 Acid effects are written as **Acid X**, where X is the number of [[Conditions#Corroding|Corroding]] stacks applied when the attack is not stopped by Active Defense.
 
@@ -86,6 +88,6 @@ You can mark necrotic health boxes with a "N".
 
 Psychic effects directly disrupt thought, perception, and consciousness.
 
-When an attack with the Psychic effect inflicts a Wound, the target gains 1 stack of [[Conditions#Stunned|Stunned]].
+When an attack with the Psychic effect inflicts damage, the target gains 1 stack of [[Conditions#Stunned|Stunned]].
 
 Any additional effects such as fear, hallucinations, compulsions, memory alteration, or loss of control are defined by the specific ability causing them.

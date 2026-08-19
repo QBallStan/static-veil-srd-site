@@ -50,9 +50,9 @@ Whenever a character makes a **Hacking test**, they choose how aggressively to p
 | **4**      | 1d10      |
 | **5**      | 1d12      |
 
-The [[Bonus Dice|Bonus Die]] granted by Aggression is rolled alongside the Hacking test. On a successful test, its Bonus Hits improve the result normally.
+The [[Bonus Dice|Bonus Die]] granted by Aggression is a [[Bonus Dice#Hot Bonus Dice|Hot Bonus Die]] for the Hacking test. Roll it alongside the test; on a successful test, its Bonus Hits improve the result normally.
 
-Aggression also generates **Heat**. Add all Bonus Hits rolled from the Bonus Die granted by Aggression to the hacker's Heat, even if the Hacking test fails.
+Aggression also generates **Heat**. Add the Bonus Hits rolled from the Bonus Die granted by Aggression to the hacker's Heat, even if the Hacking test fails. This use of the die does not make the failed Hacking test succeed.
 
 Bonus Dice gained from Scripts, equipment, or other effects do not generate Heat unless their rules specifically say otherwise.
 ### Heat

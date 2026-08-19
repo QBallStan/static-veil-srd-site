@@ -3,7 +3,7 @@
 
 Cover is a form of [[Active and Passive Defense#Passive Defense|Passive Defense]] against ranged attacks. It applies when a physical obstacle blocks a meaningful portion of the target from the attacker's position.
 
-Cover provides [[Bonus Dice|Bonus Dice]]:
+Cover provides [[Bonus Dice#Cold Bonus Dice|Cold Bonus Dice]]:
 
 | Cover  | Bonus Dice |
 | ------ | ---------: |

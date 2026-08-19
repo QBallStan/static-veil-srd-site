@@ -71,7 +71,7 @@ On a success, the character avoids being struck.
 
 On a failure, the character is hit. They do not make a separate [[Active and Passive Defense#Active Defense|Active Defense]].
 
-Roll the Bonus Dice from the weapon's Damage profile. These dice generate Bonus Hits without requiring a successful d100 test. Add those Bonus Hits directly to the weapon's flat Damage.
+Roll the Bonus Dice from the weapon's Damage profile. Treat these as [[Bonus Dice#Cold Bonus Dice|Cold Bonus Dice]]: they generate Bonus Hits without requiring a successful d100 test. Add those Bonus Hits directly to the weapon's flat Damage.
 
 [[Active and Passive Defense#Passive Defense|Passive Defense]] then reduces this damage by 1 per Passive Defense Hit. Determine Hit Location, apply Armor and Armor Penetration, and resolve the resulting Wound normally.
 
