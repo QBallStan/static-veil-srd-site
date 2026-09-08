@@ -95,17 +95,17 @@ Reloading time depends on the weapon's loading mechanism.
 
 When loading loose ammunition into a cylinder, internal magazine, or similar mechanism, a character loads one batch for 1 AP. A batch equals the character's Agility ÷ 5, rounded up. A partial batch still costs 1 AP.
 
-| Reload Method | AP Cost |
-|---|---:|
-| Nock an arrow | Free Action |
-| Reload a crossbow | 1 AP |
-| Swap a magazine or drum | 1 AP |
-| Use a speedloader | 1 AP |
-| Reload a break-action weapon | 1 AP per batch |
-| Replace belt-fed ammunition | 2 AP |
-| Load a cylinder | 1 AP per batch |
-| Load an internal magazine | 1 AP per batch |
-| Load individual ammunition | 1 AP per round |
-| Replace a power cell or fuel can | 1 AP |
+| Reload Method                    |        AP Cost |
+| -------------------------------- | -------------: |
+| Nock an arrow                    |    Free Action |
+| Reload a crossbow                |           1 AP |
+| Swap a magazine or drum          |           1 AP |
+| Use a speedloader                |           1 AP |
+| Reload a break-action weapon     | 1 AP per batch |
+| Replace belt-fed ammunition      |           2 AP |
+| Load a cylinder                  | 1 AP per batch |
+| Load an internal magazine        | 1 AP per batch |
+| Load individual ammunition       | 1 AP per batch |
+| Replace a power cell or fuel can |           1 AP |
 
 A weapon cannot be loaded beyond its listed capacity.

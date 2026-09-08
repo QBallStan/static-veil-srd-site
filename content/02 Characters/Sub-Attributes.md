@@ -39,7 +39,7 @@ Recoil Control represents a character's ability to control a weapon while firing
 
 Recoil Control is calculated as:
 
-**Recoil Control = Strength ÷ 5, rounded down**
+**Recoil Control = Strength ÷ 5, rounded up**
 
 Weapons may have a Recoil Modifier that modifies Recoil Control while that weapon is being used.
 
@@ -51,7 +51,7 @@ Toughness represents a character's natural resistance to physical harm.
 
 Toughness is calculated as:
 
-**Toughness = Fortitude ÷ 5, rounded down**
+**Toughness = Fortitude ÷ 5, rounded up**
 
 Toughness grants [[Active and Passive Defense#Passive Defense|Bonus Dice to Passive Defense]]. These dice represent the character's ability to absorb or shrug off impacts through physical resilience alone.
 

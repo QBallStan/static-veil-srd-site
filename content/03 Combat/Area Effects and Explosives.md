@@ -59,8 +59,10 @@ For a Blast, measure from its center. For a Beam or Cone, measure from the effec
 
 When a point-targeted Area of Effect attack fails, determine where it actually lands.
 
-Roll 1d8 for the distance in meters and another 1d8 for direction. Treat the direction die as a compass, with 1 as north, 2 as northeast, and continuing clockwise around the compass.
+Roll 1d8 for direction. Treat the direction die as a compass, with 1 as north, 2 as northeast, and continuing clockwise around the compass.
 
-Move the effect's origin that many meters in the indicated direction, then resolve it normally from its final position.
+Move the effect's origin 1 meter for every negative hit on the roll, then resolve it normally from its final position.
 
 An explosive that deviates still detonates unless a specific rule or Complication prevents it.
+
+![[deviation-white.png]]
