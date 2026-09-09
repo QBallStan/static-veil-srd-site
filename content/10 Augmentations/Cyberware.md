@@ -5,11 +5,11 @@ Cyberware is generally cheaper and easier to manufacture than equivalent Bioware
 Cyberware is installed, maintained, modified, and repaired using the **[[Skills#Expertise Skills|Cyberware]]** Expertise where appropriate.
 ## Connected Cyberware
 
-Some Cyberware requires an active connection to **[[The Net]]** to function at full effectiveness. These augmentations are marked **Connected** in the catalogue.
+Some Cyberware requires an active connection to **[[The Grid]]** to function at full effectiveness. These augmentations are marked **Connected** in the catalogue.
 
 When Connected Cyberware is offline, apply the normal **−10 penalty** to tests that rely on the augmentation. Any benefits that specifically require an active connection are also unavailable.
 
-The full rules for connecting, disconnecting, and reconnecting devices are found in the Networks and Hacking rules.
+The full rules for connecting, disconnecting, and reconnecting devices are found in the Gridworks and Hacking rules.
 ## Cyberware Catalogue
 
 > **Placeholder:** The Static Veil Cyberware catalogue will be added once the setting's augmentation manufacturers, product lines, and medical technology are finalized.

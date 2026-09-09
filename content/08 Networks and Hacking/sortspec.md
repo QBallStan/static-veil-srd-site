@@ -1,10 +1,11 @@
 ---
 sorting-spec: |
   index
-  The Net
+  The Grid
   Access and Authority
   Interfaces
   Hacking
+  Device Damage
   Script Catalogue
   %
   sortspec

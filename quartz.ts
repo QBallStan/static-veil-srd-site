@@ -92,7 +92,7 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
 
       // 08 Networks and Hacking
       "Networks and Hacking": 810,
-      "The Net": 820,
+      "The Grid": 820,
       "Access and Authority": 830,
       "Interfaces": 840,
       "Hacking": 850,
