@@ -1,10 +1,9 @@
+A target is **Defenseless** when they can't react to an attack: they're unconscious, tied up, helpless, unaware of it, or otherwise unable to respond.
 
-A target is **Defenseless** when they cannot make a meaningful [[Active and Passive Defense#Active Defense|Active Defense]], such as when they are unconscious, restrained, helpless, unaware of the attack, or otherwise unable to react.
+The attacker gets +20 to their [[Success Targets and Hits|Success Target]], but still has to succeed on the attack roll.
 
-The attacker gains +20 to their [[Success Targets and Hits|Success Target]], but must still succeed on the attack roll.
+Against a melee attack, a Defenseless target gets no [[Active and Bonus Defense#Active Defense|Active Defense]] and no Parry or shield dice, since both need them to react.
 
-A Defenseless target makes no Active Defense, but still benefits from [[Active and Passive Defense#Passive Defense|Passive Defense]] normally. Roll any Passive Defense [[Bonus Dice|Bonus Dice]] and compare the resulting [[Success Targets and Hits#Hits|Hits]] to the attacker's total Hits.
+Against a ranged attack, a Defenseless target still gets cover dice from any [[Cover and Shields#Cover|cover]] between them and the attacker, since cover doesn't depend on reacting.
 
-If Passive Defense equals or exceeds the attacker's Hits, the attack is stopped. Otherwise, the remaining Hits become the attack's [[Opposed Tests#Net Hits|Net Hits]].
-
-A target who was unaware of the attacker is normally alerted after the attack resolves unless the circumstances clearly allow the attacker to remain undetected.
+A target who didn't know the attack was coming usually notices once it's resolved, unless the circumstances clearly let the attacker stay hidden.

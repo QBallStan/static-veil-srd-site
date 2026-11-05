@@ -1,74 +1,38 @@
+Sub-Attributes are values worked out from a character's [[Attributes]], along with a few, such as Reach, that come from their body and gear. There are six: **Movement, Initiative Bonus, Reach, Damage Modifier, Recoil Control and Grit**.
 
-Sub-Attributes represent characteristics derived from a character's [[Attributes]], [[Lineages|Lineage]], Traits, equipment, or other inherent features.
+Most are based on [[Attributes#Attribute Rating|Attribute Ratings (AR)]]. Recalculate them whenever the Attribute they use changes. Traits, augmentation, magic and equipment can also modify any of them.
 
-Static Veil uses five Sub-Attributes: **Movement, [[Initiative and Action Points#Initiative|Initiative]] Bonus, Reach, Damage Modifier, and Toughness**.
+| Sub-Attribute    | Calculation                               |
+| ---------------- | ----------------------------------------- |
+| Movement         | 5 + Agility AR (meters)                   |
+| Initiative Bonus | Agility AR + Instinct AR                  |
+| Reach            | Set by [[Lineages]], Traits and equipment |
+| Damage Modifier  | Strength AR                               |
+| Recoil Control   | Strength AR                               |
+| Grit             | Fortitude AR                              |
 
 ## Movement
 
-Movement determines how far a character can move during a combat round while remaining ready to act.
-
-Movement is calculated as:
-
-**Movement = 4 + (Agility ÷ 5, rounded up)**
-
-Movement is measured in meters.
+How many meters a character can move in a combat round while staying ready to act. See [[Movement and Positioning]].
 
 ## Initiative Bonus
 
-Initiative Bonus represents how quickly a character reacts when action begins.
-
-Initiative Bonus is calculated as:
-
-**Initiative Bonus = (Agility + Instinct) ÷ 5, rounded up**
+Added to the [[Initiative and Action Points#Initiative|Initiative]] roll when combat starts. Fast reflexes and sharp awareness both help a character act first.
 
 ## Reach
 
-Reach represents a character's natural reach in close combat.
-
-A character's Reach is determined by their Lineage, Traits, equipment, and other applicable effects.
+How well a character controls distance in close combat. Longer limbs and longer weapons give an edge in melee; see [[Melee Combat#Reach|Melee Combat]].
 
 ## Damage Modifier
 
-Damage Modifier represents the additional force a character can bring to physical attacks through their anatomy, physical scale, augmentations, or other advantages.
-
-A character's Damage Modifier is determined by their Lineage, Traits, equipment, and other applicable effects.
+The extra force a character puts behind a blow. Add it to the damage of melee attacks, armed or unarmed. Thrown weapons don't add it.
 
 ## Recoil Control
 
-Recoil Control represents a character's ability to control a weapon while firing multiple shots in rapid succession.
+How well a character keeps a weapon steady when firing several shots in quick succession. Some weapons have a Recoil Modifier that changes it while they're in use.
 
-Recoil Control is calculated as:
+## Grit
 
-**Recoil Control = Strength ÷ 5, rounded up**
+Physical toughness: bracing for impact, riding out shock, and shrugging off blows that would drop someone weaker.
 
-Weapons may have a Recoil Modifier that modifies Recoil Control while that weapon is being used.
-
-Traits, augmentations, equipment, and other effects may also modify Recoil Control.
-
-## Toughness
-
-Toughness represents a character's natural resistance to physical harm.
-
-Toughness is calculated as:
-
-**Toughness = Fortitude ÷ 5, rounded up**
-
-Toughness grants [[Active and Passive Defense#Passive Defense|Bonus Dice to Passive Defense]]. These dice represent the character's ability to absorb or shrug off impacts through physical resilience alone.
-
-Use the character's current Toughness to determine the [[Bonus Dice|Bonus Dice]] granted:
-
-| Toughness | Bonus Dice |
-| --------: | ---------- |
-|         0 | —          |
-|         1 | 1d4        |
-|         2 | 1d6        |
-|         3 | 1d8        |
-|         4 | 1d10       |
-|         5 | 1d12       |
-|         6 | 2d8        |
-|         7 | 2d10       |
-|         8 | 2d12       |
-|         9 | 2d12 + 1d4 |
-|        10 | 2d12 + 1d8 |
-
-Lineage, Traits, augmentation, magic, equipment, and other effects may modify Toughness. Use the character's final Toughness value when determining their Passive Defense Bonus Dice.
+Grit is part of a character's [[Active and Bonus Defense#Damage Reduction|Damage Reduction]]. It lowers the damage of each attack that lands: after Armor and Armor Penetration, subtract Grit from the remaining damage, to a minimum of 0. Grit applies to all damage from attacks, explosions included. Rules for damage that Grit doesn't reduce, such as Bleeding or Strain, say so.

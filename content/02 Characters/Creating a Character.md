@@ -1,2 +1,2 @@
 
-TODO: Priority-based character creation.
+TODO: Role-package character creation.

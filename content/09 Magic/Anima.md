@@ -1,34 +1,21 @@
+**Anima** is a character's connection to their own soul and, through it, to the Veil. It's an [[Attributes|Attribute]], and everyone has it, Awakened or not.
 
-**Anima** represents a character's connection to The Veil and their capacity to interact with magic.
+For the Awakened, Anima is where their magic comes from:
 
-Anima is an [[Attributes|Attribute]] and is used by several magical systems.
+- [[Spellcasting]], [[Ritual Magic]] and [[Summoning]] tests use Anima as their Attribute.
+- [[Spellcasting#Strain|Strain Resistance]] uses Resolve + Anima.
+- A [[Vessels|Vessel]] has **Power Points** equal to their Anima Rating (AR).
 
-- [[Spellcasting]] uses Anima as part of the casting test.
-- A Spellcaster's safe [[Spellcasting#Strain|Strain]] limit equals their Anima.
-- [[Mystics]] gain **Power Points equal to their Anima**.
-- Some supernatural effects may also use or affect Anima directly.
+For everyone else, Anima is the price of chrome. [[Cyberware]] wears it down, and enough of it leaves nothing behind (see [[Chrome and Anima]]).
 
-Anima can be reduced by [[Cyberware|cyberware]], supernatural effects, and other sources. Unlike [[Spellcasting#Strain|Strain]], which represents temporary magical stress, Anima loss represents a weakening of the character's connection to their soul.
+## Losing Anima
 
-## Reduced Anima
+Anima can be lost to cyberware, some supernatural effects and some [[Critical Injuries#Strain Critical Injuries|Strain injuries]]. That's different from Strain itself: Strain is a backlash that hurts in the moment, but losing Anima means the connection itself is wearing thin.
 
-When Anima is reduced, immediately recalculate anything based on its current value.
+When Anima drops, recalculate anything based on it straight away. If a Vessel's Power Points fall below the total cost of their powers, they lose access to powers of their choice until the total fits.
 
-If a [[Mystics|Mystic]] no longer has enough Power Points to support all of their [[Mystics#Mystic Powers|Mystic Powers]], they must choose enough powers to lose access to until their total Power Point cost no longer exceeds their available Power Points.
-
-Anima may be reduced fractionally. Whenever Anima is used as an Attribute or to calculate another game value, round the current value down unless a rule states otherwise.
-
-**Example:** A Mystic has Anima 12 and has learned 12 Power Points worth of Mystic Powers. They install cyberware that reduces their Anima by 2.5, leaving them with Anima 9.5. Their Anima counts as 9 when determining game values, so they now have only 9 available Power Points. They must choose at least 3 Power Points worth of Mystic Powers to lose access to.
+**Example:** A Vessel has Anima 32, so an AR of 3, and 3 Power Points' worth of powers. She installs cyberware with an Anima Cost of 5, which takes her to 27. Her AR drops to 2, so she has to give up at least 1 Power Point's worth of powers.
 
 ## Zero Anima
 
-A character whose Anima reaches **0** completely loses their connection to their soul.
-
-What they become depends on the cause of the loss:
-
-- A character reduced to 0 Anima through [[Cyberware|cyberware]] becomes a **[[Chrome and Anima#Reaching 0 Anima|Cyberzombie]]**.
-- A character reduced to 0 Anima through another source becomes a **Husk**.
-
-Cyberzombies and Husks may remain biologically alive, but no longer possess the metaphysical connection represented by Anima.
-
-A character who reaches 0 Anima is no longer a player character and becomes an **NPC** under the Game Master's control.
+A character at 0 Anima has lost their connection to their soul entirely. If cyberware took it, they become a **[[Chrome and Anima#Reaching 0 Anima|Cyberzombie]]**. If anything else took it, they become a **Husk**. Either way, they may still be alive, but they're no longer a player character, and the GM takes over.

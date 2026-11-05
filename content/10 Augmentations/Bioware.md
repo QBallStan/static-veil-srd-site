@@ -1,11 +1,6 @@
-**Bioware** augments the body through engineered tissue, altered organs, synthetic biology, gene-tailored structures, and other biological systems.
+**Bioware** upgrades the body with biology: engineered tissue, reworked organs, synthetic glands, gene-tailored structures. It costs more than the equivalent [[Cyberware]], but the body accepts it more readily, so its Anima Cost is lower. Installing and maintaining it uses the [[Skills#Expertise Skills|Bioware]] Expertise Skill, [[Skills#Expertise Skills|Medicine]], or both, depending on the procedure.
 
-Bioware is generally more expensive than equivalent Cyberware, but integrates more naturally with the body and therefore tends to have a lower **Anima Cost**.
+Bioware is living tissue, not a device. It can't be hacked, and it can't be Glitched, Disabled or Bricked.
 
-Bioware is installed, maintained, cultivated, or modified using the **[[Skills#Expertise Skills|Bioware]]** Expertise, **[[Skills#Expertise Skills|Medicine]]**, or both, depending on the procedure involved.
-
-## Bioware Catalogue
-
-> **Placeholder:** The Static Veil Bioware catalogue will be added once the setting's augmentation manufacturers, product lines, and biotechnology are finalized.
-
-Catalogue entries will include each augmentation's **Price**, **Anima Cost**, installation requirements, compatibility restrictions, and mechanical effects.
+> [!warning] Work in progress
+> The Bioware catalogue is still to be written. Each entry will give its Price, Anima Cost and effects.

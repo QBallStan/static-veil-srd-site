@@ -1,47 +1,31 @@
-Static Veil tracks physical injury through **Health**. A typical character has **12 Health**.
+Static Veil tracks physical injury through **Health**. Characters, NPCs and creatures all have **12 Health**, tracked as 12 boxes on the character sheet. Once an attack lands and [[Active and Bonus Defense#Damage Reduction|Damage Reduction]] has been applied, the **Final Damage** comes off the target's Health. Health can't go below 0.
 
-After Armor, Armor Penetration, and other applicable effects are resolved, subtract the remaining **Final Damage** from the target's Health.
+The lower a character's Health, the worse they're hurt, and the bigger the penalty to all their tests:
 
-Health cannot be reduced below 0. If the Final Damage is 0 or less, the attack causes no Health loss.
-
-A character's current Health determines their physical condition and the penalty they suffer:
-
-|Current Health|Condition|Penalty|
+| Current Health | Condition | Penalty |
 |--:|---|--:|
-|10–12|Healthy|None|
-|7–9|Bruised|−5|
-|4–6|Battered|−10|
-|1–3|Wounded|−20|
-|0|Incapacitated|Special|
+| 10–12 | Healthy | None |
+| 7–9 | Bruised | −5 |
+| 4–6 | Battered | −10 |
+| 1–3 | Wounded | −20 |
+| 0 | Incapacitated | Special |
 
-These penalties apply to all tests. They do not stack. Always use the penalty corresponding to the character's current Health.
+These penalties don't stack. Always use the one for the character's current Health.
 
 ## Critical Wounds
 
-When an Operator is reduced to **0 Health** by lethal damage, they suffer a **Critical Wound**.
+When a player character drops to **0 Health** from lethal damage, they suffer a **Critical Wound**. Mark one of their Critical Wound Slots. They become [[Death and Incapacitation|Incapacitated]] and are out of the fight. They also suffer a [[Critical Injuries|Critical Injury]], normally based on where they were hit. Psychic damage, Hot Dive [[Interfaces#Snapback|Snapback]] and [[Spellcasting#Strain|Strain]] have their own Critical Injury tables instead of using [[Hit Locations and Damage#Hit Locations|Hit Location]].
 
-Mark one available Critical Wound Slot. The character gains [[Death and Incapacitation|Incapacitated]] and cannot continue participating in combat.
+A typical player character has **3 Critical Wound Slots**. A character who suffers a Critical Wound with all their slots already filled dies, unless a rule or the situation says otherwise.
 
-The character also suffers a [[Critical Injuries|Critical Injury]], normally determined by the location struck. Psychic damage uses its own Critical Injury table instead of a [[Hit Locations and Damage#Hit Locations|Hit Location]].
-
-A typical Operator has **3 Critical Wound Slots**.
-
-If an Operator suffers a Critical Wound while all of their Critical Wound Slots are already filled, they die unless a rule or the circumstances state otherwise.
-
-If an Operator recovers above 0 Health and is later reduced to 0 Health again, they suffer another Critical Wound as normal.
+Any attack that deals damage to a character already at 0 Health causes another Critical Wound. A character who recovers above 0 Health and drops to 0 again also takes another Critical Wound.
 
 ## NPC Survival
 
-When a minor NPC is reduced to 0 Health by lethal damage, they are normally removed from the fight and presumed dead or dying.
+A minor NPC who drops to 0 Health is out of the fight. What happened to them doesn't need to be decided during combat. If it matters later, the GM decides whether they're dead, dying, can be stabilized, or are still around to be questioned. A [[Critical Injuries|Critical Injury]] can be rolled for flavor, but it never brings the NPC back into the fight.
 
-If their survival matters, roll 1d6 at the end of the scene for each minor NPC taken out this way. On a 6, the NPC survives.
-
-A surviving NPC remains [[Death and Incapacitation|Incapacitated]] and unable to continue fighting until treated or otherwise recovered.
+Major NPCs built like player characters follow the normal Critical Wound and Critical Injury rules.
 
 ## Non-Lethal Attacks
 
-A character may choose to attack with non-lethal intent when the weapon and circumstances make this reasonably possible. This must be declared before the attack roll.
-
-Resolve the attack normally. If it reduces the target to 0 Health, the target becomes [[Conditions#Unconscious|Unconscious]] instead of suffering a Critical Wound or Critical Injury.
-
-Some attacks cannot reasonably be used non-lethally, including explosives, heavy ordnance, and other overwhelmingly destructive effects. The GM determines when non-lethal intent is possible.
+A character can attack to subdue instead of kill, if the weapon and situation allow it. Declare it before rolling. Resolve the attack as normal. If it drops the target to 0 Health, they fall [[Conditions#Unconscious|Unconscious]] instead of taking a Critical Wound or Critical Injury. Explosives, heavy ordnance and other overwhelmingly destructive attacks can't be used this way. The GM decides when non-lethal attacks are possible.

@@ -1,222 +1,175 @@
+**Hacking** is breaking into a system through the [[The Grid|Grid]] to make it do what you want. Someone who does it is a **GridRunner**. Offensive hacking needs a [[Interfaces#Decks and Cold Cradles|Deck]]. A [[Interfaces#PADs|PAD]] has a Firewall and can defend its owner's personal network, but it can't attack anything. **Technopaths** are the exception: they hack through their own connection to the Grid, without a Deck. Their rules are still to be written.
 
-**Hacking** is the act of bypassing a target's security to gain unauthorized access or perform hostile actions through **[[The Grid]]**.
+## Targets
 
-A person who performs Hacking is a **GridRunner**.
+Most devices don't stand alone. A door, a camera or a turret is slaved to a [[The Grid#Hosts|Host]], the system that runs the building, the vehicle fleet or the security grid. To hack the door, you hack its Host. A device that runs on its own is either part of someone's [[The Grid#Personal Networks|personal network]], defended by their PAD or Deck, or a [[The Grid#Standalone Devices|standalone device]] with its own onboard defensive suite.
 
-GridRunners normally target devices, personal networks, or **[[The Grid#Hosts|Hosts]]**. [[The Grid#Shards|Shards]], [[The Grid#Arrays and Matrices|Arrays]], and [[The Grid#Arrays and Matrices|Matrices]] are part of the architecture used to reach those targets and are not themselves hacked.
+To reach a device, you have to get into whatever protects it. Before you can jam a mercenary's smartgun, you have to breach their PAD.
 
-Hacking uses the same core mechanics and [[Initiative and Action Points|Action Point economy]] as other actions. The GridRunner identifies a target, chooses how aggressively to approach the intrusion, makes a **Hacking** test, and resolves the result against the target's defenses.
+If the target is known and visible on the Grid, the GridRunner can start right away. If it's known to exist but has to be picked out from everything else nearby, use **Investigation**. If nobody knows whether there's anything there at all, such as a hidden bug in a hotel room, use [[Skills#Attribute Checks|Perception]].
 
-Successful intrusion grants **[[Access and Authority#Keys|Keys]]**, allowing the GridRunner to use functions normally restricted to authorized users. Once sufficient Keys have been established, Scripts and ordinary system functions can be used to manipulate the target, disrupt its operation, or attack connected equipment.
+## Firewall
 
-Illegal hacking also generates **Heat**, representing how exposed the GridRunner's current intrusion has become to security systems and **GridWatch**, commonly called **the Watch**.
-### Finding a Target
+Every Host, personal network and device has a **Firewall** rating from 1 to 6. The Firewall rolls one d6 per point as its [[Active and Bonus Defense#Bonus Defense|Bonus Defense]], so a Firewall 4 rolls 4d6, and each 4–6 is a Hit. Like any Bonus Defense, they always count.
 
-A GridRunner must know what they are trying to access before they can begin an intrusion.
+The Firewall also sets the system's **Threshold**, which the GridRunner doesn't know (see [[#Noise|Noise]]).
 
-If the target is already known and its network presence can be identified, no test is required. The GridRunner may begin hacking immediately.
+| Firewall | Example | Threshold |
+|---|---|---:|
+| 1 | Home network, corner shop | 15 |
+| 2 | Small business, apartment block | 12 |
+| 3 | Corporate office, police precinct | 10 |
+| 4 | Corporate security, bank | 8 |
+| 5 | Research lab, military base | 6 |
+| 6 | Black site | 4 |
 
-Use **[[Skills#Core Skill Descriptions|Investigating]]** when the target is known to exist but must be located among other devices, signals, or Hosts. This is most common in crowded Shards where many systems are active at once.
+## Hacking Tests
 
-**Example:** A GridRunner knows there is a listening device somewhere in a crowded apartment block. They use **[[Skills#Core Skill Descriptions|Investigating]]** to sift through the nearby network traffic and identify the correct signal.
+Hacking actions use **Instinct + Hacking** or **Logic + Coding**, depending on the action. Each [[The Grid#Shards|Shard]] between the GridRunner and the target gives −10. A [[Interfaces#Hardlines|Hardline]] ignores that and gives +10. Getting control of something doesn't replace the Skill needed to use it: flying a hijacked drone still uses Piloting.
 
-Use **[[Skills#Attribute Checks|Perception]]** when the character is trying to determine whether an unknown or concealed device is present at all.
+When a hacking action is opposed, it works like an attack. If the defense scores at least as many Hits as you, the action fails. Otherwise, it lands.
 
-**Example:** A character suspects a hotel room may be bugged but has no evidence that a device is actually present. They use **[[Skills#Attribute Checks|Perception]]** to notice signs of a concealed listening device or unexpected signal activity.
+### Covert Actions and Attacks
 
-Do not normally require both tests. Use the Skill that matches what the character is actually trying to determine.
-### Hacking Tests
+Every hacking action is either covert or an attack.
 
-A **Hacking test** is used when a character attempts to bypass security, gain unauthorized access, or perform a hostile action against a system through **[[The Grid]]**.
+**Covert actions** are how you work a system without being noticed: slipping in, looping a camera, forging a record. Each one takes somewhere between half a minute and a few minutes, so outside a fight they don't use rounds. The GM just keeps track of what the GridRunner does and how long it takes. Covert actions use **Aggression** for their bonus dice and make [[#Noise|Noise]].
 
-Hacking tests use:
+**Attacks** are fast and crude. Each one takes a few seconds, so it's a Major Action in a combat round. Attacks use the Deck's **Attack** rating for their bonus dice, one d6 per point, and Aggression doesn't apply. There's no hiding an attack: the moment you make one, the target system is **Detected**, and its owner knows they're being hacked.
 
-**[[Attributes#Logic|Logic]] + [[Attributes#Instinct|Instinct]] + [[Skills#Expertise Skills|Hacking]]**
+A GridRunner can still work covertly during a fight, but they have to rush it: a covert action costs **twice its usual AP** and takes **−10**. A combat round is only about ten seconds, and even rushed, that kind of work takes several of them.
 
-The exact effect of a successful test depends on the action being attempted. **Intrusion** tests are used to gain **[[Access and Authority#Keys|Keys]]**. Once access has been established, hostile Scripts use [[Hacking#Running Scripts|Coding tests]] to affect a target.
+### Authority
 
-Network distance can impose penalties on a Hacking test when the GridRunner must reach a target across multiple **[[The Grid#Shards|Shards]]**. These penalties are described under **Intrusion**.
+What you can do in a system depends on the authority a legitimate user would need. Higher authority doesn't make the test harder. It needs more Hits:
 
-A GridRunner connected directly to the target through a **[[Interfaces#Hardlines|Hardline]]** gains **+10** to Hacking tests against that target.
+| Authority | Needs | Covert examples | Attack examples |
+|---|---|---|---|
+| Guest | No test | Read public data | — |
+| User | A success | View cameras, open a public door, read a schedule | Glitch a device |
+| Admin | A success with 2 Hits | Loop cameras, unlock secure doors, edit logs | Disable or hijack a device |
+| Owner | A success with 4 Hits | Re-key a drone, transfer a vehicle, change who owns the system | Brick a device |
 
-Having access to a system does not replace the Skill normally required to use it. Hacking may grant control over a [[Operating Vehicles|vehicle]], medical system, industrial machine, or other specialized equipment, but operating that system still uses the appropriate [[Skills|Skill]] when a test is required.
-### Aggression
+In [[Interfaces#Deep Interface|Deep Interface]], Admin and Owner need 1 Hit less: 1 and 3.
 
-Whenever a character makes an illegal **Hacking test** to establish or extend unauthorized access, they choose how aggressively to push the intrusion. This determines the **Bonus Die granted by Aggression**.
+When the system opposes the action, count Net Hits instead: the action has to land, and its Net Hits have to meet the requirement.
 
-| Aggression | Bonus Die |
-| ---------- | --------- |
-| **1**      | 1d4       |
-| **2**      | 1d6       |
-| **3**      | 1d8       |
-| **4**      | 1d10      |
-| **5**      | 1d12      |
+## Aggression
 
-The [[Bonus Dice|Bonus Die]] granted by Aggression is a [[Bonus Dice#Hot Bonus Dice|Hot Bonus Die]] for the Hacking test. Roll it alongside the test; on a successful test, its Bonus Hits improve the result normally.
+Every covert action except Search and Jack Out is hostile: you're making a system do something you aren't authorized to do. Before each hostile covert test, the GridRunner chooses how hard to push: **Aggression 0 to 6**, with one Bonus Die per point. On a successful test, their Bonus Hits improve the result as normal, which is how a GridRunner reaches the Hits that Admin and Owner need. Their Hits also become **Noise** on the target, whether the test succeeds or fails. A [[Complications|Complication]] on a hacking test adds 1 more Noise.
 
-Aggression also generates **Heat**. Add the Bonus Hits rolled from the Bonus Die granted by Aggression to the GridRunner's Heat, even if the Hacking test fails. This use of the die does not make the failed Hacking test succeed.
+Aggression 0 is quiet hacking: no bonus dice, and no Noise except from Complications.
 
-Defensive Hacking tests do not use Aggression unless a rule specifically says otherwise.
+## Noise
 
-Aggressive Scripts use the same procedure, but their Aggression is determined by the Script rather than chosen by the GridRunner. See [[Hacking#Aggressive Scripts|Aggressive Scripts]].
+**Noise** is how close the system is to noticing you. Anything with a Firewall tracks it: a Host, a personal network or a standalone device. It's tracked per system, not per GridRunner, and it resets when you leave.
 
-Bonus Dice gained from equipment, defensive Scripts, or other effects do not generate Heat unless their rules specifically say otherwise.
-### Heat
+**Suspicious:** once Noise reaches the Threshold, the system is suspicious. Its Firewall now opposes every action you take on it except Search. The GM can let small signs slip through: a feed refreshing, a log entry that wasn't there a moment ago.
 
-**Heat** represents how exposed a GridRunner's current intrusion has become to automated security systems and **GridWatch**.
+**Detected:** once Noise reaches twice the Threshold, or as soon as anyone makes an attack on it, the system is on alert and knows you're there. Its Firewall opposes everything, and its own security responds, with whatever fits:
 
-Whenever a character makes an illegal Hacking test using **Aggression**, add the Bonus Hits rolled from its Aggression die to their Heat. These Hits generate Heat even if the Hacking test fails.
+- **Lockout:** you're thrown out, with [[Interfaces#Snapback|Snapback]] if you were in Deep Interface.
+- **Locate:** they try to find out where you physically are.
+- **Alarm:** guards head your way.
+- **Spider:** a security GridRunner logs in to hunt you.
+- **Black IC:** IC that tries to Spike you.
 
-Attempting an [[Hacking#Aggressive Scripts|Aggressive Script]] also adds the Bonus Hits rolled from that Script's Aggression die to Heat, whether the Script's Coding test succeeds or fails.
+GridWatch doesn't come running. Whatever you hacked deals with you itself.
 
-Heat is tracked on the GridRunner, not on individual targets. All illegal hacking performed during the same intrusion contributes to the same Heat total.
+### When You're the Target
 
-A **[[Complications|Complication]]** on an illegal Hacking test or an Aggressive Script's Coding test also increases Heat by **1**, in addition to any other consequence caused by the Complication.
+Your own PAD or Deck works the same way. When someone hacks it covertly, Noise builds on it, and when it becomes Suspicious, it pings you. The GM tells you something's wrong, and from then on your Firewall opposes everything the intruder does, and you can Defend against it. An attack on it, you notice straight away.
 
-The base **Heat Threshold** is **20**. A GridRunner may accumulate up to 20 Heat without triggering a GridWatch response. If their Heat exceeds the threshold, the Watch detects the intrusion and begins responding.
+### Spiders
 
-Heat does not decrease over time. Rebooting ends an intrusion, but does not by itself clear Heat. Clearing Heat requires a full [[Hacking#Purging Heat|Heat purge]].
+Some systems have a **Spider**: a security GridRunner watching over them, on site or remotely. A Spider on duty can Defend against any action the Firewall opposes, so their Defend and the Firewall's dice count together. A Spider who isn't on duty may be called in once you're Detected.
 
-### Intrusion
+### After You Leave
 
-An **Intrusion** is a Hacking test made to gain **[[Access and Authority#Keys|Keys]]** on a device, personal network, or Host.
+A system that noticed something will look into it later. After you leave, the GM rolls d100:
 
-Resolve an Intrusion in the following order:
+- If the system became **Suspicious**, it finds what you did on a roll of **10 or less**.
+- If it **Detected** you, it finds what you did on a roll of **20 or less**.
 
-1. Make a **Hacking test**, applying any [[Modifiers|modifiers]] and [[Bonus Dice]] normally.
-2. If another GridRunner is actively defending the target, resolve the test as an **[[Opposed Tests|Opposed Test]]**.
-3. Roll the target's [[Device Damage#Firewall|Firewall]] and apply any defensive Scripts. These are passive defenses and add their Defense Hits to any Hits generated by an active defender.
-4. Subtract the target's total Defense Hits from the attacker's Hits.
-5. Each remaining Net Hit grants **1 Key** on the target.
+If the check succeeds, they find what you changed: the forged maintenance appointment, the edited rota, the backdoor. What they do about it is up to the GM, and it can be worse than an alarm. A crew turning up as "the maintenance team" for a job the building already knows is fake is walking into a trap.
 
-If no Hits remain after the target's defenses, the intrusion fails to gain access.
+## Covert Actions
 
-Keys gained through Intrusion are cumulative. Add newly gained Keys to any Keys the GridRunner has already established on that target, to a maximum of **4 Keys** through hacking.
+- **Breach** (Instinct + Hacking): get into a Host, personal network or device, opposed by its Firewall. If it lands, you're in, and you stay in until you leave or get thrown out.
+- **Control** (Instinct + Hacking): operate anything on the system, such as doors, cameras, turrets, drones or vehicles, with the Hits its authority needs.
+- **Search** (Logic + Investigation): find a file, device, person or record in the system. Search isn't hostile: no Aggression, and no Noise except from Complications.
+- **Edit** (Logic + Coding): read, change, delete or forge data, such as guard rotas, access logs, IDs, medical records or camera footage.
 
-**Example:** A GridRunner scores 5 Hits against a target with Firewall 1d6. The Firewall rolls a 4, generating 1 Cold Defense Hit. The target has no active defender or defensive Scripts, so 4 Hits remain and the GridRunner gains 4 Keys.
+## Attacks
 
-### Intrusion Defense
+Each attack is a Major Action, rolls the Deck's Attack dice, and makes the target Detected.
 
-A target may be protected from an Intrusion by its own **Firewall**, defensive Scripts, and an actively defending GridRunner.
+- **Force Breach** (Instinct + Hacking): break into a PAD, Deck, device or Host by force, opposed by its Firewall and its owner's Defend. If it lands, you're in, and everyone knows it.
+- **Disrupt** (Logic + Coding): attack a device on a system you're in, opposed by the Firewall and the owner's Defend. The Net Hits decide what happens to it (see [[Device Damage|Device Damage]]):
+    - **Glitched** (User: it lands): it still works, but tests that rely on it take −10.
+    - **Disabled** (Admin: 2 Net Hits): it stops working until it's rebooted.
+    - **Bricked** (Owner: 4 Net Hits): it's broken until it's repaired.
+- **Hijack** (Instinct + Hacking): take over a drone, turret, vehicle or other device on a system you're in, opposed by the Firewall and the owner's Defend. It needs 2 Net Hits (Admin). You control the device until its owner reboots it.
+- **Spike** (Instinct + Hacking): send neural feedback down someone's link. It only works on a person in Deep Interface, and it's opposed by their Deck's Firewall and their Defend. If it lands, deal its Net Hits in damage, ignoring Armor and [[Sub-Attributes#Grit|Grit]]. A Cold Dive halves it, rounded down. A [[Wounds#Critical Wounds|Critical Wound]] from a Spike uses the [[Critical Injuries#Snapback Critical Injuries|Snapback Critical Injury]] table.
 
-**Firewall** is a passive network defense. A target's Firewall rating is a [[Bonus Dice#Cold Bonus Dice|Cold Bonus Die]] such as 1d4, 1d6, or 1d8. Roll it whenever the target is subjected to an Intrusion or an [[Hacking#Aggressive Scripts|Aggressive Script]]. Its Bonus Hits are Defense Hits.
+## Other Actions
 
-If another GridRunner is actively protecting the target, the Intrusion becomes an **Opposed Hacking test**. Both GridRunners use:
+- **Defend** (Instinct + Hacking): an [[Active and Bonus Defense#Active Defense|Active Defense]] against a hacking action or a Locate aimed at you or a system you're protecting. The system's Firewall still adds its dice. Like a melee defense, it costs no AP.
+- **Jack Out** (no test): leave the system. You keep whatever you've done. Being forced out of Deep Interface causes Snapback.
 
-**[[Attributes#Logic|Logic]] + [[Attributes#Instinct|Instinct]] + [[Skills#Expertise Skills|Hacking]]**
+## What Opposes What
 
-Defensive Hacking is resolved before Firewall and other passive defenses. Add the defender's Hits to the Cold Defense Hits generated by Firewall and defensive Scripts, then subtract the total from the attacker's Hits. Only the attacker's remaining **Net Hits** continue through the Intrusion procedure.
+| Action | Opposed by |
+|---|---|
+| Breach | The target's Firewall dice, plus a Spider's Defend if one is on duty |
+| Control, Edit | Nothing until the system is Suspicious, then its Firewall dice, plus a Spider's Defend if one is on duty |
+| Search | Nothing |
+| Force Breach, Disrupt, Hijack | The Firewall dice, plus the owner's or a Spider's Defend |
+| Spike | The target's Deck Firewall, plus their Defend |
+| Locate | Made through IC: still to be decided |
 
-Defensive Scripts may grant additional Cold Bonus Dice, modify the Firewall die, or provide another specific protection. If no GridRunner is actively defending the target, Firewall and any defensive Scripts that provide passive protection still apply.
+## IC
 
-A target without an active defender still benefits from its Firewall and any defensive Scripts it is running.
+Each Host lists 2–4 **IC** (Intrusion Countermeasures): its automated defenses. Typical IC includes:
 
-Once access has been established, hostile Scripts are resolved as [[Hacking#Script Conflicts|Script Conflicts]]. Firewall remains a passive defense against those Scripts, but it does not provide [[Device Damage#Shielding|Shielding]] against their damage.
+- **Locator:** once the Host has Detected you, it tries to Locate you every round you stay connected. If it lands, they know where you are.
+- **Lockout:** throws you out once you're Detected.
+- **Black IC:** Spikes intruders in Deep Interface.
 
-### Rebooting
+The Host's listing says which IC it runs and what wakes it up.
 
-A GridRunner may **reboot** their [[Interfaces#Decks and Cold Cradles|Deck]] to terminate their current intrusion session and reset their connection to **[[The Grid]]**.
+> [!warning] Work in progress
+> How IC rolls is still to be decided, including how Locate works: what the system rolls, and what the GridRunner rolls against it.
 
-Rebooting has the following effects:
+## Example: The Server Room
 
-- All **Keys gained through hacking** are lost.
-- Any Scripts or effects maintained through the current intrusion end.
-- The GridRunner must establish access again before resuming hostile actions against previous targets.
+Nyx needs the cameras looped, a guard rota changed and the server room unlocked in a corporate security office. The office runs on a Host with **Firewall 4** and Locator and Lockout IC. Its Threshold is 8, which only the GM knows: it becomes Suspicious at 8 Noise and Detects her at 16. Nyx is in the same Shard, working through AR. Her Hacking tests have a Success Target of **70**, and her Coding tests **60**. This is a job, not a fight, so every action is covert and takes a minute or two.
 
-Legitimate Keys granted through credentials or ownership are not lost when rebooting.
+1. **Breach.** Nyx pushes with **Aggression 2**. She rolls **34** on the d100, for 4 Hits. Her two Aggression dice show 5 and 2, so 1 Bonus Hit, for 5 Hits in total. The Firewall rolls 4d6: 4, 1, 2 and 5, for 2 Hits. 5 beats 2, so the Breach lands, and she's in. **Noise: 1.**
+2. **Control: loop the cameras.** That's Admin, so she needs 2 Hits. She goes quiet, with Aggression 0, and rolls **22**: 5 Hits. The cameras loop. **Noise: 1.**
+3. **Edit: change the guard rota.** Also Admin. Coding is her weaker Skill, so she pushes with **Aggression 4**. She rolls **51**, a success with only 1 Hit, which wouldn't be enough on its own. Her Aggression dice show 4, 6, 5 and 6, for 4 Bonus Hits: 5 in total. The rota is changed, but those 4 Hits are also Noise. **Noise: 5.**
+4. **Control: unlock the server room.** Admin again, with **Aggression 3**. She rolls **63**, for 1 Hit, and her dice show 4, 5 and 6, for 3 more: 4 Hits. The door unlocks. **Noise: 8.** The Host is now Suspicious, and the GM tells her a log window flickers open and shut.
+5. **Edit: wipe the door from the access log.** Now the Firewall opposes her with its 4d6. She goes quiet and rolls **12**: 5 Hits. The Firewall rolls 5, 2, 4 and 6, for 3 Hits. That's 2 Net Hits, exactly what Admin needs. The entry is gone. **Noise: 8.**
+6. **Jack Out.** She leaves before she pushes her luck any further.
+7. **That night.** The Host became Suspicious, so the GM rolls to see whether anyone finds her changes. A roll of 10 or less would find them. The GM rolls **58**, so nobody notices.
 
-Rebooting does not clear Heat. A GridRunner must complete a [[Hacking#Purging Heat|Heat purge]] to remove the traces accumulated during the intrusion.
+## Example: The Smartgun
 
-A target may also reboot itself to remove unauthorized access. When it does, all Keys gained through hacking against that target are lost, and any hostile Scripts or effects currently running on it end.
+Two rounds into a firefight, a mercenary with a smartgun is pinning the crew down. His PAD has **Firewall 2**, and he's no hacker: his Defend has a Success Target of 25. Nyx's Deck has **Attack 3**.
 
-Rebooting does not undo consequences that have already occurred. Data already copied remains copied, alarms already triggered remain triggered, and damaged equipment remains damaged.
-
-### Purging Heat
-
-After rebooting, a GridRunner may purge the Heat accumulated during the ended intrusion. The Deck must remain rebooted and disconnected from **[[The Grid]]** for **five consecutive minutes** while it clears caches, rotates temporary identifiers, and removes session residue.
-
-The Deck cannot run Scripts or reconnect to the Grid during this time. If the purge is interrupted or the Deck reconnects, the five-minute process must begin again.
-
-At the end of the purge, clear all Heat from that intrusion. A purge cannot undo a GridWatch response, alarm, trace, or other consequence that has already occurred.
+1. **Force Breach** (Hacking, 70). Nyx rolls **41**, for 3 Hits, and her three Attack dice show 5, 1 and 4, for 2 more: 5 Hits. The mercenary's Firewall rolls 6 and 2, for 1 Hit, and his Defend rolls **67**, a failure. The Force Breach lands. His PAD is Detected, and he knows someone is in it.
+2. **Disrupt the smartgun** (Coding, 60), on her next turn. She rolls **38**, for 3 Hits, and her Attack dice show 4, 2 and 1, for 1 more: 4 Hits. The Firewall rolls 5 and 6, for 2 Hits, and his Defend fails again. That's 2 Net Hits: the smartgun is **Disabled**. On his turn, the mercenary can spend a Major Action rebooting it, or draw his pistol.
 
 ## Scripts
 
-**Scripts** are specialized programs used to enhance hacking, defend systems, automate processes, or perform actions beyond the normal functions granted by **[[Access and Authority#Keys|Keys]]**.
+**Scripts** are programs a Deck runs to do what no one could do by hand. They come in two kinds:
 
-Scripts must be loaded onto a compatible device before they can be used. A Script only consumes **RAM** while it is running.
+- **Passive Scripts** give an ongoing edge while they run, such as +1d6 to Breach, +1 Firewall, or a way of managing Noise.
+- **Active Scripts** do something big when triggered. They use a Coding test, and work as covert actions or attacks depending on what they do. Some examples:
+    - **Tactical Feed:** an AR overlay that gives the crew +10 to attacks for a few rounds.
+    - **Overclock:** pushes an ally's smart weapon past its limits.
+    - **Puppeteer:** runs a captured drone squad.
+    - **Worm:** spreads through a network.
+    - **Ghost Credentials:** lets the crew walk through scanners for a scene.
 
-Some Scripts provide passive benefits while active, such as improving Firewall protection or granting Bonus Dice. Others are activated to perform a specific action, such as disrupting equipment, attacking another GridRunner, or manipulating an intrusion.
-
-Scripts do not replace ordinary access permissions. If a character already has sufficient Keys to use a normal function of a device or Host, no Script is required unless that function specifically depends on one.
-
-Each Script lists its own requirements, RAM cost, effects, and any tests needed to use it.
-### Running Scripts
-
-A Script must be **running** for its effects to apply.
-
-Running Scripts consume **RAM** according to their listed RAM cost. A Script that is stored on a device but is not currently running does not consume RAM.
-
-Starting or stopping a Script does not normally require a test. **Passive Scripts** provide their listed effects for as long as they remain running.
-
-When a Script is actively used to produce an effect, make a **Coding test**:
-
-**[[Attributes#Logic|Logic]] ×2 + [[Skills#Expertise Skills|Coding]]**
-
-This represents adapting the Script to the target in real time, changing variables, adjusting parameters, and responding to the target's current state.
-
-For example, a defensive Script that passively improves a device's security requires no test. A Script used to deliberately overheat an opponent's weapon requires a Coding test when the GridRunner attempts to produce that effect.
-
-A device cannot normally run Scripts whose combined RAM cost exceeds its available RAM.
-### Aggressive Scripts
-
-An **Aggressive Script** is an Active Script designed to disrupt, counter, override, or otherwise act against another system, device, or Script.
-
-Each Aggressive Script lists an **Aggression** die from **1d4** to **1d12**. Roll this die alongside the Script's Coding test. It is a [[Bonus Dice#Hot Bonus Dice|Hot Bonus Die]]: on a successful Coding test, its Bonus Hits improve the Script's result normally. Whether the Coding test succeeds or fails, add the Bonus Hits rolled from the Aggression die to the GridRunner's [[Hacking#Heat|Heat]].
-
-A Script without an Aggression entry is not an Aggressive Script and does not generate Heat merely by being used, unless its rules state otherwise.
-
-### Script Conflicts
-
-When an Aggressive Script targets a defended system, device, or Script, resolve it as a **Coding conflict**.
-
-1. The attacker makes the Script's Coding test and rolls the Script's Aggression die.
-2. If a GridRunner is actively defending the target, they make an Opposed Coding test using **[[Attributes#Logic|Logic]] ×2 + [[Skills#Expertise Skills|Coding]]**.
-3. Roll the target's [[Device Damage#Firewall|Firewall]] and apply any defensive Scripts. Firewall and defensive Scripts grant [[Bonus Dice#Cold Bonus Dice|Cold Bonus Dice]] or another specific protection to the defense. If no GridRunner is actively defending the target, their Cold Defense Hits still form the target's defense.
-4. Subtract the target's total Defense Hits from the attacker's Hits. The attacker’s remaining Net Hits resolve the Aggressive Script’s Effect.
-
-If the attacker’s Coding test fails, the Script produces no effect. Its Aggression die still generates Heat normally.
-
-Firewall is a passive defense against an Aggressive Script, but it does not reduce damage after the Script gets through. [[Device Damage#Shielding|Shielding]] reduces [[Device Damage#System Damage|System Damage]] instead.
-### RAM
-
-**RAM** represents how much processing capacity a device can dedicate to running Scripts at the same time.
-
-Each Script has a **RAM cost**. Add together the RAM costs of all Scripts currently running on the device. This total cannot normally exceed the device's available RAM.
-
-Scripts that are installed but not currently running do not consume RAM.
-
-RAM is freed immediately when a Script stops running.
-
-### Script Profiles
-
-Each **Script** has a profile describing the resources and access required to use it.
-
-A Script profile may include the following:
-
-|Entry|Description|
-|---|---|
-|**Type**|Whether the Script is **Passive** or **Active**.|
-|**RAM**|The amount of RAM consumed while the Script is running.|
-|**[[Access and Authority#Keys\|Keys]]**|The minimum number of Keys required on the target to use the Script against it. A value of 0 means no established access is required.|
-|**Aggression**|For an Aggressive Script, the Hot Bonus Die rolled with its Coding test. The die's Bonus Hits also generate Heat whether the test succeeds or fails.|
-|**Damage**|The Script's flat System Damage. Add this value to Net Hits before applying Shielding. Only Scripts that can damage a device list Damage.|
-|**Shielding Penetration**|The amount of Shielding ignored when the Script deals System Damage.|
-|**Effect**|What the Script does while running or when successfully used.|
-
-**Passive Scripts** provide their effects automatically while running and do not normally require a test.
-
-**Active Scripts** require a **[[Attributes#Logic|Logic]] ×2 + [[Skills#Expertise Skills|Coding]]** test when used unless their rules state otherwise. [[Hacking#Aggressive Scripts|Aggressive Scripts]] also use their listed Aggression die and are resolved as [[Hacking#Script Conflicts|Script Conflicts]] when a target is defended.
-
-Individual Scripts may include additional properties when required, such as Bonus Dice or special targeting restrictions.
-
-Available Scripts are listed in the [[Script Catalogue]].
+A Deck's **RAM** limits how many Scripts can run at once. Each Script lists its RAM cost, and stopping one frees its RAM straight away. Scripts are listed in the [[Script Catalogue]].

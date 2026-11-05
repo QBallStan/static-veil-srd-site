@@ -8,8 +8,8 @@ sorting-spec: |-
   Complications
   Teamwork
   Opposed Tests
-  Time and Extended Actions
-  Grit
+  Time and Extended Tests
+  Karma
   %
   sortspec
 ---

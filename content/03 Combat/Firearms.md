@@ -1,23 +1,13 @@
 
-Firearms use Marksmanship and follow the normal rules for [[Ranged Combat|ranged attacks]].
-
-Each firearm lists its Range, Shot Rate (SR), [[Ammunition and Explosives#Ammunition|ammunition]] capacity, and reload method. These values determine how far the weapon can fire effectively, how much ammunition it can expend in a single attack, and how it is reloaded.
-
-A firearm may always be fired at SR0, representing a normal single shot. Weapons with a higher listed Shot Rate may also use heavier bursts or automatic fire, as described below.
-
-A firearm cannot fire if it does not contain enough ammunition for the chosen Shot Rate.
+Firearms use Marksmanship and follow the normal rules for [[Ranged Combat|ranged attacks]]. Each firearm lists its Range, Shot Rate (SR), [[Ammunition and Explosives#Ammunition|ammunition]] capacity and reload method.
 
 ## Shot Rate
 
-**Shot Rate (SR)** represents how much fire a weapon can put down in a single attack. A firearm fired at SR0 makes a normal single shot. A firearm fired at SR1 or higher fires a heavier burst or automatic volley.
+**Shot Rate (SR)** is how much fire a weapon puts out in one attack. SR0 is a single shot, and any firearm can fire at SR0. Higher Shot Rates are bursts or automatic fire, up to the weapon's listed maximum.
 
-When declaring an attack, choose a Shot Rate up to the weapon's maximum SR. For each point of Shot Rate, gain +5 to the attack's [[Success Targets and Hits|Success Target]].
+Each point of Shot Rate gives +5 to the attack's [[Success Targets and Hits|Success Target]], up to the shooter's [[Sub-Attributes#Recoil Control|Recoil Control]]. The weapon's Recoil Modifier adjusts Recoil Control for that gun (see [[Weapons]]). Shot Rate above that limit gives no extra bonus, because the recoil cancels it out. A character with Recoil Control 3 gets +15 at SR3. They can still fire at SR4 or more, but they still only get +15.
 
-Your [[Sub-Attributes#Recoil Control|Recoil Control]] limits the Shot Rate you can effectively use. Shot Rate above your Recoil Control provides no additional bonus, as recoil negates the benefit of firing more rounds.
-
-For example, a character with Recoil Control 3 gains +15 when firing at SR3. They may fire at SR4 or higher, but still gain only +15.
-
-You still pay the full AP and ammunition cost of the Shot Rate used.
+The full AP and ammunition cost of the chosen Shot Rate is always paid, and a gun can't fire at a Shot Rate it doesn't have enough rounds for.
 
 | Shot Rate | AP Cost | Ammo Spent |
 |---|---:|---:|
@@ -29,83 +19,45 @@ You still pay the full AP and ammunition cost of the Shot Rate used.
 | SR5 | 3 AP | 24 |
 | SR6 | 3 AP | 30 |
 
-A firearm cannot be fired at a Shot Rate if it does not have enough ammunition remaining to pay the full ammunition cost.
-
-## Single-Target Fire
-
-When attacking a single target, apply the Shot Rate bonus to the attack's Success Target and resolve the attack normally.
-
 ## Multi-Target Fire
 
-SR0 can only attack one target. A firearm must be fired at SR1 or higher to attack multiple targets.
+At SR1 or higher, a burst can be spread across several targets. Work out the attack's Success Target first, including the Shot Rate bonus, [[Wounds]] and any other [[Modifiers|modifiers]] that apply to the whole attack. Then split it among the targets however you like, and apply each target's own modifiers, such as range and visibility, to its share.
 
-First calculate the attack's Success Target, including the Shot Rate bonus, [[Wounds|Wounds]], and any other [[Modifiers|modifiers]] that apply to the entire attack. Divide this Success Target among the chosen targets in any proportion.
-
-Then apply modifiers specific to each target, such as Range and visibility, to the portion assigned to that target.
-
-Resolve each target as a separate attack. Make a separate d100 roll and roll the weapon's Damage [[Bonus Dice|Bonus Dice]] separately for each target. Each target resolves their own Defense, Net [[Success Targets and Hits#Hits|Hits]], [[Hit Locations and Damage#Hit Locations|Hit Location]], and damage.
-
-[[Ranged Combat#Aiming|Aiming]] cannot be combined with Multi-Target Fire.
+Roll a separate d100 and a separate set of the weapon's [[Bonus Dice]] for each target. Each target resolves its own defense, [[Opposed Tests#Net Hits|Net Hits]], [[Hit Locations and Damage#Hit Locations|Hit Location]] and damage. The whole burst still counts as a single attack for the [[The Combat Exchange#One Attack per Turn|one-attack-per-turn]] rule. Multi-Target Fire can't be combined with [[Ranged Combat#Aiming|Aiming]].
 
 ## Suppressive Fire
 
-Suppressive Fire controls an area rather than targeting a specific enemy.
+Suppressive Fire controls an area instead of targeting someone. It needs a weapon with a maximum Shot Rate of 3 or more. Spend 3 AP and 20 rounds, and choose a point within the weapon's Range. The fire covers a 10-meter-wide area centered on that point. Recoil Control doesn't affect it.
 
-To use Suppressive Fire, spend 3 AP and 20 rounds of ammunition. Choose a point within the weapon's Range. Suppressive Fire affects a 10-meter-diameter area centered on that point. Recoil Control does not affect Suppressive Fire.
+Make a Marksmanship test, measuring range to the center and applying visibility, Wounds and other relevant modifiers. Don't roll the weapon's Bonus Dice. If the test succeeds, its [[Success Targets and Hits#Hits|Hits]] set the strength of the suppression. If it fails, there's no suppression.
 
-Make a Marksmanship test, measuring Range to the center of the area and applying visibility, Wounds, and other relevant modifiers. Do not roll the weapon's Damage Bonus Dice.
-
-If the attack succeeds, record the Hits generated by the d100. These Hits determine the strength of the suppression. If the attack fails, no suppression zone is created.
-
-The suppression lasts until the start of the shooter's next turn. Moving, attacking, or performing anything beyond a Free Action ends the suppression immediately.
+The suppression lasts until the start of the shooter's next turn, and ends at once if the shooter moves, attacks or does anything beyond a Free Action. If several suppressed areas overlap, only the one with the most Hits applies.
 
 ### Effects of Suppression
 
-Characters within the suppressed area suffer −5 to all tests per Hit generated by the Suppressive Fire test.
+Everyone inside the area takes −5 to all tests for each Hit of the suppression.
 
-When suppression begins, any character in the area who is neither behind [[Cover and Shields#Cover|Cover]] nor [[Conditions#Prone|Prone]] must avoid the incoming fire. The same applies whenever a character enters or moves within the suppressed area.
+When the suppression starts, anyone in the area who isn't in [[Cover and Shields#Cover|cover]] or [[Conditions#Prone|Prone]] has to avoid the incoming fire. So does anyone who enters or moves inside the area. They can use [[Interrupt Actions#Hit the Dirt|Hit the Dirt]] or [[Interrupt Actions#Dive for Cover|Dive for Cover]] first if they meet the requirements. Otherwise, they make an Athletics test, with the suppression penalty applied.
 
-Before making the required test, the character may use [[Interrupt Actions#Hit the Dirt|Hit the Dirt]] or [[Interrupt Actions#Dive for Cover|Dive for Cover]] if they meet the Interrupt's requirements. If they do not, make an Athletics test with the suppression penalty applied.
-
-On a success, the character avoids being struck.
-
-On a failure, the character is hit. They do not make a separate [[Active and Passive Defense#Active Defense|Active Defense]].
-
-Roll the Bonus Dice from the weapon's Damage profile. Treat these as [[Bonus Dice#Cold Bonus Dice|Cold Bonus Dice]]: they generate Bonus Hits without requiring a successful d100 test. Add those Bonus Hits directly to the weapon's flat Damage.
-
-[[Active and Passive Defense#Passive Defense|Passive Defense]] then reduces this damage by 1 per Passive Defense Hit. Determine Hit Location, apply Armor and Armor Penetration, and resolve the resulting Wound normally.
-
-The Hits generated by the original Suppressive Fire test do not increase damage. They determine only the suppression penalty.
-
-If several suppression zones overlap, only the zone with the highest number of Hits applies.
+On a success, they avoid the fire. On a failure, they're hit and get no cover dice against it. Roll the weapon's Bonus Dice. With no attack roll behind them, their Bonus Hits always count. Add them to the weapon's flat Damage, then determine Hit Location and apply Armor, Armor Penetration and [[Sub-Attributes#Grit|Grit]] as normal. The suppression's own Hits never add to damage.
 
 ## Double-Barreled Shotguns
 
-A double-barreled shotgun may fire both barrels at a single target with one attack.
-
-Firing both barrels spends 2 shells, uses one attack roll, and resolves through one normal defense exchange.
-
-Double the weapon's Damage Bonus Dice, but do not double its flat Damage, the attack's Hits, AP cost, or Range.
-
-For example, a shotgun that normally deals 7 + 2d6 deals 7 + 4d6 when firing both barrels.
+A double-barreled shotgun can fire both barrels at one target in a single attack. This spends 2 shells and uses one attack roll and one defense exchange. Double the weapon's Bonus Dice, but not its flat Damage, Hits, AP cost or Range. A shotgun that normally deals 7 + 2d6 deals 7 + 4d6 with both barrels.
 
 ## Reloading
 
-Reloading time depends on the weapon's loading mechanism.
+How long reloading takes depends on the weapon. When loading loose rounds into a cylinder, an internal magazine or something similar, a character loads one batch per AP. A batch is equal to their [[Attributes#Attribute Rating|Agility AR]], with a minimum of 1. A partial batch still costs 1 AP. A weapon can't hold more than its listed capacity.
 
-When loading loose ammunition into a cylinder, internal magazine, or similar mechanism, a character loads one batch for 1 AP. A batch equals the character's Agility ÷ 5, rounded up. A partial batch still costs 1 AP.
-
-| Reload Method                    |        AP Cost |
-| -------------------------------- | -------------: |
-| Nock an arrow                    |    Free Action |
-| Reload a crossbow                |           1 AP |
-| Swap a magazine or drum          |           1 AP |
-| Use a speedloader                |           1 AP |
-| Reload a break-action weapon     | 1 AP per batch |
-| Replace belt-fed ammunition      |           2 AP |
-| Load a cylinder                  | 1 AP per batch |
-| Load an internal magazine        | 1 AP per batch |
-| Load individual ammunition       | 1 AP per batch |
-| Replace a power cell or fuel can |           1 AP |
-
-A weapon cannot be loaded beyond its listed capacity.
+| Reload Method | AP Cost |
+|---|---:|
+| Nock an arrow | Free Action |
+| Reload a crossbow | 1 AP |
+| Swap a magazine or drum | 1 AP |
+| Use a speedloader | 1 AP |
+| Reload a break-action weapon | 1 AP per batch |
+| Replace belt-fed ammunition | 2 AP |
+| Load a cylinder | 1 AP per batch |
+| Load an internal magazine | 1 AP per batch |
+| Load individual ammunition | 1 AP per batch |
+| Replace a power cell or fuel can | 1 AP |

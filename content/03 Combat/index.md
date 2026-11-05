@@ -3,10 +3,10 @@ title: Combat
 cssclasses:
   - chapter-index
 ---
-Combat begins when time, positioning, and immediate danger need to be resolved precisely. Participants act in a structured order, spending [[Initiative and Action Points|Action Points]] to move, attack, use equipment, activate abilities, and perform other actions. AP may also be kept in reserve for [[Interrupt Actions]] outside a character's turn.
+Combat in Static Veil is fast, ugly and usually short. A round covers about ten seconds, and a firefight between two professionals rarely lasts more than a few of them. Guns kill people. Armor buys time, not safety. The characters who walk away are the ones who pick their fights, use the ground, and know when to run.
 
-Combat uses the normal rules for [[Resolving Actions|Tests]], [[Success Targets and Hits#Hits|Hits]], [[Bonus Dice]], [[Modifiers|modifiers]], and [[Complications]]. Attacks are resolved against a target's [[Active and Passive Defense|defenses]], and successful attacks may inflict [[Hit Locations and Damage#Damage|damage]] and [[Wounds]].
+When a fight breaks out, everyone acts in [[Initiative and Action Points#Initiative|Initiative]] order and spends [[Initiative and Action Points#Action Points and Actions|Action Points]] to move, shoot, reload, cast or hack. AP held back can be spent on [[Interrupt Actions]] outside a character's turn, such as diving for cover or answering a blade with a counterstrike.
 
-Combat continues until the conflict is resolved or the situation no longer requires moment-by-moment resolution. This may happen because one side is defeated or escapes, an objective is secured, or circumstances otherwise bring the immediate conflict to an end.
+Attacks use the same tests as everything else. A hit still has to get past the target's [[Active and Bonus Defense|defenses]], then through Armor and Grit, before it becomes [[Hit Locations and Damage#Damage|damage]]. The [[Wounds]] it leaves stay with the character long after the fight.
 
-[[Combat Basics]] explains rounds, passes, and turns, while [[Movement and Positioning]] covers tactical movement. Specific rules for [[Melee Combat]], [[Ranged Combat]], [[Firearms]], and [[Combat Maneuvers]] expand the basic exchange, and [[Objects, Sneak Attacks, and Surprise]] covers attacks against objects, barriers, unaware targets, and surprise.
+Combat lasts until the situation no longer needs to be tracked second by second: one side drops, runs or gives up, the objective is taken, or someone finds a better way out.

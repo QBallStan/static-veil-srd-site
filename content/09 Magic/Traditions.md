@@ -1,50 +1,25 @@
+Every Awakened practitioner has a **Tradition** and an **Affinity**. The Tradition is how they understand magic. The Affinity is how their magic actually works.
 
-A **Tradition** is a specific system of magical beliefs, practices, symbols, techniques, and assumptions through which a Spellcaster understands and performs magic.
+## Traditions
 
-Traditions are not universal laws. Different cultures, religions, institutions, occult schools, and magical communities may explain the the Veil, [[Anima]], [[Summoning|spirits]], and spellcasting in completely different ways while producing similar supernatural effects.
+A **Tradition** is the cultural, religious, philosophical or personal lens a practitioner sees magic through: what they believe the Veil, Anima and [[Summoning|spirits]] are, and the symbols, words, tools, customs and obligations that come with it. Hermeticism, shamanism, Druidry, Vodou, Chaos Magic, folk magic, Christian or Jewish mysticism, a reconstructed pagan rite or something entirely personal all work. You can also combine influences or make one up.
 
-Every Tradition belongs to a **Tradition Category**. A Tradition Category defines the broad mechanical structure shared by related Traditions.
+Traditions have no rules attached, unless a rule says otherwise. Two practitioners of the same Tradition can have different Affinities, [[Schools of Magic#Destruction Aspects|Aspects]] and [[Summoning|spirits]], and they can disagree about all of it.
 
-A Tradition Category typically determines:
+## Affinities
 
-- the **Tradition Attribute** combined with [[Anima]] and [[Spellcasting]];
-- its broad magical specialization;
-- its access to [[Spellcasting|spells]], [[Ritual Magic]], and [[Summoning]];
-- any major rules shared by all Traditions in that category.
+An **Affinity** makes a practitioner better at some forms of magic and worse at others. It never stops them learning or using any of them.
 
-The individual Tradition further defines how that form of magic is practiced. It may determine:
+| Affinity | Spellcasting | Ritual Magic | Summoning |
+| --- | ---: | ---: | ---: |
+| **Thaumaturgy** | — | — | — |
+| **Animism** | −10 | — | +10 |
+| **Sorcery** | +10 | −10 | −10 |
+| **Witchcraft** | −10 | +10 | — |
 
-- which [[Schools of Magic]] are available or restricted;
-- which [[Schools of Magic#Destruction Aspects|Destruction Aspects]] can be used;
-- which types of [[Summoning|spirits]] can be contacted or summoned;
-- which Spirit Aspects are available;
-- taboos, obligations, required practices, or prohibited actions;
-- any additional rules specific to that Tradition.
+- **Thaumaturgy** is the generalist: study, structure, and techniques that work everywhere, without specializing.
+- **Animism** is about relationships with spirits.
+- **Sorcery** is immediate, instinctive magic.
+- **Witchcraft** is slow work sustained through patience and will.
 
-A practitioner does not need to belong to an established magical organization or historical practice. Self-taught, innate, or highly individual casters may still use an appropriate Tradition Category to define how their magic functions mechanically.
-
-## Tradition Categories
-
-A **Tradition Category** groups [[Traditions]] that share the same broad mechanical approach to magic.
-
-A Tradition Category determines the fundamental rules used by its Traditions, including the **Tradition Attribute** used for [[Spellcasting]] and the form of magic in which those Traditions specialize.
-
-The five core Tradition Categories are:
-
-| Tradition Category | Mechanical Identity                                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------- |
-| **Thaumaturgy**    | Generalists with broad access to spells, rituals, wards, and controlled summoning.                                        |
-| **Animism**        | Spirit specialists focused on sensing, contacting, summoning, negotiating with, binding, and banishing spirits.           |
-| **Sorcery**        | Innate casters focused on immediate spellcasting who cannot perform [[Ritual Magic]] or Summoning.                        |
-| **Witchcraft**     | Ritual specialists who cannot cast ordinary spells and instead work through [[Ritual Magic]], including ritual summoning. |
-| **Theurgy**        | Faith-bound practitioners whose magical capabilities and restrictions are shaped by a religious Tradition.                |
-
-Tradition Categories are mechanical classifications rather than universal descriptions used by every practitioner. Two Traditions within the same category may have completely different beliefs, practices, symbols, and explanations for how magic works.
-
-The individual Tradition further defines its available [[Schools of Magic#Destruction Aspects|Destruction Aspects]], Spirit Aspects, spirits, taboos, restrictions, and any other specific rules.
-
-## Tradition Catalogue
-
-
-> [!NOTE]  
-> Core Traditions are still in development. This catalogue will be expanded once the Tradition list is finalized.
+Spellcasters and Mystics choose an Affinity. A [[Vessels|Vessel]] doesn't need one.

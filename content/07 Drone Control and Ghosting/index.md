@@ -4,16 +4,11 @@ cssclasses:
   - chapter-index
 ---
 
-In Static Veil, machines do not need hands on controls to move through the world.
+In Static Veil, machines don't need hands on the controls. Drones patrol corporate campuses, carry freight through crowded streets, inspect infrastructure, shadow convoys, and watch from places no one could safely stand. Most can navigate, follow instructions and handle routine work on their own. What they can't do is decide to kill. Lethal force still needs a human to authorize every engagement, a restriction born less from ethics than from liability.
 
-A person who operates a drone or vehicle remotely is a **Jockey**.
+That human is a **Jockey**: anyone who operates a drone or [[Operating Vehicles|vehicle]] remotely. Some work at a distance through a **Drone Rig**, juggling telemetry, issuing commands, coordinating several units at once and running specialized Scripts. Others go further.
 
-Drones patrol corporate campuses, carry freight through crowded streets, inspect infrastructure, shadow convoys, scout hostile ground, and watch from places people cannot safely reach. Most can navigate, follow instructions, avoid hazards, and manage routine tasks without supervision. What they cannot normally do is make the decision to kill. Lethal force still requires a **Jockey** to authorize each engagement, a restriction born less from ethics than liability.
+A **Somatic Link**, usually called a **Ghostwire**, lets a Jockey push their senses and motor control straight into a machine. While **Ghosting**, its cameras become their eyes, its microphones their ears, its engine their muscle, and the machine moves as naturally as their own body.
 
-Some **Jockeys** work at a distance through a **Drone Rig**, managing telemetry, issuing commands, coordinating multiple units, and running specialized Scripts. Others go further.
-
-A **Somatic Link**, commonly called a **Ghostwire**, allows a Jockey to project their senses and motor control directly into a vehicle or drone. While **Ghosting**, cameras become eyes, microphones become ears, engines become muscle, and the machine responds as naturally as the Jockey's own body.
-
-The rules in this section cover commanding drones, coordinating drone squads, using Drone Rigs, autonomous systems, and Jockeys Ghosting [[Operating Vehicles|vehicles]] or drones through a Ghostwire.
-
-> Those rules are still in development
+> [!warning] Work in progress
+> Rules for commanding drones, Drone Rigs, autonomous systems and Ghosting aren't written yet.

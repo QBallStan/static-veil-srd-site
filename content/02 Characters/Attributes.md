@@ -1,62 +1,50 @@
 
-Attributes represent a character's fundamental capabilities. They describe what comes naturally before training, equipment, augmentation, or circumstance are taken into account.
+Attributes are a character's natural capabilities: what they bring to a situation before training, gear or augmentation come into it.
 
-Static Veil uses eight Attributes: **Strength, Agility, Fortitude, Logic, Resolve, Charisma, Instinct, and Anima**. Attributes contribute to [[Success Targets and Hits|Success Targets]], determine several [[Sub-Attributes]], and may also be used directly when no [[Skills|Skill]] applies.
+There are eight: **Strength, Agility, Fortitude, Logic, Resolve, Persona, Instinct and Anima**. They're added to [[Skills]] to build [[Success Targets and Hits|Success Targets]], used on their own for [[Skills#Attribute Checks|Attribute Checks]], and used to work out [[Sub-Attributes]].
 
-Each [[Lineages|Lineage]] has its own natural Attribute limits. These represent the range of capabilities normally possible for members of that Lineage. Some Lineages can naturally exceed human capabilities in particular Attributes, while others may have lower limits.
+Natural Attributes run from **1 to 60**. A human's natural Attributes can't go above **40**. Other [[Lineages]] have their own limits, higher in some Attributes and lower in others.
 
-A character's natural value is their Attribute rating before bonuses from augmentation, magic, equipment, or other temporary or external effects are applied.
+A character's **natural value** is the Attribute before any bonus from augmentation, magic, equipment or other effects. These bonuses can push an Attribute past its Lineage's limit, and even past 60, but unless a rule says otherwise, never more than 10 above its natural value.
 
-Effects may increase an Attribute beyond its Lineage's natural limits. Unless a rule states otherwise, an Attribute cannot be increased by more than 10 above its natural value.
+## Attribute Rating
 
-Anima uses the same numerical scale as other Attributes, but represents something fundamentally different: the strength and integrity of the character's metaphysical self.
+Each Attribute has an **Attribute Rating (AR)**, equal to its tens digit. An Attribute of 26 has an AR of 2, and anything below 10 has an AR of 0. Many [[Sub-Attributes]] use AR instead of the full Attribute.
 
 ## Strength
 
-Strength measures raw physical power. It governs lifting, breaking, carrying, grappling, and other actions that depend primarily on force.
-
-Strength also contributes to close combat and other situations where a character must overpower physical resistance.
+Strength is raw physical power: lifting, breaking, carrying, grappling, anything that comes down to force. It also sets how hard a character hits, through their [[Sub-Attributes#Damage Modifier|Damage Modifier]].
 
 ## Agility
 
-Agility measures coordination, speed, and physical control. It governs balance, precision, fine movement, and actions that depend on accurate or controlled motion.
-
-Agility is especially important when avoiding danger, handling weapons, and performing tasks where timing and coordination matter.
+Agility is coordination, speed and control. It covers balance, precision and fine movement. It's the main Attribute for fighting, both hand to hand and at range, and for any work that needs steady hands and good timing, from fixing an engine to installing cyberware.
 
 ## Fortitude
 
-Fortitude measures endurance and physical resilience. It governs stamina, resistance to pain, disease, toxins, exhaustion, and other forms of physical strain.
-
-Fortitude also contributes to a character's ability to withstand injury and recover from physical hardship.
+Fortitude is endurance and toughness. It covers stamina and resistance to pain, disease, toxins and exhaustion. It sets a character's [[Sub-Attributes#Grit|Grit]] and helps them survive injuries and recover from them.
 
 ## Logic
 
-Logic measures reasoning, analysis, and technical understanding. It governs deduction, problem-solving, research, planning, and interaction with complex systems.
-
-Logic is particularly important for technical work, hacking, investigation, medicine, and other tasks that depend on knowledge or structured thought.
+Logic is reasoning and technical understanding. It covers deduction, research, planning and working with complex systems, which makes it the core of coding, investigation, medicine and most work that takes knowledge or careful thought.
 
 ## Resolve
 
-Resolve measures willpower, discipline, and mental endurance. It governs resistance to fear, coercion, distraction, psychological strain, and other pressures that threaten a character's focus or determination.
+Resolve is willpower and discipline. It helps a character resist fear, coercion, distraction and mental strain, and keep acting when everything is going wrong. It's also what makes a threat convincing.
 
-Resolve also reflects the ability to continue acting effectively under stress.
+## Persona
 
-## Charisma
+Persona is how much of an impact a character has on people. It covers persuasion, leadership, performance, and how others see and react to them.
 
-Charisma measures presence and force of personality. It governs persuasion, leadership, intimidation, empathy, and the ability to influence how others perceive or respond to the character.
+Persona isn't looks or kindness. A saint and a cult leader can both have a high Persona. It's how strongly a character registers with others and how convincingly they come across.
 
-Charisma does not represent appearance alone. It reflects how strongly a character can project themselves in social situations.
+Not every social Skill uses Persona. Threats and pressure usually draw on Resolve, while quick lies and verbal footwork usually draw on Instinct.
 
 ## Instinct
 
-Instinct measures reflexes, intuition, and situational awareness. It governs reaction speed, perception, danger sense, and the ability to make quick judgments without deliberate analysis.
-
-Instinct is especially important when circumstances change suddenly or information is incomplete.
+Instinct is reflexes, intuition and awareness. It covers reaction speed, noticing things, sensing danger, and making quick calls without stopping to think. It matters most when things change suddenly or information is missing: improvising during an intrusion, reading traffic at speed, or bluffing on the spot.
 
 ## Anima
 
-Anima measures the strength and integrity of a character's metaphysical self.
+Anima is the strength and integrity of a character's metaphysical self, the part that holds body, mind and self together.
 
-For Awakened characters, Anima governs their capacity to wield magic and sustain supernatural power. It also determines how much cybernetic and biological augmentation a character can endure before the connection between body, mind, and self begins to deteriorate.
-
-Anima may also be tested when a character resists supernatural forces that directly threaten or alter their metaphysical integrity.
+For Awakened characters, Anima is the source of their magic. For everyone, it limits how much cyberware and bioware the body can take before that connection starts to break down. Characters also test Anima to resist supernatural forces that threaten or change their metaphysical self.

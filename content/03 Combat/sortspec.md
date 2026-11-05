@@ -6,7 +6,7 @@ sorting-spec: |-
   Movement and Positioning
   Interrupt Actions
   The Combat Exchange
-  Active and Passive Defense
+  Active and Bonus Defense
   Cover and Shields
   Defenseless Targets
   Hit Locations and Damage

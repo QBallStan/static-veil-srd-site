@@ -1,38 +1,19 @@
-
-Characters can work together when several people can meaningfully contribute to the same task. Use the form of teamwork that best matches how their efforts interact.
+When several characters can help with the same task, they work together in one of two ways, depending on how their efforts combine.
 
 ## Assisted Tests
 
-Use an **Assisted Test** when one character leads an action while others provide useful support.
+Use an **Assisted Test** when one character does the work and the others help, such as one character picking a lock while another holds the light and watches the corridor.
 
-Choose one character as the leader. Each assistant must have a relevant Skill or otherwise be able to contribute meaningfully to the action. Each qualified assistant grants +5 to the leader’s [[Success Targets and Hits|Success Target]].
+Pick a leader. Each assistant with a relevant Skill, or some other real way to help, gives the leader +5 to their [[Success Targets and Hits|Success Target]]. Assistants don't roll. The GM decides how many people can usefully help and whether their help counts.
 
-Assistants do not roll. The GM determines how many characters can reasonably assist and whether their contribution is relevant.
-
-The leader then resolves the test normally using the modified Success Target.
+The leader then makes the test as normal.
 
 ## Group Effort
 
-Use a **Group Effort** when everyone contributes directly toward the same result.
+Use a **Group Effort** when everyone works directly toward the same result, such as pushing a stalled van or searching a warehouse.
 
-Each participating character makes an appropriate test. Add their [[Success Targets and Hits#Hits|Hits]] together and compare the total to a required number of Hits set by the GM.
+Each character makes their own test. Add up everyone's [[Success Targets and Hits#Hits|Hits]] and compare the total to the number of Hits the GM sets for the task.
 
-By default, the required Hits equal the number of participating characters. Particularly demanding tasks may require more Hits, while simpler tasks may require fewer.
+If the total reaches that number, the effort succeeds. If not, it fails.
 
-If the group reaches the required number of Hits, the effort succeeds. Otherwise, it fails.
-
-[[Complications]] affect the character who triggered them and do not automatically affect the group’s accumulated Hits.
-
-## Action Chain
-
-Use an **Action Chain** when one character’s performance directly affects the next stage of a coordinated sequence.
-
-Participants act in order. The first character makes their test normally.
-
-For each positive Hit generated, apply +5 to the next character’s Success Target. For each negative Hit, apply −5 instead.
-
-This modifier carries forward through the chain. Add each new modifier to the existing total, to a maximum of +20 or −20.
-
-Complications affect the character who triggered them and do not change the chain modifier.
-
-Action Chains are useful for coordinated tasks where each step depends on the last, such as bypassing layered security, preparing an infiltration route, or synchronizing several specialists during a complex operation.
+A [[Complications|Complication]] only affects the character who rolled it. It doesn't take Hits away from the group's total.

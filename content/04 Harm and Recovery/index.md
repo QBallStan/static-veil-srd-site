@@ -3,8 +3,8 @@ title: Harm and Recovery
 cssclasses:
   - chapter-index
 ---
-Characters can suffer injuries, incapacitation, ongoing [[Conditions|conditions]], and other forms of harm. These effects are represented primarily through [[Wounds]], which measure the severity of injury and other serious harm rather than tracking a pool of Hit Points.
+Nobody in Static Veil walks away from a fight clean. Every hit takes a bite out of a character's [[Wounds|Health]], and the lower it drops, the harder everything gets: aiming through the pain, running on a bad leg, thinking straight while the blood pounds in their ears.
 
-Wounds can impose penalties, cause lasting injuries, and eventually leave a character unable to continue. [[Healing and Medical Care|Recovery]] depends on the severity and nature of the harm, as well as treatment, rest, and other effects.
+When Health runs out, the character is down, but not necessarily dead. They take a [[Wounds#Critical Wounds|Critical Wound]] and a [[Critical Injuries|Critical Injury]] that goes with it: a cracked rib, a destroyed eye, internal bleeding that won't stop on its own. Some heal in days. Some never fully do. A character can only survive so many before the next one [[Death and Incapacitation|kills them]].
 
-Severe Wounds may produce [[Critical Injuries]], while [[Disease, Poison, and Toxins]] covers other biological threats. [[Death and Incapacitation]] defines what happens when a character can no longer continue.
+Not all harm comes from a single blow. Fire, bleeding, cold and fear wear characters down through [[Conditions]], and [[Toxins and Disease|poisons and disease]] do their damage slowly, and [[Drugs and Addiction|drugs]] send their bill later. Getting back on your feet takes [[Healing and Medical Care|treatment]] and time, and the right surgeon can fix what time alone can't.

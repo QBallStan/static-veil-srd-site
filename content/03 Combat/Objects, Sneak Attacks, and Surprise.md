@@ -1,11 +1,11 @@
 
 ## Breaking Objects and Barriers
 
-Characters may attack objects, destroy parts of the environment, or strike targets through intervening barriers.
+Characters can attack objects, break through parts of the scenery, or shoot at targets through a barrier.
 
 ### Material Resistance
 
-Use the following values as benchmarks for common materials and objects.
+Use these values as benchmarks. The GM can adjust them for thickness, reinforcement, damage, unusual construction or the specific part being hit.
 
 | Material / Object | Armor | Structure | Examples |
 |---|---:|---:|---|
@@ -22,50 +22,22 @@ Use the following values as benchmarks for common materials and objects.
 | Military Structure | 20 | 14 | Bunker plating, reinforced blast doors, armored checkpoints |
 | Fortified Infrastructure | 24 | 16+ | Tank-grade armor, hardened bunkers, military fortifications |
 
-The GM may adjust these values for thickness, reinforcement, damage, unusual construction, or the specific part being attacked.
-
 ### Attacking an Object
 
-A character may directly attack a held item, door, wall, lock, vehicle component, piece of furniture, or other object.
-
-Make the attack normally, applying any relevant range and [[Modifiers|situational modifiers]]. The object's Armor reduces damage normally.
-
-If the remaining damage equals or exceeds the object's Structure, the object is broken, breached, disabled, or destroyed as appropriate.
-
-Damage below the object's Structure does not normally cause significant harm, though repeated attacks may weaken a large or important object when appropriate.
-
-Use the Material Resistance table to determine an object's Armor and Structure, adjusting for thickness, reinforcement, poor condition, unusual construction, or the specific part being attacked.
+Make the attack as normal, with any range and situational [[Modifiers|modifiers]]. The object's Armor reduces the damage. If what's left equals or beats its Structure, the object is broken, breached, disabled or destroyed, whichever fits. Less than that does no real harm, though repeated attacks can wear down a large or important object when it makes sense.
 
 ### Attacking Through a Barrier
 
-A character may attempt to strike a target through an intervening barrier if the attack could reasonably penetrate the material.
-
-Make the attack normally. The target does not receive the barrier's [[Cover and Shields#Cover|Cover]] [[Bonus Dice|Bonus Dice]]. Instead, add the barrier's Armor to the target's Armor when resolving damage.
-
-If the target is behind Full Cover, the attack suffers −20 to the [[Success Targets and Hits|Success Target]]. The attacker must also have a reasonable idea of the target's position. A target whose location is completely unknown cannot normally be attacked accurately through a barrier.
-
-If the attack gets through, resolve damage using the combined Armor value.
+A character can attack a target through a barrier if the attack could plausibly punch through it. Make the attack as normal. The target doesn't roll the barrier's [[Cover and Shields#Cover|cover dice]]. Instead, the barrier's Armor is added to the target's Armor when working out damage. If the target is behind Full Cover, the attack also takes −20, and the attacker needs a reasonable idea of where the target is. A target whose position is completely unknown can't normally be hit this way.
 
 ## Sneak Attacks
 
-A Sneak Attack is a deliberate attempt to incapacitate a vulnerable target before they can react. It may represent a blow to the back of the head, a chokehold, a stun weapon applied at close range, or another controlled attack intended to end the fight immediately.
+A Sneak Attack is a deliberate attempt to put a helpless target down before they can react: a blow to the back of the head, a chokehold, a stun weapon at close range. It can only be made against a [[Defenseless Targets|Defenseless]] target, and the GM decides whether the weapon, angle and situation make it plausible. Explosives, [[Area Effects and Explosives|area effects]] and heavy ordnance are too imprecise.
 
-A Sneak Attack can only be attempted against a [[Defenseless Targets|Defenseless Target]]. The GM determines whether the weapon, angle, and circumstances make the attempt plausible. Explosives, [[Area Effects and Explosives|Area Effects]], heavy ordnance, and other attacks that cannot be precisely controlled cannot normally be used for a Sneak Attack.
+Resolve the attack with the normal Defenseless rules. If the target takes at least 1 damage to [[Wounds|Health]], they make a [[Skills#Attribute Checks|Vigor check]] straight away, at −5 per Net Hit. On a failure, they fall [[Conditions#Unconscious|Unconscious]]. On a success, they stay conscious and take the damage as normal.
 
-Resolve the attack using the normal Defenseless Target rules.
-
-If the attack inflicts at least 1 [[Wounds|Wound]], the target must immediately make a [[Skills#Attribute Checks|Vigor check]].
-
-On a failure, the target becomes [[Conditions#Unconscious|Unconscious]]. On a success, they remain conscious and suffer the Wound normally.
-
-Unconsciousness normally lasts about 30 minutes, though injury, treatment, further harm, noise, or other circumstances may cause the target to awaken sooner or remain unconscious longer.
+Unconsciousness usually lasts about 30 minutes, though injuries, treatment, more harm, noise or other circumstances can wake the target sooner or keep them out longer.
 
 ## Surprise
 
-When combat begins unexpectedly, the GM may require any character at risk of being caught off guard to make a Perception [[Skills#Attribute Checks|Attribute Check]].
-
-On a success, the character reacts in time and begins combat normally.
-
-On a failure, the character is Surprised. They still roll [[Initiative and Action Points#Initiative|Initiative]], but begin the first round with 1 fewer AP and gain [[Conditions#Distracted|Distracted (1)]] until the end of their first turn.
-
-After the first round, the character's AP returns to normal.
+When a fight starts unexpectedly, the GM can have anyone who might be caught off guard make a [[Skills#Attribute Checks|Perception check]]. On a success, they react in time. On a failure, they're **Surprised**. They still roll [[Initiative and Action Points#Initiative|Initiative]], but start the first round with 1 less AP and are [[Conditions#Distracted|Distracted (1)]] until the end of their first turn.

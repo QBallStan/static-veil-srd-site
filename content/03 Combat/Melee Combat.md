@@ -1,66 +1,26 @@
 
-Melee combat covers attacks made at close range with melee weapons, unarmed strikes, natural weapons, and similar attacks.
-
-A character must be close enough to physically reach the target with the attack being used. Melee attacks normally use Melee and follow [[The Combat Exchange|The Combat Exchange]] unless a rule states otherwise.
-
-The following rules cover Reach, Guard, Parry, and other rules specific to close combat.
-
-## Melee Attacks
-
-Melee attacks are made against targets within the attacker's melee range.
-
-Most melee attacks use Melee (Agility + Strength). This includes attacks with melee weapons, unarmed strikes, and natural weapons.
-
-Melee attacks follow the normal Core Combat Exchange. The attacker makes a Melee test, the defender may use Melee or Dodge as their [[Active and Passive Defense#Active Defense|Active Defense]], and any remaining Net [[Success Targets and Hits#Hits|Hits]] are added to the attack's Damage.
-
-When a melee attack deals damage, also add the attacker's [[Sub-Attributes#Damage Modifier|Damage Modifier]].
-
-The relative Reach of the combatants may modify the attack, as described below.
+Melee covers close-range attacks with weapons, fists and natural weapons. Melee attacks normally use Agility + Melee and follow [[The Combat Exchange]]. They also add the attacker's [[Sub-Attributes#Damage Modifier|Damage Modifier]] to the damage.
 
 ## Reach
 
-Reach represents a character's ability to control distance in melee through anatomy, weapons, augmentation, magic, and other effects.
-
-When making a melee attack, compare the attacker's Reach to the defender's Reach.
-
-For each point by which the attacker's Reach exceeds the defender's, the attacker gains +5 to the attack [[Success Targets and Hits|Success Target]].
-
-If the attacker's Reach is equal to or lower than the defender's, no modifier applies.
-
-Reach only affects this melee advantage unless another rule specifically uses it.
+Reach is a character's control of distance in close combat, from their body, weapons, augmentation, magic and other effects. In melee, compare the two combatants' Reach. The one with the longer Reach gets +5 for each point of difference, to their attack's [[Success Targets and Hits|Success Target]] when attacking and to their [[Active and Bonus Defense#Active Defense|Active Defense]] when defending. If both have the same Reach, there's no modifier.
 
 ## Guard
 
-Not every weapon or fighting position is equally safe to defend from in melee. The GM may apply a penalty to any Active Defense when the defender lacks an appropriate way to deal with the incoming attack.
+Some defenses are harder than others. Usually there's no ruling to make: a sword can parry a sword, an axe can knock a spear aside, a [[Cover and Shields#Shields|shield]] can catch a blow, and someone with room to move can Dodge.
 
-In most cases, no special ruling is required. A sword can parry another sword, an axe can knock aside a spear haft, a [[Cover and Shields#Shields|shield]] can catch a blow, and a combatant with room to move can Dodge normally.
-
-When the defense is awkward or especially dangerous, apply a penalty to the Active Defense Success Target. A minor disadvantage usually imposes −10. A severe mismatch may impose −20 or −30.
-
-For example, defending against a sword while unarmed is particularly dangerous. Attempting to use Melee risks intercepting the blade without a suitable weapon, while even Dodge may be harder because the defender has no tool to control, bind, or redirect the attack.
-
-If a form of defense is not physically plausible, the GM may disallow it entirely.
+When a defense is awkward or dangerous, apply a penalty to the Active Defense: −10 for a minor disadvantage, −20 or −30 for a serious mismatch. If a defense isn't physically plausible, the GM can rule it out.
 
 ## Parry
 
-Some melee weapons are especially suited to defending and have a Parry Die listed in their profile.
+Some melee weapons are built for defense and list Parry dice. When using Melee as an Active Defense with a drawn weapon that has Parry dice, roll them with the defense.
 
-When using Melee as an Active Defense with a drawn and usable weapon that has a Parry Die, roll that die as part of the defense. Because Parry is part of the Active Defense, its Bonus Hits only apply if the defense d100 succeeds.
-
-Choose one weapon or shield to perform the defense. Parry Dice from multiple weapons do not stack, and a weapon's Parry Die cannot be combined with a shield's Defense [[Bonus Dice|Bonus Dice]] unless a rule specifically allows it.
-
-An off-hand weapon may provide its Parry Die without requiring Ambidexterity.
-
-A weapon must be drawn, held, and capable of intercepting the attack to provide its Parry Die. Parry does not make an otherwise implausible defense possible.
+Only one weapon or shield can be used for each defense. Parry dice from several weapons don't stack, and a weapon's Parry dice can't be combined with a shield's dice unless a rule says so. An off-hand weapon can still give its Parry dice without Ambidexterity.
 
 ## Unarmed Combat
 
-Unarmed attacks use Melee and follow the normal rules for melee attacks.
+Punches, kicks, headbutts and other unarmed attacks use the character's normal Reach and add their Damage Modifier. They deal 0 flat Damage unless a Trait, [[Lineages|Lineage]] ability, augmentation or other effect raises it.
 
-Punches, kicks, headbutts, and similar attacks use the character's normal Reach and add the character's Damage Modifier when calculating damage.
+An unarmed character can defend against an armed attack, but it's risky. Using Melee to catch or deflect a weapon barehanded usually takes −20. Dodging it usually takes −10.
 
-Unarmed attacks normally deal 0 flat Damage unless a Trait, [[Lineages|Lineage]] ability, augmentation, natural weapon, or other effect increases it.
-
-A character may use Melee as an Active Defense while unarmed when the defense is plausible. Attempting to stop an armed attack with bare hands may suffer a penalty or be disallowed under the Guard rules.
-
-Natural weapons follow the same general rules as unarmed attacks, but use their own listed Damage, Reach, Armor Penetration, and other properties.
+Natural weapons, such as claws and horns, work like unarmed attacks but use their own listed Damage, Reach, Armor Penetration and other properties.

@@ -4,8 +4,6 @@ cssclasses:
   - chapter-index
 ---
 
-Static Veil uses a single resolution system for uncertain actions. When the outcome matters, determine a [[Success Targets and Hits|Success Target]], roll d100, and try to roll equal to or below that number. The same basic procedure applies whether a character is acting carefully, working under pressure, competing against an opponent, or pushing beyond their normal limits.
+Every job comes down to moments like these: the lock that has to give before the patrol turns the corner, the guard who has to believe your badge, the one clean shot you'll get. Cracking a safe or cracking a skull, the game asks the same three questions every time. How good are you? How hard is it? And how far are you willing to push?
 
-A successful roll tells you that the action works. When the degree of success matters, [[Success Targets and Hits#Hits|Hits]] measure how effectively it was accomplished. [[Bonus Dice]], [[Modifiers]], [[Complications]], [[Teamwork]], and [[Grit]] build on this foundation without changing the basic way actions are resolved.
-
-Direct contests use [[Opposed Tests]], while longer tasks use [[Time and Extended Actions]].
+The answer is always [[Resolving Actions|one roll]]. Skill decides whether you make it. Luck, gear and nerve decide how well. And when it goes wrong, as it eventually will, it goes wrong in ways that make life harder for the crew and better for the story.

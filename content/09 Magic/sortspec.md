@@ -7,7 +7,7 @@ sorting-spec: |
   Schools of Magic
   Ritual Magic
   Summoning
-  Mystics
+  Vessels
   %
   sortspec
 ---

@@ -1,24 +1,34 @@
 ![[img/Logo & text.png]]
 **System Reference Document**
 
+*Version 2.0*
+
 By Anthony Marques
 
-Static Veil is a cyberpunk fantasy tabletop roleplaying game set in a world where magic returned without replacing technology. Megacorporations dominate economies and governments, sprawling networks connect almost everything, [[10 Augmentations/index|cybernetic and biological augmentation]] reshape the body, and the supernatural has become another dangerous fact of modern life.
+Static Veil is a cyberpunk fantasy tabletop roleplaying game. Magic came back, and technology stayed. Megacorporations run economies and buy governments, the network reaches into almost everything, [[10 Augmentations/index|cyberware and bioware]] rebuild the body, and the supernatural is one more hazard of modern life.
 
-The world did not become cleaner when the impossible became real. Magic was studied, regulated, weaponized, patented, criminalized, and sold. New [[Lineages|Lineages]] emerged alongside humanity. Corporations built industries around technologies that would have seemed impossible a generation earlier. Beyond the familiar world lie Folds, places where ordinary reality gives way to something stranger and far less understood.
+Magic's return didn't make the world any cleaner. It was studied, regulated, weaponized, patented, criminalized and sold. New [[Lineages]] appeared alongside humanity. Corporations built whole industries on things that would have been impossible a generation earlier. Past the edges of the familiar world lie the Folds, where ordinary reality gives way to something stranger that nobody fully understands.
 
-Static Veil is about people operating inside that world.
+[[02 Characters/index|Player characters]] are specialists working inside that world. A hacker breaches a corporate network while a gunner holds the hallway. A mage handles the thing bullets won't stop, an augmented infiltrator finds another way in, and a negotiator with the right leverage gets more done than the rest of the crew could with violence. Each brings different expertise to the problem, but they share the same scene and the same [[01 Core Rules/index|core rules]].
 
-[[02 Characters/index|Characters]] are capable specialists rather than interchangeable adventurers. One may breach a corporate network while another covers the hallway with a rifle. A mage may deal with a threat that cannot be solved with conventional weapons while an augmented infiltrator finds another way inside. A negotiator may accomplish more with the right leverage than the rest of the team could achieve through violence. Different characters approach problems through different expertise, but they remain part of the same scene and use the same [[01 Core Rules/index|underlying rules]].
+## How the Game Works
 
-The system uses a d100 roll-under engine. When an uncertain action matters, the character makes a Test against a [[Success Targets and Hits|Success Target]]. Successful and failed rolls generate [[Success Targets and Hits#Hits|Hits]], measuring how well the action went rather than reducing every result to a simple pass or fail. [[Bonus Dice]] represent advantages provided by equipment, abilities, circumstances, and other sources, while [[Complications]] allow success to carry consequences and failure to become worse in unexpected ways.
+When a character attempts something uncertain and the outcome matters, they make a Test: roll d100 and try to get equal to or under a [[Success Targets and Hits|Success Target]], usually an Attribute plus a Skill. A successful roll also generates [[Success Targets and Hits#Hits|Hits]], which show how well the action went. [[Bonus Dice]] are pools of d6s granted by equipment, abilities and circumstances, and each die showing 4–6 adds a Hit when the Test succeeds. [[Complications]] let a success come with a cost and let a failure go wrong in ways nobody planned for.
 
-The same foundation is used throughout the game. [[03 Combat/index|Combat]], [[08 Networks and Hacking/index|hacking]], [[09 Magic/index|magic]], infiltration, investigation, social interaction, [[06 Vehicles and Chases/index|vehicles]], and other areas may introduce their own rules, but they build on the same core procedures rather than becoming separate games.
+Everything else builds on that roll. [[03 Combat/index|Combat]], [[08 Networks and Hacking/index|hacking]], [[09 Magic/index|magic]], [[06 Vehicles and Chases/index|vehicles]], infiltration, investigation and social scenes all add rules of their own, but none of them replace it.
 
-Static Veil has official support for FoundryVTT. The game does not require a virtual tabletop to play, but its rules, character sheets, equipment, and other game elements are supported through an official FoundryVTT system for groups that prefer digital play and automation.
+The game assumes danger has consequences. [[Firearms]] kill people. [[04 Harm and Recovery/index|Injuries]] stay with you. The [[12 Equipment and Economy/index|best gear]] is often illegal, hard to find, or both. Magic and augmentation make a character extraordinary, but neither one makes them bulletproof.
 
-Static Veil assumes dangerous situations have consequences. [[Firearms|Firearms]] are lethal. [[04 Harm and Recovery/index|Injuries]] matter. [[12 Equipment and Economy/index|Powerful equipment]] is not necessarily legal or obtainable. Magic and augmentation provide extraordinary capabilities without removing risk. Characters are competent, but competence does not make them safe.
+## Using This Document
 
-This System Reference Document contains the rules for playing Static Veil. It is written as a reference document and assumes familiarity with tabletop roleplaying games and the roles of players and the Game Master. Rules are introduced where they become relevant rather than collected into a glossary at the beginning of the book.
+This SRD contains the rules for playing Static Veil. It's written as a reference and assumes you already know how tabletop roleplaying games work and what the players and the Game Master do. Each rule appears in the chapter where you first need it. There is no glossary up front.
 
-To play, each player needs a character sheet and a way to record changing information. The group also needs percentile dice, normally two ten-sided dice read together as a d100, along with d4, d6, d8, d10, and d12 dice. Physical or digital dice may be used.
+Static Veil has an official FoundryVTT system that handles character sheets, equipment and rules automation. You don't need a virtual tabletop to play.
+
+## What You Need
+
+- A character sheet for each player, and a way to track values that change during play.
+- Percentile dice: two d10s read together as a d100.
+- A handful of d6s.
+
+Static Veil only uses d10s and d6s. When a rule calls for a **d3**, roll a d6, halve the result and round up. Physical or digital dice both work.

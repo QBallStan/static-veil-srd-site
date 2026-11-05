@@ -4,8 +4,6 @@ cssclasses:
   - chapter-index
 ---
 
-Money, equipment, and access are central to life in Static Veil. Characters buy [[Weapons|weapons]], [[Armor and Shields|armor]], [[Tools and General Equipment|tools]], [[Ammunition and Explosives#Ammunition|ammunition]], services, information, and other resources, but having enough money does not always mean something is available or legal to obtain.
+In 2092, having the money isn't the hard part. Anyone can buy a pistol. Getting a military rifle means knowing a man who knows a man, and walking through a corporate lobby with one means knowing exactly where to hide it. Gear is about access as much as price: who'll sell it to you, what it costs you in favors and attention, and whether you can carry it without anyone noticing.
 
-Equipment is defined by its game statistics, price, [[Availability and Markets#Availability|availability]], [[Availability and Markets#Access Tags|access restrictions]], and any Traits or modifications it possesses. These rules also cover [[Carrying Equipment|carrying]] and [[Concealment|concealing gear]], [[Availability and Markets#Sourcing Equipment|sourcing restricted goods]], dealing with different forms of [[Currency and Wealth|currency]], and modifying [[Firearm Modding|weapons]] and [[Armor Modding|armor]].
-
-Unless otherwise stated, all prices are listed in [[Currency and Wealth#Yuwan|Yuwan (¥¥)]].
+Prices are in [[Currency and Wealth#Yuwan|Yuwan (¥¥)]] unless stated otherwise.

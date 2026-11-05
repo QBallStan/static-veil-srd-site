@@ -4,16 +4,10 @@ cssclasses:
   - chapter-index
 ---
 
-Magic is the ability to manifest supernatural effects through a connection to the Veil. This connection is represented by **[[Anima]]**, which measures how strongly a character remains connected to their soul.
+Since the Awakening in 2025, magic has been real, reliable and measurable. Nobody agrees on what it actually is.
 
-Magically active characters generally express their abilities in one of two ways.
+Everyone has **[[Anima]]**, a connection to their own soul and, through it, to the Veil. Only a rare few, the **Awakened**, can do anything with it. Most Awakened go one of two ways. **Spellcasters** push magic outward: they cast [[Spellcasting|spells]], perform [[Ritual Magic|rituals]] and call on [[Summoning|spirits]]. **[[Vessels]]** turn it inward, into powers that change what their own body can do. Clinics call them *somatics*. **Mystics**, rarer still, can do both.
 
-**Spellcasters** use their Anima to manifest effects beyond themselves through [[Spellcasting]]. Their spells are organized into [[Schools of Magic]]. They may also perform [[Ritual Magic]], interact with spirits through [[Summoning]], or use other practices allowed by their [[Traditions|Tradition]].
+Magic doesn't run on a pool of mana. Push a spell harder and it pushes back: **[[Spellcasting#Strain|Strain]]** hits the caster the moment they cast, and a big enough working can put them on the floor.
 
-**Mystics** turn their magical potential inward. Instead of casting spells, they develop [[Mystics#Mystic Powers|Mystic Powers]] that enhance or transform their own capabilities.
-
-Most magically active characters are either Spellcasters or Mystics. Rare individuals capable of both are known as **Hybrids**.
-
-Magic does not use a pool of expendable mana. Casting instead creates **[[Spellcasting#Strain|Strain]]**, temporarily stressing the connection between the caster and their soul. More powerful manifestations create more Strain, and repeatedly casting beyond what the caster can safely tolerate can cause [[Conditions#Fatigue|Fatigue]] or [[Wounds]].
-
-Different [[Traditions]] explain magic, the Veil, spirits, and the soul in very different ways. The rules describe how these phenomena function mechanically without requiring every tradition to agree on why they function.
+Every practitioner explains it differently. A Hermetic sees formulae, a shaman sees the favor of spirits, a priest sees grace. Their **[[Traditions|Tradition]]** is how they understand magic, and it has no rules attached. The rules describe what magic does, not why it does it.

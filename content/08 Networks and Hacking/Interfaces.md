@@ -1,100 +1,56 @@
-
-Characters interact with **[[The Grid]]** through a variety of interfaces, ranging from ordinary augmented reality to full neural immersion.
-
-Most people rely on a **[[Interfaces#PADs|Personal Access Device (PAD)]]** and augmented reality for everyday use. Virtual reality provides immersive access to specific services and environments, while GridRunners and other specialists may use **[[Interfaces#Deep Interface|Deep Interface]]** to interact with network structures at much greater speed and precision.
-
-The interface used does not change the underlying architecture of the Grid. It changes how information is presented to the user and, in some cases, what actions they can perform.
+Characters reach the [[The Grid|Grid]] through different interfaces, from everyday AR to full neural immersion. The interface changes how information reaches the user and what they can do. It doesn't change the Grid itself.
 
 ### PADs
 
-A **[[Interfaces#PADs|Personal Access Device (PAD)]]** is the standard interface used to connect to **[[The Grid]]**.
+A **Personal Access Device (PAD)** is how most people use the Grid: communications, identity, payments, credentials, AR, personal data and control of their own gear. It can be handheld, worn on the wrist, a badge, a pendant or an implant. The form makes no difference to the rules. Most characters are assumed to carry one.
 
-A PAD typically handles a character's communications, identity, payments, credentials, augmented reality, personal data, and access to connected equipment. It also acts as the central interface for most [[The Grid#Personal Networks|personal networks]].
-
-PADs come in many forms, including handheld devices, wrist units, badges, pendants, and implanted systems. Their physical form does not significantly change how they function in the rules.
-
-Most characters are assumed to own and carry a PAD unless their circumstances say otherwise.
-
-A PAD may connect to weapons, augmentations, sensors, vehicles, and other personal equipment. When it does, those devices normally form part of the character's **personal network** and are treated as a single hacking target.
+A PAD sits at the center of its owner's [[The Grid#Personal Networks|personal network]], which links their weapons, augmentations, sensors, vehicle and other gear. It has a Firewall and can [[Hacking#Other Actions|Defend]] that network, but it can't hack anything. Offensive hacking needs a Deck.
 
 ### Augmented Reality
 
-**Augmented Reality (AR)** is the standard way most people interact with **[[The Grid]]**.
-
-AR overlays digital information onto the physical world through lenses, glasses, implants, PAD displays, or other compatible interfaces. It is used for navigation, communication, device controls, service access, advertisements, work instructions, permissions, warnings, and other everyday functions.
-
-AR does not place the user inside a virtual environment. The character remains fully aware of and able to act in the physical world while using it.
-
-Most ordinary Grid interactions are assumed to occur through AR unless another interface is specified.
+**Augmented Reality (AR)** is the way most people see the Grid: information laid over the real world through lenses, glasses, implants or a PAD screen. Directions, messages, device controls, ads, work instructions, permissions and warnings all show up in AR. The user stays fully aware of and active in the real world. Unless stated otherwise, ordinary Grid use happens in AR.
 
 ### Virtual Reality
 
-**Virtual Reality (VR)** is a fully immersive interface that projects the user's consciousness into **[[The Grid]]** and replaces their physical senses with a simulated sensory environment.
+**Virtual Reality (VR)** replaces the user's senses with a simulated environment. Each user starts in their own **Hub**, a private space laid out any way they like: a familiar room, a gothic cathedral, a spaceship, a featureless void. From there they connect to the VR-enabled [[The Grid#Hosts|Hosts]] they want to visit, and each Host decides what its environment looks and feels like.
 
-When entering VR, a user is initially projected into their personal **VR Hub**. A Hub is a private interface environment used to organize services, contacts, applications, and destinations. It can be customized into virtually any form, from a familiar room or landscape to a gothic cathedral, spacecraft, abstract structure, or featureless void.
+VR can reproduce sight, sound, touch, taste, smell, balance, motion, temperature and pain. A virtual meal can have texture and flavor without feeding anyone. A user can even ride along with another person's senses, such as an augmented racing driver's, through the right interface. Commercial VR uses **sensory limiters** that keep the experience short of dangerous pain, disorientation or acceleration.
 
-From their Hub, users navigate menus, links, and other interfaces to access VR-enabled **[[The Grid#Hosts|Hosts]]**. Each Host determines the environment and sensations it provides.
+VR isn't a shared world you travel through. Moving between Hosts means connecting to different services, and [[The Grid#Shards|Shard]] distance still applies as normal.
 
-VR can reproduce sight, sound, touch, taste, smell, balance, motion, temperature, pain, and other sensations where supported by the Host. A virtual meal can have texture and flavor without providing nourishment, while entertainment services can reproduce physical experiences that would be impossible or impractical outside VR.
+### Immersion
 
-VR can also relay the sensory experience of another person or device when an appropriate interface is available. A user connected to an augmented racing driver, for example, could experience the race from the driver's perspective and receive a simulation of the sensations the driver is experiencing.
+While in VR or Deep Interface, a user thinks and acts at the speed of the Grid. They gain **+1 AP** each round, which can only be spent on Grid actions.
 
-Commercial VR normally employs **sensory limiters** that prevent simulated sensations from reaching their full physical intensity. The experience can approach reality closely, but ordinary systems deliberately restrict dangerous levels of pain, disorientation, acceleration, and other potentially harmful stimuli.
+Their body is left behind. It's unaware of its surroundings, can't take physical actions and counts as [[Defenseless Targets|Defenseless]] until they leave.
 
-VR is not a continuous virtual world or a representation of the physical architecture of the Grid. Moving between VR Hosts means connecting to different hosted services, not travelling through a shared digital landscape.
-
-Accessing a Host through VR also does not bypass the underlying network route used to reach it. **[[The Grid#Shards|Shard]]** distance and other connection restrictions still apply normally.
 ### Deep Interface
 
-**[[Interfaces#Deep Interface|Deep Interface]]** is the administrative and technical VR layer through which the underlying systems of **[[The Grid]]** can be directly observed and manipulated.
+**Deep Interface** is the technical layer of VR, where the Grid's underlying systems can be seen and handled directly: connections, routing, permissions, security, data flows, running processes. Ordinary VR is the finished room. Deep Interface is the plumbing in the walls.
 
-Where ordinary VR presents information and services to users, Deep Interface exposes the infrastructure beneath them: connections, routing, permissions, security systems, data flows, active processes, and other technical structures. It is the plumbing inside the walls rather than the finished room.
+It shows that complexity in a form the operator can work with at speed. Routes might look like roads, currents or tunnels. Firewalls and IC might appear as walls, creatures or machinery. The look depends on the operator, their hardware and software, and the system they're in. None of it is literal geography. Moving through it doesn't shorten the route to a target or bypass Shards.
 
-Deep Interface translates this complexity into a representation that an operator can understand and manipulate at high speed. Routing paths might appear as roads, currents, tunnels, or branching structures. Firewalls and defensive Scripts may appear as walls, creatures, machinery, or other obstacles. The exact presentation depends on the operator, their hardware, their software, and the systems being accessed.
-
-Deep Interface is not a literal geography of the Grid. Its visual structures represent underlying systems and relationships rather than physical locations. Moving through a representation does not bypass **Shards**, shorten network distance, or change the actual route between the operator and a target.
-
-Accessing Deep Interface places significant strain on the nervous system. A **Deck** provides a GridRunner with the processing power and neural interface needed to enter it. A **Cold Cradle** regulates the physical cost of any Dive.
+Working in Deep Interface makes hacking easier (see [[Hacking#Authority|Hacking]]), but it puts real strain on the nervous system, and it's the only place where IC and other GridRunners can [[Hacking#Attacks|Spike]] you.
 
 ### Decks and Cold Cradles
 
-A **Deck** is specialized GridRunner hardware used to access **[[Interfaces#Deep Interface|Deep Interface]]** and perform advanced operations on **[[The Grid]]**. It provides the processing power, memory, security systems, and neural interface required for serious hacking.
+A **Deck** is a GridRunner's hardware: the processing power, memory, security and neural interface needed to hack and to enter Deep Interface. Most are portable enough for fieldwork. Going Deep through a Deck alone is a **Hot Dive**.
 
-Most Decks are portable enough to be used in the field. Entering Deep Interface through a Deck without additional protective equipment is called a **Hot Dive**.
+Every Deck has a [[Hacking#Firewall|Firewall]] rating, which defends it like any other system, and an **Attack** rating, which sets how many bonus dice it rolls for [[Hacking#Attacks|attacks]].
 
-A **Cold Cradle** is a separate full-immersion support system designed to make Diving safer. It regulates neural load, monitors the operator's condition, provides cooling and body support, and helps absorb dangerous feedback.
+A **Cold Cradle** is a full-immersion support rig that makes diving safer. It regulates neural load, monitors the body, keeps it cool and supported, and absorbs dangerous feedback. A Deck plugs into a Cradle, and the two work together. Some high-end models combine both. Going Deep supported by a Cold Cradle is a **Cold Dive**: the same access and speed as a Hot Dive, with much less physical cost when things go wrong.
 
-A Cold Cradle does not normally replace a Deck. A GridRunner connects their Deck to the Cradle and uses both together. Some high-end models combine a Deck and Cold Cradle into a single integrated unit.
+**Technopaths** don't need Decks. They reach Deep Interface through an innate connection to the Grid, though a Cold Cradle still protects their body. They don't run Scripts. They **weave Patterns**: innate Grid effects that ordinary users would need specialized software to produce. A Pattern isn't a program, and it isn't a spell.
 
-**Technopaths** do not use Decks. They enter Deep Interface through their innate connection to the Grid, though they may use a Cold Cradle for cooling, body support, neural monitoring, and protection from feedback. A Cold Cradle does not create, carry, or replace a Technopath's connection.
-
-Technopaths do not run **Scripts**. They **weave Patterns**: innate Grid manifestations that can produce effects ordinary users would need specialized software to achieve. A Pattern is not a program and is not an ordinary spell.
-
-Entering Deep Interface while supported by a Cold Cradle is called a **Cold Dive**. Cold Diving provides the same access and speed as a Hot Dive, but reduces the physical consequences of neural feedback.
 ### Hardlines
 
-A **Hardline** is a direct physical connection between a Deck and a device, Host access point, or other network infrastructure.
+A **Hardline** is a physical connection between a Deck and a device, a Host access point or other network hardware. It gives +10 to hacking tests against that target and ignores Shard distance, which makes it the way into isolated or heavily segmented systems. It doesn't get past the target's Firewall or IC. A Hardline also physically ties the GridRunner to that spot until they unplug.
 
-Hardline access bypasses the need to reach the target through intervening **[[The Grid#Shards|Shards]]** and provides a more stable, direct route for intrusion.
+A GridRunner can go Deep over a Hardline. It's still a Hot or Cold Dive, depending on whether they're using a Cradle.
 
-A Hardline does not bypass the target's **[[Hacking#Intrusion Defense|Firewall]]**, grant [[Access and Authority#Keys|Keys]], or otherwise provide automatic authority. The GridRunner must still overcome the target's security normally.
-
-Hardlines are especially useful against isolated systems, heavily segmented Hosts, or targets that cannot be reached wirelessly.
-
-A GridRunner may enter Deep Interface while connected through a Hardline. This is still a **Hot Dive** or **Cold Dive** depending on whether a **Cold Cradle** is being used. Hardline describes the connection method, not a separate type of Dive.
-
-Using a Hardline physically ties the GridRunner to the point of entry until the connection is broken.
 ### Snapback
 
-**Snapback**, formally known as **Neural Rebound**, occurs when an interface user is suddenly or forcibly disconnected from **[[Interfaces#Deep Interface|Deep Interface]]** before their nervous system can safely transition back to normal sensory input.
+**Snapback**, or **Neural Rebound**, happens when someone is torn out of Deep Interface before their nervous system can readjust: a cut connection, a Deck losing power, a pulled Hardline, or a Host forcing them out. Leaving Deep Interface normally doesn't cause it.
 
-This can happen when a connection is severed, a Deck loses power, a Hardline is physically disconnected, or a hostile system forcibly ejects the user from Deep Interface. Leaving Deep Interface normally does not cause Snapback.
-
-The consequences depend on the type of Dive:
-
-- An interface user suffering Snapback during a **Cold Dive** gains **1 [[Conditions#Fatigue|Fatigue]]**.
-- An interface user suffering Snapback during a **Hot Dive** suffers **3 Damage**.
-
-If Hot Dive Snapback causes a [[Wounds#Critical Wounds|Critical Wound]], resolve it using the [[Critical Injuries#Snapback Critical Injuries|Snapback Critical Injuries]] table instead of a Hit Location table.
-
-A **Cold Cradle** regulates the transition back to normal sensory input, greatly reducing the physical consequences of forced disconnection.
+- **Cold Dive:** gain 1 [[Conditions#Fatigue|Fatigue]].
+- **Hot Dive:** take 3 damage. A [[Wounds#Critical Wounds|Critical Wound]] from Snapback uses the [[Critical Injuries#Snapback Critical Injuries|Snapback Critical Injury]] table.

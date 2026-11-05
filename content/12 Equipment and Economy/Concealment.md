@@ -1,56 +1,13 @@
+Characters can hide weapons, tools, contraband and anything else on themselves. What matters is **where** each item is hidden and **how well** that place hides it.
 
-Characters may attempt to hide weapons, tools, contraband, and other equipment on their person.
+## Bulk and Concealment
 
-Each item has a **Bulk** rating that represents how difficult it is to conceal. Bulk does not measure weight or physical size directly. It reflects the space the item occupies when hidden, including its shape, length, rigidity, and other factors that make it easier or harder to conceal.
+Every item has a **Bulk** from 0 to 12: how hard it is to hide. It isn't weight or size, but the space the item takes up once it's hidden: its length, its shape, how rigid it is.
 
-The concealment rules assume the character is wearing ordinary everyday clothing. Clothing, equipment, hidden compartments, and other specialized gear may provide additional Concealment.
-
-When circumstances provide unusually little or unusually good opportunity to hide equipment, the GM may modify the relevant Stealth test, reduce the maximum Concealment that can be generated, or rule that a particular item cannot reasonably be concealed.
-
-## Concealment Rating
-
-Some clothing, holsters, compartments, and other equipment provide a **Concealment Rating**.
-
-Compare an item's Bulk to the Concealment Rating of the specific place or piece of equipment hiding it.
-
-If several items are hidden in the same place, add their Bulk together.
-
-Concealment Ratings from separate sources are never added together. A concealed holster, coat pocket, hidden compartment, and similar hiding places are each resolved separately.
-
-An item is concealed when the Concealment available to it equals or exceeds its Bulk.
-
-## Concealing Equipment
-
-A character may arrange equipment on their person to create additional concealment.
-
-Make a Stealth test. Each positive Hit generates 1 point of **Improvised Concealment**, to a maximum of 4.
-
-Distribute this Concealment among the items or hiding places being used. Improvised Concealment may supplement Concealment provided by clothing, holsters, compartments, or other equipment.
-
-The arrangement remains in effect until the character meaningfully changes their concealed loadout, removes hidden equipment, or otherwise disturbs the arrangement enough that it would need to be set up again.
-
-The GM may apply [[Modifiers|modifiers]], reduce the maximum Improvised Concealment, or rule that an item cannot be concealed when the character's clothing, equipment, or circumstances provide insufficient space to hide it.
-
-## Detecting Concealed Equipment
-
-Concealed equipment is not normally detected unless someone has a reason to notice or actively look for it.
-
-When detection matters, the observer makes a Perception test. Each positive Hit reduces the item's effective Concealment by 0.5 against that observer.
-
-If the item's Bulk exceeds its remaining Concealment, the observer notices that something is being concealed. This does not necessarily reveal exactly what the item is.
-
-A thorough physical search normally discovers conventionally concealed equipment. Specialized hidden compartments or other equipment designed to defeat searches may state otherwise.
-
-## Bulk
-
-Bulk represents how difficult an item is to conceal. It is not a measure of weight or physical size. Length, shape, rigidity, protruding components, and the space an item occupies when hidden all contribute to its Bulk.
-
-Bulk normally ranges from 0 to 12. Individual items may use decimal values for greater precision.
-
-| Bulk | Reference Examples |
+| Bulk | Examples |
 |---:|---|
 | 0 | RFID tag, contact lens, tiny data chip |
-| 1 | Credchip, smartphone, pistol magazine, small folding knife |
+| 1 | Credchip, phone, pistol magazine, small folding knife |
 | 2 | Holdout pistol, compact knife, small tool, microgrenade |
 | 3 | Light pistol, grenade, collapsed baton |
 | 4 | Large handgun, machine pistol, compact medkit, bulky handheld device |
@@ -60,7 +17,23 @@ Bulk normally ranges from 0 to 12. Individual items may use decimal values for g
 | 8 | Bullpup rifle, short rifle, katana |
 | 9 | Assault rifle, full-size shotgun, crossbow |
 | 10 | Sniper rifle, long sporting rifle, large bow |
-| 11 | Machine gun, grenade launcher, similarly bulky long weapon |
-| 12 | Rocket launcher, missile launcher, extreme personal equipment |
+| 11 | Machine gun, grenade launcher |
+| 12 | Rocket launcher, missile launcher |
 
-These examples are guidelines for assigning Bulk, not fixed categories. The equipment catalogue lists the actual Bulk of each item.
+Each hiding place has a **Concealment** rating: ordinary clothing has **2**, and a concealed holster, a long coat, a hidden compartment or [[Armor and Shields#Armor Traits|armor with Concealment]] has its own. Note where each item is hidden. If several items share a place, add their Bulk together.
+
+## Getting Spotted
+
+Hidden gear goes unnoticed unless someone has a reason to look. When they do, make a **Stealth** test [[Opposed Tests|opposed]] by their **Perception**.
+
+The hiding place gives the modifier: **+5 for each point by which its Concealment beats the item's Bulk**, and **−5 for each point it falls short**. If you're carrying several hidden items, roll once, for the one that's hardest to hide.
+
+If the observer wins, they notice you're hiding something. They don't necessarily know what it is.
+
+**Example:** a holdout pistol (Bulk 2) in a concealed holster (Concealment 4) gets +10. A machine pistol (Bulk 4) under ordinary clothing gets −10. An assault rifle (Bulk 9) under a long coat (Concealment 5) gets −20: possible, but you'd better not get stopped.
+
+What you're wearing matters. Baggy cargo pants and an oversized jacket hide more than a fitted suit, and a skin-tight club outfit hides next to nothing. The GM can raise or lower the Concealment of what someone's wearing, or rule that something just can't be hidden: you're not getting a rifle under a T-shirt.
+
+## Searches
+
+A real search, a frisk or a scanner finds anything conventionally hidden. Only gear designed for it, such as a shielded compartment or a hidden lining, can get past one, and its description says how.

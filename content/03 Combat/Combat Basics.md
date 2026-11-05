@@ -1,20 +1,14 @@
 
-Combat begins when time, position, and immediate danger need to be tracked precisely.
-
-During combat, participants act in a structured order. They move, attack, defend, use equipment, activate abilities, and react to changing circumstances.
-
-Combat is divided into rounds, passes, and turns. These determine when characters act and how their [[Initiative and Action Points|Action Points]] are spent.
+Combat is played in **rounds**, **passes** and **turns**. They decide when each character acts and how their [[Initiative and Action Points#Action Points and Actions|Action Points]] get spent.
 
 ## Rounds, Passes, and Turns
 
-A **round** represents roughly 10 seconds of action. At the start of each round, every combatant restores their available [[Initiative and Action Points#Action Points and Actions|Action Points]]. The round continues until every combatant has spent, lost, or otherwise forfeited their remaining AP.
+A **round** is about 10 seconds of action. At the start of each round, every combatant's AP refills. The round lasts until every combatant has spent, lost or given up the rest of their AP.
 
-A **pass** is one sweep through the [[Initiative and Action Points#Initiative|Initiative]] order during a round. The first pass begins with the combatant who has the highest Initiative and continues downward through the order.
+A **pass** is one trip through the [[Initiative and Action Points#Initiative|Initiative]] order, from highest to lowest. When a pass ends and anyone still has AP, start another pass in the same order. Only combatants with AP left take a turn.
 
-Once every eligible combatant has taken a turn, check whether anyone still has AP remaining. If so, begin another pass using the same Initiative order. Only combatants with AP remaining take a turn during that pass.
+A **turn** is one combatant's chance to act during a pass. They can spend some of their AP and keep the rest for a later pass or for [[Interrupt Actions]]. How much AP a single turn can use is covered in [[Initiative and Action Points]].
 
-A **turn** is one combatant's opportunity to act during a pass. During their turn, a combatant may spend up to 4 AP on available actions. They do not need to spend all of their AP at once and may keep AP for later passes or [[Interrupt Actions]].
+If a combatant chooses not to act on their turn, they lose 1 AP. If they have any left, they still get a turn in a later pass.
 
-If a combatant reaches their turn and chooses not to act, they lose 1 AP. If they still have AP remaining, they may take another turn during a later pass as normal.
-
-Combat continues from round to round until the encounter is resolved.
+Combat goes on, round after round, until the fight is settled.

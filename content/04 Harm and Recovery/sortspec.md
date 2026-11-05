@@ -5,7 +5,8 @@ sorting-spec: |
   Critical Injuries
   Healing and Medical Care
   Conditions
-  Disease, Poison, and Toxins
+  Toxins and Disease
+  Drugs and Addiction
   Death and Incapacitation
   %
   sortspec

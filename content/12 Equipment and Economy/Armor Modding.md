@@ -1,65 +1,15 @@
-
-Armor can be customized with **Coatings** and **Mods**.
-
-Each armor item can have:
-
-- 1 Coating
-- A listed number of Mod Slots
-
-The number of Mod Slots is determined by the specific armor model. Two suits with similar protection may have very different modification potential depending on their construction and intended role.
-
-Coatings alter or enhance the armor's surface, while Mods add or integrate additional functionality into the armor itself.
+Armor can take one **Coating** and a number of **Mods**. Each model lists how many Mod Slots it has: two suits with similar protection can be very different to customize, depending on how they're built and what they're for.
 
 ## Coatings
 
-Every armor item may have one Coating.
+A **Coating** is a working layer on, or built into, the armor's surface: chemicals, smart materials, nanomachines, active fabrics. Examples include chameleon surfaces, thermal damping, fire resistance, electrical insulation and chemical protection. A piece of armor has one Coating at a time. A new one replaces the old.
 
-A Coating represents a specialized functional layer applied to or integrated into the armor's surface. Depending on the technology involved, this may represent chemicals, smart materials, nanomachines, active fabrics, or similar systems.
+## Mods
 
-Examples include chameleon surfaces, thermal damping, fire resistance, electrical insulation, and chemical protection.
+A **Mod** adds something to the armor itself: an integrated biomonitor, hidden pockets, sensors, comms, environmental systems, an auto-injector. Each Mod takes one slot. With no free slot, you have to take a Mod out to fit a new one.
 
-An armor item can only have one Coating at a time unless a specific rule states otherwise. Applying a new Coating replaces the existing one.
+Having a free slot doesn't mean a Mod fits. Each Mod lists what it needs: full-body armor, an integrated helmet, rigid plates, particular coverage, compatible power or electronics. Big Mods are limited by these requirements, not by taking up more slots.
 
-## Mod Slots
+## Installing and Removing
 
-Armor Mods add functionality to the armor beyond its surface treatment.
-
-Each armor item lists a number of Mod Slots.
-
-Examples include integrated biomonitors, concealed pockets, sensor systems, communications equipment, environmental systems, auto-injectors, and similar additions.
-
-Larger or more demanding Mods are restricted through compatibility requirements rather than by consuming multiple slots. A Mod may require specific armor coverage, an integrated helmet, a rigid shell, or another suitable feature.
-
-If no Mod Slots remain, another Mod cannot be installed unless an existing one is removed.
-
-## Mod Compatibility
-
-Having an available Mod Slot does not automatically mean every Mod can be installed on every piece of armor.
-
-Individual Mods list any requirements that apply, such as:
-
-- Full-body armor required.
-- Integrated helmet required.
-- Rigid armor required.
-- Specific coverage required.
-- Compatible power or electronics systems required.
-
-Compatibility is handled through these requirements rather than by giving larger Mods additional slot costs.
-
-A piece of armor may therefore have an unused Mod Slot but still be unable to accept a particular Mod.
-
-## Installing and Removing Mods
-
-Each Armor Mod or Coating lists its installation requirements and installation time.
-
-**Simple Installation:** Mods designed to be fitted, removed, or replaced without specialized work require no test. Spend the listed installation time.
-
-**Technical Installation:** Mods that require integrating electronics, altering the armor's construction, replacing internal systems, or performing other specialized work require an appropriate Expertise test. The Mod specifies which Expertise applies.
-
-On a failed test, the installation fails and the time is spent.
-
-A [[Complications|Complication]] may cause additional problems such as damaged components, poor calibration, lost materials, or damage to the armor.
-
-Removing a Mod follows the same general procedure. Simple Mods can normally be removed without a test, while integrated or complex Mods may require an appropriate Expertise test.
-
-Applying a new Coating replaces the existing Coating unless a specific rule states otherwise.
+The GM decides how long it takes to install or remove a Mod or Coating: a few minutes to clip something on, a few hours or a full day for serious work (see [[Time and Extended Tests#Time Die|Time Die]]). A **simple** one just takes the time, with no test. One that means wiring in electronics, changing the armor's structure or replacing internal systems needs an Expertise test, named in its entry. On a failure, the installation doesn't work, and the time is lost. A [[Complications|Complication]] can damage parts, throw the calibration off, waste materials or damage the armor.

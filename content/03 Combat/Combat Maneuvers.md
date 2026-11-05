@@ -1,92 +1,46 @@
 
-Combat Maneuvers are actions that modify or replace a normal attack to achieve a specific tactical effect.
-
-Unless a maneuver states otherwise, it uses the normal combat rules and costs the AP listed in its description. Some maneuvers require an attack test, an [[Opposed Tests|Opposed Test]], or another specific check.
-
-A maneuver may impose its own [[Modifiers|modifiers]], limits, or consequences. These are applied in addition to any other relevant combat modifiers unless stated otherwise.
+Combat Maneuvers change or replace a normal attack to get a specific tactical result. Unless a maneuver says otherwise, it follows the normal combat rules and costs the AP listed. Its own [[Modifiers|modifiers]] apply on top of any others.
 
 ## Charge
 
-A Charge is a committed rush into a melee attack.
-
-To Charge, move at least 4 meters directly toward the target and make a melee attack during the same turn.
-
-The attack gains +10 to its [[Success Targets and Hits|Success Target]].
-
-A character may only Charge once per turn.
+A committed rush into a melee attack. Move at least 4 meters straight toward the target and make a melee attack on the same turn, with +10 to its [[Success Targets and Hits|Success Target]].
 
 ## Shove
 
-A Shove is a direct contest of strength, leverage, and position used to force an opponent backward or out of place.
-
-A Shove costs 2 AP. The attacker must be close enough to physically push, strike, shield-check, shoulder, or otherwise drive the target back.
-
-Resolve the Shove as an Opposed Athletics Test.
-
-If the attacker wins, the target is pushed 1 meter, plus 1 additional meter per Net Hit.
-
-If the attacker moved at least 4 meters directly toward the target before attempting the Shove, they gain +10 to the Success Target.
-
-Forced movement caused by a Shove does not trigger [[Interrupt Actions#Attack of Opportunity|Attacks of Opportunity]].
+A contest of strength and leverage to force someone back. It costs 2 AP and can be a push, a shoulder or a shield check. Make an opposed Athletics test. If the attacker wins, the target is pushed 1 meter, plus 1 meter per Net Hit. If the attacker moved at least 4 meters straight toward the target first, they get +10. Being shoved doesn't trigger [[Interrupt Actions#Attack of Opportunity|Attacks of Opportunity]].
 
 ## Grappling
 
-A Grapple is an attempt to seize and physically control another character.
-
-Initiating a Grapple costs 2 AP. The attacker must be close enough to physically seize the target. Make an opposed Athletics test.
-
-If the attacker wins, the Grapple is established. Otherwise, the attempt fails.
+An attempt to seize and control someone. Starting a Grapple costs 2 AP. Make an [[Opposed Tests|opposed]] Athletics test. If the attacker wins, the Grapple is on.
 
 While Grappling:
 
-- The participants cannot use normal [[Sub-Attributes#Movement|Movement]] to move away from one another.
-- Either participant may take other actions if they are physically possible while Grappling.
-- The GM may penalize or disallow actions that require freedom of movement, space, or the use of occupied limbs.
-- The character who initiated the Grapple may release the target as a Free Action.
+- Neither character can use normal [[Sub-Attributes#Movement|Movement]] to get away from the other.
+- Either one can take other actions, as long as they're physically possible.
+- The GM can penalize or rule out actions that need space, free movement or a limb that's busy.
+- The character who started the Grapple can let go as a Free Action.
 
-A character cannot normally Grapple a target whose anatomy, physical scale, or circumstances make meaningful physical control impossible.
-
-Traits, augmentations, powers, equipment, or unusual circumstances may allow otherwise.
+Some targets can't be grappled in any meaningful way because of their anatomy, size or the situation, unless a Trait, augmentation, power or piece of equipment says otherwise.
 
 ### Break Free
 
-Breaking Free costs 2 AP.
-
-Make an opposed Athletics test against the character controlling the Grapple. If you win, the Grapple ends immediately.
+2 AP. Make an opposed Athletics test against the character in control. If you win, the Grapple ends.
 
 ### Apply Pressure
 
-Applying Pressure costs 2 AP.
-
-Make an opposed Athletics test. If you win, deal Raw Damage equal to your [[Sub-Attributes#Damage Modifier|Damage Modifier]] + Net [[Success Targets and Hits#Hits|Hits]].
-
-Roll the target's [[Active and Passive Defense#Passive Defense|Passive Defense]] and reduce the Raw Damage by 1 per Passive Defense Hit. Armor does not apply.
-
-Apply Pressure represents choking, crushing, joint locks, painful holds, and similar attempts to injure an opponent through direct physical control.
+2 AP. Choking, crushing, joint locks and painful holds. Make an opposed Athletics test. If you win, deal damage equal to your [[Sub-Attributes#Damage Modifier|Damage Modifier]] + Net [[Success Targets and Hits#Hits|Hits]]. Armor and [[Sub-Attributes#Grit|Grit]] don't reduce it.
 
 ### Throw or Takedown
 
-A Throw or Takedown costs 2 AP.
-
-Make an opposed Athletics test. If you win, the target becomes [[Conditions#Prone|Prone]].
-
-You may release the Grapple after the Throw or Takedown. If you maintain it, you follow the target to the ground and also become Prone.
+2 AP. Make an opposed Athletics test. If you win, the target falls [[Conditions#Prone|Prone]]. You can let go of the Grapple. If you keep hold, you go down with them and are also Prone.
 
 ### Move the Grapple
 
-Moving a resisting opponent while maintaining control costs 1 AP.
-
-Make an opposed Athletics test. If you win, you may move up to half your remaining Movement, bringing the other character with you.
-
-If you fail, neither character moves.
-
-A willing or incapacitated target does not require an opposed test.
+1 AP. Make an opposed Athletics test. If you win, move up to half your remaining Movement, dragging the other character with you. If you lose, neither of you moves. A willing or incapacitated target doesn't need a test.
 
 ## Called Shots
 
-A Called Shot allows an attacker to deliberately target a specific body part, held object, or vulnerable point.
-
-Declare the Called Shot before making the attack. Apply the appropriate penalty to the attack's Success Target.
+A deliberate attack on a specific body part, held object or weak point. Declare it before rolling and apply the penalty:
 
 | Target | Penalty |
 |---|---:|
@@ -96,52 +50,22 @@ Declare the Called Shot before making the attack. Apply the appropriate penalty 
 | Leg | −10 |
 | Held item | −10 to −30 |
 
-The GM determines the penalty for a held item based on its size, exposure, and how difficult it is to strike.
-
-If the attack gets through the target's defenses, it strikes the declared location instead of using the normal [[Hit Locations and Damage#Hit Locations|Hit Location]] roll.
-
-The additional benefits of a Called Shot apply only when the attacker deliberately declared a Called Shot before making the attack. Randomly hitting the same location through the normal Hit Location roll does not grant the Called Shot's special effects.
-
-A Called Shot to the head or another similarly vulnerable location deals +3 Damage.
-
-Other locations may allow specific effects such as Disarm or Knockdown.
-
-Unusual anatomy, armor, augmentation, equipment, or circumstances may make a Called Shot easier, harder, or impossible.
+The GM sets the penalty for a held item from its size and how exposed it is. If the attack lands, it hits the declared location instead of rolling for [[Hit Locations and Damage#Hit Locations|Hit Location]]. A Called Shot to the head or a similar vital spot deals +3 Damage. These benefits only come from a declared Called Shot, not from rolling the same location by chance. Unusual anatomy, armor, augmentation or circumstances can make a Called Shot easier, harder or impossible.
 
 ### Disarm
 
-A Disarm is a Called Shot targeting a hand or held item.
-
-If the attack gets through the target's defenses, the target immediately makes a [[Skills#Attribute Checks|Grip check]] with a −5 penalty per Net Hit.
-
-On a failure, the targeted item is dropped or knocked away.
-
-The GM may modify the Grip check when the item is especially difficult to remove, such as a weapon held in two hands, secured equipment, or an integrated weapon.
+A Called Shot at a hand or a held item. If it lands, the target makes a [[Skills#Attribute Checks|Grip check]] at −5 per Net Hit. On a failure, the item is dropped or knocked away. The GM can adjust the check for a two-handed grip, a strapped-on item or a built-in weapon.
 
 ### Knockdown
 
-A Knockdown is a Called Shot targeting the legs or another part of the target responsible for supporting their weight.
-
-If the attack gets through the target's defenses, the target makes a [[Skills#Attribute Checks|Vigor check]] with a −5 penalty per Net Hit.
-
-On a failure, the target becomes Prone.
-
-The GM may modify or disallow the attempt when the target's anatomy, footing, augmentation, or circumstances make knocking them down unusually easy or difficult.
+A Called Shot at the legs, or whatever holds the target up. If it lands, the target makes a [[Skills#Attribute Checks|Vigor check]] at −5 per Net Hit. On a failure, they fall Prone. The GM can adjust or rule out the attempt depending on the target's anatomy, footing or augmentation.
 
 ## Distraction
 
-A Distraction is an attempt to disrupt an opponent's focus, create an opening, or draw their attention at the wrong moment.
+An attempt to break an opponent's focus or create an opening. It usually costs 1 AP. Describe what you're doing and make an opposed test that fits:
 
-A Distraction normally costs 1 AP. Describe how you are distracting the target and make an appropriate opposed test. The [[Attributes|Attributes]] and Skill used depend on the approach.
+- **Feinting with a weapon:** Melee against Melee or Insight.
+- **Throwing debris or making a physical distraction:** Athletics against Perception.
+- **Taunting or baiting:** Wit against Composure.
 
-Examples include:
-
-- **Feinting with a weapon:** Melee opposed by Melee or Insight.
-- **Throwing debris or creating a physical distraction:** Athletics opposed by Perception.
-- **Taunting, baiting, or verbally wrong-footing someone:** Wit opposed by Composure or another appropriate defense. Static Veil specifically uses Wit for provoking, distracting, embarrassing, baiting, and similar social pressure.
-
-If you win the opposed test, the target gains [[Conditions#Distracted|Distracted (1)]].
-
-The GM may allow other effects when the distraction clearly supports them, such as briefly drawing someone's attention away from a doorway or interrupting concentration.
-
-Repeatedly using the same distraction against the same target may suffer −10 or simply stop working if the target has no reasonable reason to fall for it again.
+If you win, the target gains [[Conditions#Distracted|Distracted (1)]]. The GM can allow other effects when the distraction clearly supports them, such as drawing a guard's eyes away from a doorway. Using the same trick on the same target again may take −10, or stop working once they've seen through it.

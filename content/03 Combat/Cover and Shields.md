@@ -1,39 +1,34 @@
-
 ## Cover
 
-Cover is a form of [[Active and Passive Defense#Passive Defense|Passive Defense]] against ranged attacks. It applies when a physical obstacle blocks a meaningful portion of the target from the attacker's position.
+Cover protects a target from ranged attacks when something solid blocks a meaningful part of them from the attacker's position. Against a ranged attack, a target in cover rolls cover dice as their [[Active and Bonus Defense#Bonus Defense|Bonus Defense]]:
 
-Cover provides [[Bonus Dice#Cold Bonus Dice|Cold Bonus Dice]]:
+| Cover | Cover Dice |
+|---|---:|
+| Light | 2d6 |
+| Medium | 4d6 |
+| Heavy | 6d6 |
+| Full | Special |
 
-| Cover  | Bonus Dice |
-| ------ | ---------: |
-| Light  |        1d6 |
-| Medium |        2d6 |
-| Heavy  |        3d6 |
-| Full   |    Special |
+**Light Cover** leaves much of the target exposed: a low wall, a narrow tree, a car door.
 
-**Light Cover** leaves much of the target exposed, such as a low wall, narrow tree, or vehicle door.
+**Medium Cover** protects about half the target: a sturdy barricade, a window frame, an engine block.
 
-**Medium Cover** protects roughly half of the target, such as a sturdy barricade, window frame, or vehicle engine block.
+**Heavy Cover** leaves only a small part of the target showing: a firing slit, a deep trench, a thick barrier.
 
-**Heavy Cover** leaves only a small portion of the target exposed, such as a firing slit, deep trench, or substantial barrier.
+**Full Cover** blocks direct attacks from that direction completely. A target behind Full Cover can't normally be targeted unless they expose themselves or the attack can go through or around the obstacle.
 
-**Full Cover** completely blocks direct attacks from the protected direction. A target behind Full Cover cannot normally be targeted unless they expose themselves or the attack can pass through or around the obstacle.
+Cover only helps against attacks that come through the obstacle. An attacker with a clear angle ignores it. If cover dice stop an attack, the shot hits the obstacle instead.
 
-Cover only protects against attacks coming through the obstacle. An attacker with a clear angle ignores it.
+Using cover doesn't normally take an action. The GM decides the level of cover from the obstacle, the target's position and the attacker's angle.
 
-If Cover provides enough [[Success Targets and Hits#Hits|Hits]] to stop an attack, the attack strikes or is intercepted by the obstacle.
+### Prone
 
-Taking advantage of available cover does not normally require an action. The GM determines the level of Cover based on the obstacle, the target's position, and the attacker's angle.
+A [[Conditions#Prone|Prone]] character counts as being in Light Cover against ranged attacks, unless the attacker is within 2 meters. This doesn't stack with other cover. Use whichever gives more dice.
 
 ## Shields
 
-A shield must be drawn and wielded to provide protection.
+A shield has to be drawn and held to protect anyone. Each shield lists its shield dice and its Shield Armor.
 
-When defending against a melee attack, a character may Block with a shield by using Melee as their [[Active and Passive Defense#Active Defense|Active Defense]]. Roll the shield's Defense Bonus Dice with the defense test. If the test succeeds, add the resulting Bonus Hits to the Active Defense.
+Against a melee attack, a character can Block with a shield by using Melee as their [[Active and Bonus Defense#Active Defense|Active Defense]]. Roll the shield's dice with the defense test. If the Block's d100 succeeds but the attack still lands, the Shield Armor reduces the damage. Shield Armor doesn't apply if the character Dodges, fails the Block's d100, or can't reasonably get the shield between themselves and the attack.
 
-If the Block succeeds but the attack still gets through, the shield's Shield Armor reduces the resulting damage. Shield Armor does not apply if the character Dodges, fails the Block, or cannot reasonably place the shield between themselves and the attack.
-
-A shield may also be used as Cover against ranged attacks. Spend 1 AP to take cover behind the shield and choose the direction it protects. The shield then provides its listed Cover until the character moves, changes facing, lowers the shield, or otherwise stops presenting it toward that direction.
-
-Cover provided by a shield is Passive Defense and follows the normal Cover rules.
+A shield can also be used as cover against ranged attacks. Spend 1 AP to take cover behind it and choose the direction it faces. Until the character moves, turns, lowers the shield or stops holding it toward that direction, they roll the shield's dice as cover dice against ranged attacks from there. Shield cover doesn't stack with other cover. Use whichever gives more dice. Otherwise, it follows the normal cover rules.

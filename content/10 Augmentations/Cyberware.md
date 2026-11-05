@@ -1,17 +1,12 @@
-**Cyberware** replaces or augments the body with mechanical, electronic, or synthetic systems. Artificial limbs, neural interfaces, implanted sensors, reinforced skeletons, reflex enhancers, and similar augmentations fall into this category.
+**Cyberware** replaces or upgrades the body with machines: artificial limbs, neural interfaces, implanted sensors, reinforced skeletons, reflex boosters. It's cheaper and easier to make than [[Bioware]], but it costs more Anima. Installing, maintaining and repairing it uses the [[Skills#Expertise Skills|Cyberware]] Expertise Skill.
 
-Cyberware is generally cheaper and easier to manufacture than equivalent Bioware, but its artificial interfaces tend to impose a higher **Anima Cost**.
+Cyberware is a device like any other: it can be [[Device Damage|Glitched, Disabled or Bricked]], and it fails safe when it does.
 
-Cyberware is installed, maintained, modified, and repaired using the **[[Skills#Expertise Skills|Cyberware]]** Expertise where appropriate.
 ## Connected Cyberware
 
-Some Cyberware requires an active connection to **[[The Grid]]** to function at full effectiveness. These augmentations are marked **Connected** in the catalogue.
+Some cyberware needs the [[The Grid|Grid]] to work at its best. It's marked **Connected** in the catalogue. Offline, it gives **−20** to tests that rely on it, and loses anything that needs a connection. If it's also Glitched, only the worse penalty applies.
 
-When Connected Cyberware is offline, apply the normal **−10 penalty** to tests that rely on the augmentation. Any benefits that specifically require an active connection are also unavailable.
+Connected cyberware is part of its owner's [[The Grid#Personal Networks|personal network]]. A GridRunner who breaches their PAD can reach it.
 
-The full rules for connecting, disconnecting, and reconnecting devices are found in the Gridworks and Hacking rules.
-## Cyberware Catalogue
-
-> **Placeholder:** The Static Veil Cyberware catalogue will be added once the setting's augmentation manufacturers, product lines, and medical technology are finalized.
-
-Catalogue entries will include each augmentation's **Price**, **Anima Cost**, any **Connected** requirement, installation requirements, compatibility restrictions, and mechanical effects.
+> [!warning] Work in progress
+> The Cyberware catalogue is still to be written. Each entry will give its Price, Anima Cost, whether it's Connected, and its effects.

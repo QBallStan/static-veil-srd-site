@@ -1,15 +1,9 @@
 
-Ranged combat covers attacks made with firearms, bows, crossbows, thrown weapons, and other weapons used at a distance.
-
-A character may make a ranged attack against any target they can see and that lies within the weapon's effective range. Ranged attacks follow [[The Combat Exchange|The Combat Exchange]] unless a specific weapon or rule states otherwise.
-
-Distance is handled through Range Bands, which modify the attacker's [[Success Targets and Hits|Success Target]] based on how far away the target is. Thrown weapons determine their Range from the thrower's Strength rather than using a fixed weapon Range.
+Ranged combat covers firearms, bows, crossbows, thrown weapons and anything else used at a distance. Ranged attacks follow [[The Combat Exchange]] unless a weapon or rule says otherwise.
 
 ## Range Bands
 
-Every ranged weapon lists a Range value representing the distance at which it performs reliably.
-
-From this value, determine five Range Bands:
+Every ranged weapon lists a **Range**, the distance at which it performs reliably. That gives five Range Bands, each with its own modifier to the [[Success Targets and Hits|Success Target]]:
 
 | Range Band | Distance | Modifier |
 |---|---|---:|
@@ -19,84 +13,44 @@ From this value, determine five Range Bands:
 | Long | Up to Range × 2 | −10 |
 | Extreme | Up to Range × 3 | −20 |
 
-Round fractions up to the nearest meter.
-
-Apply the modifier for the target's Range Band to the ranged attack's Success Target.
-
-Attacks beyond Extreme Range are not normally possible.
+Round fractions up to the nearest meter. Attacks beyond Extreme range aren't normally possible.
 
 ## Thrown Weapons
 
-Thrown weapons use the thrower's Strength to determine their Range. The weapon's shape, weight, and balance modify this value.
+A thrown weapon's Range depends on the thrower's [[Attributes#Attribute Rating|Strength AR]] and on how well the weapon is made for throwing:
 
-A typical thrown weapon has a Range equal to Strength − 5. This includes weapons that can be thrown but are not primarily designed for it, such as hand axes, knives, spears, and small improvised objects.
+| Thrown Weapon | Range |
+|---|---|
+| Heavy or awkward | Strength AR × 2 |
+| Typical | Strength AR × 4 |
+| Balanced | Strength AR × 6 |
 
-A balanced throwing weapon has a Range equal to Strength. This includes weapons designed specifically for throwing, such as throwing knives, darts, and javelins.
+A **typical** thrown weapon can be thrown but isn't built for it: a hand axe, a knife, a spear, a grenade, a small improvised object. A **balanced** weapon is made for throwing: a throwing knife, a dart, a javelin. A **heavy or awkward** one is bulky or badly balanced. The GM can set a different Range for unusual objects. If the Range comes out at 0, the character can't throw it effectively.
 
-A heavy or awkward thrown weapon has a Range equal to Strength − 10, or another value determined by the GM.
-
-If the resulting Range would be below 1 meter, the object is too heavy or awkward for that character to throw effectively.
-
-Once the weapon's Range is determined, use the normal Range Bands and [[Modifiers|modifiers]]. Thrown weapon attacks normally use Athletics.
+Thrown attacks normally use Strength + Athletics and the normal Range Bands.
 
 ## Close-Quarters Fire
 
-Firing a ranged weapon at point-blank distance is difficult when an opponent is directly upon you.
+Within 1 meter, a ranged attack is fought at melee distance. No Range Band modifier applies, and the target can make an [[Active and Bonus Defense#Active Defense|Active Defense]] against it, just as against a melee attack: knocking the weapon aside with Melee, or getting out of the line of fire with Dodge. The normal [[Melee Combat#Guard|Guard]] rules apply.
 
-When making a ranged attack against a target within 1 meter, apply −20 to the Success Target.
-
-This penalty applies in addition to the normal Range modifier. A target within 1 meter is usually also in Close Range, so the normal +20 Close Range modifier typically offsets the Close-Quarters Fire penalty.
-
-Thrown weapons cannot normally be used as ranged weapons against a target within 1 meter. If used at that distance, treat the weapon as a melee weapon instead and make a Melee attack with it.
-
-This covers knives, axes, spears, and similar weapons that can function in both roles.
+A thrown weapon can't be thrown at a target within 1 meter. Use it as a melee weapon instead and make a Melee attack.
 
 ## Ranged Complications
 
-When a ranged attack generates a [[Complications|Complication]], resolve it according to whether the attack succeeded or failed.
+**On a successful attack**, the shot still lands, but something goes wrong. If the line of fire is crowded and a stray hit is plausible, the GM can pick at random among everyone exposed: the intended target, allies, enemies and bystanders all have an equal chance. If someone else is picked, the attack hits them instead, with the same roll, Hits and damage. They roll any [[Cover and Shields#Cover|cover dice]] they have, as normal. If the intended target is picked, the shot hits them, and the shooter suffers a setback instead, such as losing their footing, dropping a magazine or giving away their position.
 
-### Successful Attacks
+Stray hits aren't the default. Save them for when the line of fire really is crowded and the risk matters. Otherwise, use a personal setback.
 
-On a successful ranged attack, the attack still succeeds, but a setback occurs. If the line of fire is crowded and collateral fire is a plausible consequence, the GM may randomly determine who is struck, including the intended target. Allies, enemies, bystanders, and other exposed characters are treated equally.
-
-Select one of these targets randomly, giving each an equal chance of being struck.
-
-If an unintended target is selected, redirect the attack to that target. Use the original attack roll, including its [[Success Targets and Hits#Hits|Hits]], Bonus Hits, Damage, and other effects. Only the target changes.
-
-The unintended target may defend normally if they are aware of the danger and able to react. If they are unaware, helpless, or otherwise unable to respond, they may only use [[Active and Passive Defense#Passive Defense|Passive Defense]].
-
-If the intended target is selected, the attack strikes them normally. Instead of redirecting the attack, the shooter suffers an appropriate setback, such as losing their footing, dropping [[Ammunition and Explosives#Ammunition|ammunition]], exposing their position, straining the weapon, or creating another immediate problem.
-
-Redirecting the attack should not be the default result of every ranged Complication. Collateral hits are most appropriate when the line of fire is crowded and the risk matters. The GM may instead apply a personal setback whenever that produces a more plausible result.
-
-### Failed Attacks
-
-When a ranged attack fails and generates a Complication, it misses and creates an immediate setback. It does not automatically strike an unintended target.
-
-The setback should suit the weapon and circumstances. A [[Firearms|firearm]] might jam, overheat, run dry, or become fouled. The shooter might drop ammunition, lose their footing, expose their position, or damage nearby cover or equipment. A bowstring might break, an arrow might be lost, or a thrown weapon might become lodged somewhere inconvenient.
-
-The GM chooses a plausible result based on the weapon, environment, and circumstances of the attack.
+**On a failed attack**, the shot misses and something goes wrong, but it doesn't hit anyone else. A gun might jam or run dry, a bowstring might snap, a thrown knife might end up somewhere awkward, or the shooter might slip or expose themselves. The GM picks whatever fits.
 
 ## Aiming
 
-A character may spend up to 3 AP to Aim. For each AP spent, gain +5 to the Success Target of their next ranged attack.
+A character can spend up to 3 AP to Aim, gaining +5 to their next ranged attack for each AP spent. They can Aim and shoot on the same turn, or keep the bonus for a later turn or pass. The bonus is lost once they make a ranged attack or stop aiming.
 
-A character may Aim and attack during the same turn, or keep the bonus for a later turn or pass. The bonus is lost after making a ranged attack or if the character stops aiming.
-
-A character cannot Aim while [[Movement and Positioning#Sprinting|Sprinting]], while directly threatened in melee, or while affected by a condition or circumstance that prevents them from maintaining focus.
-
-Aiming cannot be combined with [[Firearms#Multi-Target Fire|Multi-Target Fire]].
+A character can't Aim while [[Movement and Positioning#Sprinting|Sprinting]], while directly threatened in melee, or while anything else keeps them from focusing. Aiming can't be combined with [[Firearms#Multi-Target Fire|Multi-Target Fire]].
 
 ## Ammunition Recovery
 
-Some ammunition can be recovered after an encounter. Arrows, bolts, darts, javelins, thrown weapons, and similar projectiles may survive use, while bullets, shot, and most other firearm ammunition are normally spent permanently.
+After a fight, a character can spend a few minutes searching for spent ammunition they can reasonably reach. Arrows, bolts, darts and javelins may survive, but bullets and shot are gone for good. The character gets back half the arrows, bolts, darts or similar ammunition they used, rounded down. Thrown weapons can normally be picked up wherever they landed.
 
-After an encounter, a character may spend a few minutes searching the area to recover ammunition. Recovery is only possible if the character can reasonably access where the ammunition was used. Ammunition lost in deep water, fire, inaccessible terrain, fleeing targets, or similar circumstances cannot normally be recovered.
-
-A character recovers half of the arrows, bolts, darts, or similar ammunition spent during the encounter, rounded down.
-
-Thrown weapons are normally recovered if the character can reach where they landed.
-
-Common projectiles such as ordinary sling stones do not need to be tracked unless suitable replacements are difficult to obtain.
-
-Fragile, barbed, poisoned, burning, explosive, or otherwise consumable ammunition cannot normally be recovered unless a rule specifically states otherwise.
+Ammunition lost in deep water, fire, out-of-reach terrain or a fleeing target can't be recovered. Neither can fragile, barbed, poisoned, burning or explosive ammunition, unless a rule says otherwise. Ordinary sling stones don't need tracking unless replacements are hard to find.

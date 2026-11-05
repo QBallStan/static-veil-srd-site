@@ -38,18 +38,19 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "Complications": 160,
       "Teamwork": 170,
       "Opposed Tests": 180,
-      "Time and Extended Actions": 190,
-      "Grit": 200,
+      "Time and Extended Tests": 190,
+      "Karma": 200,
 
       // 02 Characters
       "Characters": 210,
       "Attributes": 220,
       "Skills": 230,
       "Sub-Attributes": 240,
-      "Lineages": 250,
-      "Traits": 260,
-      "Creating a Character": 270,
-      "Advancement": 280,
+      "Physical Feats": 250,
+      "Lineages": 260,
+      "Traits": 270,
+      "Creating a Character": 280,
+      "Advancement": 290,
 
       // 03 Combat
       "Combat": 310,
@@ -58,7 +59,7 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "Movement and Positioning": 340,
       "Interrupt Actions": 350,
       "The Combat Exchange": 360,
-      "Active and Passive Defense": 370,
+      "Active and Bonus Defense": 370,
       "Cover and Shields": 380,
       "Defenseless Targets": 390,
       "Hit Locations and Damage": 400,
@@ -76,11 +77,15 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "Critical Injuries": 430,
       "Healing and Medical Care": 440,
       "Conditions": 450,
-      "Disease, Poison, and Toxins": 460,
-      "Death and Incapacitation": 470,
+      "Toxins and Disease": 460,
+      "Drugs and Addiction": 470,
+      "Death and Incapacitation": 480,
 
       // 05 Survival and Hazards
       "Survival and Hazards": 510,
+      "Endurance": 520,
+      "Environment": 530,
+      "Hazards": 540,
 
       // 06 Vehicles and Chases
       "Vehicles and Chases": 610,
@@ -89,13 +94,14 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
 
       // 07 Drone Control and Ghosting
       "Drone Control and Ghosting": 710,
+      "Drones": 720,
 
       // 08 Networks and Hacking
       "Networks and Hacking": 810,
       "The Grid": 820,
-      "Access and Authority": 830,
-      "Interfaces": 840,
-      "Hacking": 850,
+      "Interfaces": 830,
+      "Hacking": 840,
+      "Device Damage": 850,
       "Script Catalogue": 860,
 
       // 09 Magic
@@ -106,7 +112,7 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
       "Schools of Magic": 950,
       "Ritual Magic": 960,
       "Summoning": 970,
-      "Mystics": 980,
+      "Vessels": 980,
 
       // 10 Augmentations
       "Augmentations": 1010,
@@ -118,6 +124,12 @@ componentRegistry.setOptionOverrides("@quartz-community/explorer", {
 
       // 11 NPCs and Threats
       "NPCs and Threats": 1110,
+      "NPCs": 1120,
+      "Contacts": 1130,
+      "Creatures": 1140,
+      "Creature Hit Locations": 1150,
+      "Actions and Action Tables": 1160,
+      "Creature Traits": 1170,
 
       // 12 Equipment and Economy
       "Equipment and Economy": 1210,

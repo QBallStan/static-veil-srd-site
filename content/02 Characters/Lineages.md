@@ -1,7 +1,12 @@
 
+> [!warning] Work in progress
+> Lineage Attribute limits, Reach values and Lineage abilities aren't written yet.
+
 A character's Lineage represents the biological and supernatural heritage they were born with. Lineages differ in more than appearance. They may possess different physical capabilities, senses, innate abilities, and relationships with the Veil.
 
-Each Lineage defines its own natural [[Attributes|Attribute]] limits and may also determine or modify [[Sub-Attributes#Reach|Reach]], [[Sub-Attributes#Damage Modifier|Damage Modifier]], [[Sub-Attributes#Toughness|Toughness]], and other characteristics.
+Each Lineage defines its own natural [[Attributes|Attribute]] limits and may also determine [[Sub-Attributes#Reach|Reach]] and other characteristics. Humans have a natural maximum of 40 in every Attribute; other Lineages may have higher or lower limits in particular Attributes.
+
+Lineages do not add separate bonuses or penalties to derived values such as [[Sub-Attributes#Damage Modifier|Damage Modifier]] or [[Sub-Attributes#Grit|Grit]]. A troll hits harder and shrugs off more punishment because its Strength and Fortitude can reach values no human can.
 
 Lineage abilities are inherent to the character. They are not Traits and do not normally need to be purchased separately.
 

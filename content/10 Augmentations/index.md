@@ -4,10 +4,6 @@ cssclasses:
   - chapter-index
 ---
 
-Augmentations allow the body to be rebuilt beyond its natural limits through mechanical replacement, synthetic systems, engineered tissue, and biological modification.
+In 2092, the body you were born with is just a starting point. Arms get replaced, eyes upgraded, nerves rewired for speed, organs grown to order in a corporate vat. [[Cyberware]] does it with machines. [[Bioware]] does it with engineered flesh, at a higher price.
 
-[[Cyberware]] and [[Bioware]] can grant capabilities far beyond an unmodified body, but every augmentation carries an **[[Chrome and Anima#Anima Cost|Anima Cost]]**. Installing too much augmentation progressively weakens the character's connection to their soul.
-
-[[Cyberware]] relies primarily on artificial machinery and electronics. [[Bioware]] uses engineered biological systems and generally costs more, but tends to impose a lower Anima Cost.
-
-[[Augmentation Grades]] modify an augmentation's price and Anima Cost. General procedure rules are covered in [[Installing and Removing Augmentations]].
+None of it is free. Every augmentation has an **[[Chrome and Anima#Anima Cost|Anima Cost]]**: the more of yourself you replace, the weaker your connection to your soul. For most people, that's a trade worth making. For the Awakened, it eats into their magic. Go far enough and there's no one left inside.

@@ -1,60 +1,40 @@
 
-Interrupt Actions allow a character to spend AP outside their turn in response to a specific trigger.
+Interrupt Actions let a character spend AP outside their turn, in response to a specific trigger. They come out of the character's normal AP pool, so the character needs enough AP left to pay for one.
 
-The character must have enough AP remaining to pay the Interrupt's cost. Interrupt Actions are exempt from the 4 AP per turn limit, but still spend AP from the character's normal pool.
-
-Unless stated otherwise, an Interrupt resolves immediately when its trigger occurs, before the triggering action or effect finishes resolving.
+Unless an interrupt says otherwise, it resolves as soon as its trigger happens, before the triggering action or effect finishes.
 
 ## Attack of Opportunity
 
 **Cost:** 1 AP
 
-When an opponent moves past you within melee range or moves out of melee range, you may make an immediate melee attack against them.
-
-Attacks of Opportunity do not count toward the cumulative penalty for making [[The Combat Exchange#Multiple Attacks|multiple attacks]] during the same round.
-
-## Brace for Impact
-
-**Cost:** 1 AP
-
-Before making an [[Active and Passive Defense#Active Defense|Active Defense]], add your Fortitude to the [[Success Targets and Hits|Success Target]] of that defense.
+When an opponent moves past you within melee range, or moves out of your melee range, make an immediate melee attack against them. An Attack of Opportunity happens outside your turn, so it doesn't count as your [[The Combat Exchange#One Attack per Turn|one attack per turn]].
 
 ## Counterstrike
 
 **Cost:** 1 AP
 
-When your Active Defense completely negates an opponent's attack, gain +10 to your next attack against that opponent during your next turn.
-
-If you do not make an attack against that opponent during your next turn, the bonus is lost.
+When your melee [[Active and Bonus Defense#Active Defense|Active Defense]] stops an opponent's attack, gain +10 to your next attack against that opponent on your next turn. If you don't attack them on that turn, the bonus is lost.
 
 ## Hit the Dirt
 
 **Cost:** 1 AP
 
-When you would be affected by [[Firearms#Suppressive Fire|Suppressive Fire]], immediately become [[Conditions#Prone|Prone]] to avoid the suppression.
+When you would be affected by [[Firearms#Suppressive Fire|Suppressive Fire]], drop [[Conditions#Prone|Prone]] straight away to avoid the suppression.
 
 ## Dive for Cover
 
 **Cost:** 1 AP
 
-When you would be affected by [[Firearms#Suppressive Fire|Suppressive Fire]] and suitable [[Cover and Shields#Cover|cover]] is within 2 meters, immediately move into that cover to avoid the suppression.
+When you would be affected by [[Firearms#Suppressive Fire|Suppressive Fire]] and suitable [[Cover and Shields#Cover|cover]] is within 2 meters, move into it straight away to avoid the suppression.
 
 ## Evade
 
 **Cost:** 1 AP
 
-When you are aware of an incoming [[Area Effects and Explosives|Area of Effect]] and able to move, make an Athletics test. For each positive Hit, immediately move up to 1 meter in any direction.
-
-If this movement carries you completely outside the Area of Effect, you are not affected by it.
-
-Otherwise, resolve the effect normally.
+When you see an [[Area Effects and Explosives|Area of Effect]] coming and you're able to move, make an Athletics test. For each [[Success Targets and Hits#Hits|Hit]], move up to 1 meter in any direction. If that takes you completely out of the area, it doesn't affect you. Otherwise, resolve the effect as normal.
 
 ## Throw It Back
 
 **Cost:** 2 AP
 
-When a grenade lands within 2 meters of you, you may immediately grab it and throw it back.
-
-Make a normal Athletics test to throw the grenade, with a −10 penalty to the Success Target.
-
-Picking up and throwing the grenade are both included in the Interrupt Action. Resolve the grenade's new landing point normally from the result of the throw.
+When a grenade lands within 2 meters of you, grab it and throw it back. Make a normal Athletics test to throw it, at −10. Picking the grenade up and throwing it are both part of the interrupt. Work out where it lands from the result of the throw.

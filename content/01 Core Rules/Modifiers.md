@@ -1,11 +1,8 @@
-
-**Modifiers** represent circumstances that make an action easier or harder. They adjust the [[Success Targets and Hits|Success Target]] before the roll.
-
-Modifiers may come from difficulty, environment, positioning, equipment, conditions, preparation, or other circumstances affecting the action.
+**Modifiers** make a test easier or harder by raising or lowering the [[Success Targets and Hits|Success Target]] before you roll. There are two kinds: the difficulty of the task itself, and the circumstances around it.
 
 ## Difficulty
 
-Difficulty represents how inherently challenging a task is.
+The GM sets the difficulty based on what the character is trying to do.
 
 | Difficulty | Modifier |
 |---|---:|
@@ -19,18 +16,12 @@ Difficulty represents how inherently challenging a task is.
 | Very Hard | −30 |
 | Extreme | −40 |
 
-The GM chooses the difficulty based on what the character is attempting and the circumstances of the task.
-
-For example, bypassing a basic consumer lock might be **Simple (+10)**, while defeating a hardened corporate security system without appropriate credentials might be **Hard (−20)** or worse.
+A basic consumer lock might be **Simple (+10)**. A hardened corporate security system, without the right credentials, is **Hard (−20)** or worse.
 
 ## Situational Modifiers
 
-Situational modifiers represent immediate advantages or disadvantages surrounding an action.
+Situational modifiers cover what's happening around the action: bad light, a shaky ladder, good tools, a copy of the building's schematics. They usually come in steps of 5: ±5 for something minor, ±10 for something significant, ±15 or more for something severe.
 
-They are normally applied in increments of 5. Minor circumstances might apply ±5, significant circumstances ±10, and severe circumstances ±15 or more.
+Separate circumstances stack. A character picking a lock in the dark with security on the way takes a penalty for each.
 
-Examples include poor visibility, unstable footing, distracting noise, superior tools, detailed schematics, favorable positioning, or adequate preparation.
-
-Multiple modifiers may apply to the same test when they represent separate circumstances.
-
-A Success Target can never be reduced below 5. An action may still be impossible if the character lacks the required tools, access, knowledge, or opportunity to attempt it.
+Some actions are impossible whatever the modifiers. If the character doesn't have the tools, access or knowledge the task needs, there's nothing to roll.
